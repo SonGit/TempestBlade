@@ -1,0 +1,545 @@
+fileFormatVersion: 2
+guid: 86f56ab923801754e8c313e208b26b9d
+timeCreated: 1458288951
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Footman_skeleton_0
+    21300002: Footman_skeleton_1
+    21300004: Footman_skeleton_2
+    21300006: Footman_skeleton_3
+    21300008: Footman_skeleton_4
+    21300010: Footman_skeleton_5
+    21300012: Footman_skeleton_6
+    21300014: Footman_skeleton_7
+    21300016: Footman_skeleton_8
+    21300018: Footman_skeleton_9
+    21300020: Footman_skeleton_10
+    21300022: Footman_skeleton_11
+    21300024: Footman_skeleton_12
+    21300026: Footman_skeleton_13
+    21300028: Footman_skeleton_14
+    21300030: Footman_skeleton_15
+    21300032: Footman_skeleton_16
+    21300034: Footman_skeleton_17
+    21300036: Footman_skeleton_18
+    21300038: Footman_skeleton_19
+    21300040: Footman_skeleton_20
+    21300042: Footman_skeleton_21
+    21300044: Footman_skeleton_22
+    21300046: Footman_skeleton_23
+    21300048: Footman_skeleton_24
+    21300050: Footman_skeleton_25
+    21300052: Footman_skeleton_26
+    21300054: Footman_skeleton_27
+    21300056: Footman_skeleton_28
+    21300058: Footman_skeleton_29
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: Footman_skeleton_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 525
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Footman_skeleton_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 525
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Footman_skeleton_2
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 526
+        width: 24
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Footman_skeleton_3
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 526
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Footman_skeleton_4
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 525
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 24}
+        - {x: -13, y: 20}
+        - {x: -17, y: 4}
+        - {x: -17, y: -21}
+        - {x: -14, y: -24}
+        - {x: 17, y: -24}
+        - {x: 17, y: 24}
+    - name: Footman_skeleton_5
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 525
+        width: 37
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: 23.5}
+        - {x: -6.5, y: 23.5}
+        - {x: -16.5, y: 20.5}
+        - {x: -18.5, y: 7.5}
+        - {x: -18.5, y: -17.5}
+        - {x: -16.5, y: -23.5}
+        - {x: 12.5, y: -23.5}
+        - {x: 18.5, y: -16.5}
+        - {x: 18.5, y: 12.5}
+        - {x: 17.5, y: 20.5}
+    - name: Footman_skeleton_6
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 525
+        width: 32
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 24}
+        - {x: -16, y: 22}
+        - {x: -16, y: -21}
+        - {x: -13, y: -24}
+        - {x: 16, y: -24}
+        - {x: 16, y: 24}
+    - name: Footman_skeleton_7
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 525
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Footman_skeleton_8
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 525
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Footman_skeleton_9
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 449
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Footman_skeleton_10
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 449
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Footman_skeleton_11
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 450
+        width: 26
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Footman_skeleton_12
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 450
+        width: 27
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Footman_skeleton_13
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 449
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 24}
+        - {x: -14.5, y: 24}
+        - {x: -16.5, y: 23}
+        - {x: -16.5, y: -24}
+        - {x: 15.5, y: -24}
+        - {x: 16.5, y: -22}
+        - {x: 16.5, y: 10}
+        - {x: 10.5, y: 18}
+    - name: Footman_skeleton_14
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 449
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 23.5}
+        - {x: -13, y: 23.5}
+        - {x: -18, y: 21.5}
+        - {x: -18, y: -16.5}
+        - {x: -13, y: -23.5}
+        - {x: 16, y: -23.5}
+        - {x: 18, y: -22.5}
+        - {x: 18, y: 14.5}
+        - {x: 17, y: 21.5}
+    - name: Footman_skeleton_15
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 449
+        width: 25
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Footman_skeleton_16
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 449
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Footman_skeleton_17
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 449
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Footman_skeleton_18
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 381
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 23.5}
+        - {x: -16, y: -23.5}
+        - {x: 12, y: -23.5}
+        - {x: 16, y: -19.5}
+        - {x: 16, y: 23.5}
+    - name: Footman_skeleton_19
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 381
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 22.5}
+        - {x: -14, y: 17.5}
+        - {x: -17, y: 0.5}
+        - {x: -17, y: -22.5}
+        - {x: 17, y: -22.5}
+        - {x: 17, y: 21.5}
+        - {x: 13, y: 22.5}
+    - name: Footman_skeleton_20
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 381
+        width: 31
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Footman_skeleton_21
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 381
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: -21.5}
+        - {x: -20.5, y: -23.5}
+        - {x: 22.5, y: -23.5}
+        - {x: 22.5, y: 13.5}
+        - {x: 19.5, y: 23.5}
+        - {x: -15.5, y: 23.5}
+        - {x: -22.5, y: 8.5}
+    - name: Footman_skeleton_22
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 381
+        width: 51
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 23.5}
+        - {x: -25.5, y: 16.5}
+        - {x: -25.5, y: -11.5}
+        - {x: -19.5, y: -23.5}
+        - {x: 22.5, y: -23.5}
+        - {x: 25.5, y: -21.5}
+        - {x: 25.5, y: 8.5}
+        - {x: 21.5, y: 23.5}
+    - name: Footman_skeleton_23
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 381
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 23.5}
+        - {x: -23.5, y: 10.5}
+        - {x: -23.5, y: 1.5}
+        - {x: -9.5, y: -23.5}
+        - {x: 23.5, y: -23.5}
+        - {x: 23.5, y: 7.5}
+        - {x: 12.5, y: 23.5}
+    - name: Footman_skeleton_24
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 312
+        width: 36
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 21.5}
+        - {x: 8, y: 23.5}
+        - {x: -13, y: 23.5}
+        - {x: -18, y: 16.5}
+        - {x: -18, y: -19.5}
+        - {x: -13, y: -23.5}
+        - {x: 6, y: -23.5}
+        - {x: 18, y: -16.5}
+        - {x: 18, y: 15.5}
+    - name: Footman_skeleton_25
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 312
+        width: 39
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 22.5}
+        - {x: -16.5, y: 14.5}
+        - {x: -19.5, y: 8.5}
+        - {x: -19.5, y: -22.5}
+        - {x: 19.5, y: -22.5}
+        - {x: 19.5, y: 14.5}
+        - {x: 18.5, y: 20.5}
+        - {x: 9.5, y: 22.5}
+    - name: Footman_skeleton_26
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 312
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 23.5}
+        - {x: -14.5, y: 22.5}
+        - {x: -16.5, y: 12.5}
+        - {x: -16.5, y: -20.5}
+        - {x: -11.5, y: -23.5}
+        - {x: 16.5, y: -23.5}
+        - {x: 16.5, y: 23.5}
+    - name: Footman_skeleton_27
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 312
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 23.5}
+        - {x: -16.5, y: 22.5}
+        - {x: -23.5, y: 8.5}
+        - {x: -23.5, y: -23.5}
+        - {x: 15.5, y: -23.5}
+        - {x: 23.5, y: -17.5}
+        - {x: 23.5, y: -0.5}
+        - {x: 11.5, y: 23.5}
+    - name: Footman_skeleton_28
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 312
+        width: 55
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 23.5}
+        - {x: -14.5, y: 18.5}
+        - {x: -27.5, y: 1.5}
+        - {x: -27.5, y: -20.5}
+        - {x: -22.5, y: -23.5}
+        - {x: 10.5, y: -23.5}
+        - {x: 27.5, y: -1.5}
+        - {x: 27.5, y: 10.5}
+        - {x: 14.5, y: 23.5}
+    - name: Footman_skeleton_29
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 312
+        width: 51
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 23.5}
+        - {x: -18.5, y: 21.5}
+        - {x: -25.5, y: 9.5}
+        - {x: -25.5, y: -23.5}
+        - {x: 6.5, y: -23.5}
+        - {x: 25.5, y: -4.5}
+        - {x: 25.5, y: 16.5}
+        - {x: 15.5, y: 23.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

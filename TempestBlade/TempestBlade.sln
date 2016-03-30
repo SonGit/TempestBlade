@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{50F1E63F-F48A-8420-F217-8E14BDFE4EE1}") = "TempestBlade", "Assembly-CSharp-firstpass.csproj", "{81A29CE4-99CD-D40D-C8DF-14E85AB3437E}"
+EndProject
+Project("{50F1E63F-F48A-8420-F217-8E14BDFE4EE1}") = "TempestBlade", "Assembly-CSharp.csproj", "{439741EC-2F2D-2D76-93D6-1DFBFC744807}"
+EndProject
+Project("{50F1E63F-F48A-8420-F217-8E14BDFE4EE1}") = "TempestBlade", "Assembly-CSharp-Editor.csproj", "{7C33AF75-36EE-9595-225F-990C70E254C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81A29CE4-99CD-D40D-C8DF-14E85AB3437E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81A29CE4-99CD-D40D-C8DF-14E85AB3437E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81A29CE4-99CD-D40D-C8DF-14E85AB3437E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81A29CE4-99CD-D40D-C8DF-14E85AB3437E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{439741EC-2F2D-2D76-93D6-1DFBFC744807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{439741EC-2F2D-2D76-93D6-1DFBFC744807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{439741EC-2F2D-2D76-93D6-1DFBFC744807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{439741EC-2F2D-2D76-93D6-1DFBFC744807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C33AF75-36EE-9595-225F-990C70E254C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C33AF75-36EE-9595-225F-990C70E254C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C33AF75-36EE-9595-225F-990C70E254C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C33AF75-36EE-9595-225F-990C70E254C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

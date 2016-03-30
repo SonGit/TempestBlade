@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{439741EC-2F2D-2D76-93D6-1DFBFC744807}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_3;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>E:/Unity Engine/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>E:/Unity Engine/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_4Gradients.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Additive.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_BlackHole.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Blood.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Blur.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_BurningFX.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Cartoon.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_CircleFade.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Clipping.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Color.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_ColorChange.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_ColorRGB.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_CompressionFX.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_DesintegrationFX.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_DestroyedFX.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_EdgeColor.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_EnergyBar.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Fire.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_FireAdditive.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Ghost.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_GoldFX.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_GoldenFX.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_GrassFX.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_GrassMultiFX.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_GrayScale.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_HSV.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Heat.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Hologram.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Hologram2.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Hologram3.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Ice.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_IcedFX.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Jelly.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_JellyAutoMove.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Lightning.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_LightningBolt.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Liquid.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Liquify.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_MetalFX.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Negative.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Noise.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_NoiseAnimated.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Outline.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Pattern.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_PatternAdditive.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Pixel.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Pixel8bitsBW.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Pixel8bitsC64.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Pixel8bitsGB.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_PlasmaRainbow.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_PlasmaShield.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Posterize.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_SandFX.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Sepia.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Sharpen.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Shiny_Reflect.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_SkyCloud.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Slim.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Smoke.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_StoneFX.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Teleportation.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Threshold.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Twist.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_WaterAndBackground.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_WaterAndBackgroundDeluxe.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Waterfall.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_Wave.cs" />
+     <Compile Include="Assets\2DxFX\Scripts\_2dxFX_WoodFX.cs" />
+     <Compile Include="Assets\Cartton FX Pack\Cartoon FX\Demo\Assets\CFX_Demo.cs" />
+     <Compile Include="Assets\Cartton FX Pack\Cartoon FX\Demo\Assets\CFX_Demo_RandomDir.cs" />
+     <Compile Include="Assets\Cartton FX Pack\Cartoon FX\Demo\Assets\CFX_Demo_RandomDirectionTranslate.cs" />
+     <Compile Include="Assets\Cartton FX Pack\Cartoon FX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
+     <Compile Include="Assets\Cartton FX Pack\Cartoon FX\Scripts\CFX_AutoDestructShuriken.cs" />
+     <Compile Include="Assets\Cartton FX Pack\Cartoon FX\Scripts\CFX_AutoRotate.cs" />
+     <Compile Include="Assets\Cartton FX Pack\Cartoon FX\Scripts\CFX_AutodestructWhenNoChildren.cs" />
+     <Compile Include="Assets\Cartton FX Pack\Cartoon FX\Scripts\CFX_LightIntensityFade.cs" />
+     <Compile Include="Assets\Cartton FX Pack\Cartoon FX\Scripts\CFX_ShurikenThreadFix.cs" />
+     <Compile Include="Assets\Cartton FX Pack\Cartoon FX\Spawn System\CFX_SpawnSystem.cs" />
+     <Compile Include="Assets\Cartton FX Pack\FX Mega Pack\Scripts\SmoothCameraOrbit.cs" />
+     <Compile Include="Assets\Cartton FX Pack\JMO Assets\Cartoon FX\Demo\Assets\CFX2_Demo.cs" />
+     <Compile Include="Assets\Cartton FX Pack\JMO Assets\Cartoon FX\Demo\Assets\CFX3_AutoStopLoopedEffect.cs" />
+     <Compile Include="Assets\Cartton FX Pack\JMO Assets\Cartoon FX\Demo\Assets\CFX3_Demo.cs" />
+     <Compile Include="Assets\Cartton FX Pack\JMO Assets\Cartoon FX\Demo\Assets\CFX3_Demo_Translate.cs" />
+     <Compile Include="Assets\Cartton FX Pack\JMO Assets\Cartoon FX\Scripts\CFX2_AutoRotate.cs" />
+     <Compile Include="Assets\Cartton FX Pack\JMO Assets\Cartoon FX\Scripts\CFX_ShurikenThreadFix.cs" />
+     <Compile Include="Assets\ParticleScaler\ParticleScaler.cs" />
+     <Compile Include="Assets\Scripts\AnimationHelper.cs" />
+     <Compile Include="Assets\Scripts\Cache.cs" />
+     <Compile Include="Assets\Scripts\CameraScript.cs" />
+     <Compile Include="Assets\Scripts\Misc\Fireball.cs" />
+     <Compile Include="Assets\Scripts\Misc\SkyfallObject.cs" />
+     <Compile Include="Assets\Scripts\Player\Player.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerInfoCache.cs" />
+     <Compile Include="Assets\Scripts\PowerUps\CardManager.cs" />
+     <Compile Include="Assets\Scripts\PowerUps\CardSlot.cs" />
+     <Compile Include="Assets\Scripts\PowerUps\Magic Cards\MoraleDebuffCard.cs" />
+     <Compile Include="Assets\Scripts\PowerUps\Might Cards\AttackBuffCard.cs" />
+     <Compile Include="Assets\Scripts\PowerUps\Might Cards\DefenseBuffCard.cs" />
+     <Compile Include="Assets\Scripts\PowerUps\Might Cards\ScorchedEarthCard.cs" />
+     <Compile Include="Assets\Scripts\PowerUps\PowerUpCard.cs" />
+     <Compile Include="Assets\Scripts\SoldierScripts\Knight.cs" />
+     <Compile Include="Assets\Scripts\SoldierScripts\Soldier.cs" />
+     <Compile Include="Assets\Scripts\Squad.cs" />
+     <Compile Include="Assets\Scripts\SquadLeader.cs" />
+     <Compile Include="Assets\Scripts\TacticalAnalyst.cs" />
+     <Compile Include="Assets\Scripts\UI\CardUI.cs" />
+     <Compile Include="Assets\Scripts\UI\ChooseMagicCardUI.cs" />
+     <Compile Include="Assets\Scripts\UI\ChooseSoldierCardUI.cs" />
+     <Compile Include="Assets\Scripts\UI\ChooseUI.cs" />
+     <Compile Include="Assets\Scripts\UI\MagicCardUI.cs" />
+     <Compile Include="Assets\Scripts\UI\SoldierCardUI.cs" />
+     <Compile Include="Assets\TapjoyPlugin\ITapjoyEvent.cs" />
+     <Compile Include="Assets\TapjoyPlugin\TapjoyEvent.cs" />
+     <Compile Include="Assets\TapjoyPlugin\TapjoyEventRequest.cs" />
+     <Compile Include="Assets\TapjoyPlugin\TapjoyPlugin.cs" />
+     <Compile Include="Assets\TapjoyPlugin\TapjoyPluginAndroid.cs" />
+     <Compile Include="Assets\TapjoyPlugin\TapjoyPluginDefault.cs" />
+     <Compile Include="Assets\TapjoyPlugin\TapjoyPluginIOS.cs" />
+     <Compile Include="Assets\TapjoySample\TapjoySample.cs" />
+     <Compile Include="Assets\TestScript.cs" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_GrayScale.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Smoke.shader" />
+     <None Include="Assets\Cartton FX Pack\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Pattern.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Sharpen.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_DestroyedFX.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Teleportation.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_GrassMultiFX.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_LightningBolt.shader" />
+     <None Include="Assets\Cartton FX Pack\Cartoon FX\Shaders (Mobile)\CFXM_MobileParticleAdd_Alpha8.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Posterize.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Shiny_Reflect.shader" />
+     <None Include="Assets\Cartton FX Pack\Cartoon FX\CartoonFX Releases Notes.txt" />
+     <None Include="Assets\Cartton FX Pack\JMO Assets\Cartoon FX\CartoonFX3 Readme.txt" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Pixel8bitsGB.shader" />
+     <None Include="Assets\Cartton FX Pack\JMO Assets\Cartoon FX\CartoonFX2 Releases Notes.txt" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Heat.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Outline.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Pixel8bitsBW.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Liquid.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_ColorChange.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Cartoon.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_MetalFX.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Pixel8bitsC64.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_StoneFX.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_EdgeColor.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_WoodFX.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_BurningFX.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Threshold.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_EnergyBar.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_SandFX.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_PatternAdditive.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_CircleFade.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Blur.shader" />
+     <None Include="Assets\Cartton FX Pack\JMO Assets\Cartoon FX\Shaders\CFX3 Invert.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Negative.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_BlackHole.shader" />
+     <None Include="Assets\Cartton FX Pack\JMO Assets\Cartoon FX\Shaders\CFX2 Particle Alpha Blend Add.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_GoldenFX.shader" />
+     <None Include="Assets\ParticleScaler\How_to_use.txt" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Liquify.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_4Gradients.shader" />
+     <None Include="Assets\Cartton FX Pack\JMO Assets\Cartoon FX Easy Editor\CartoonFX Easy Editor Readme.txt" />
+     <None Include="Assets\Cartton FX Pack\JMO Assets\Cartoon FX\Shaders (Mobile)\CFXM_MobileParticleAdd_Alpha8.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Hologram.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_GoldFX.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Slim.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Blood.shader" />
+     <None Include="Assets\Cartton FX Pack\JMO Assets\!JMO Assets Readme.txt" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_WaterAndBackgroundDeluxe.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Hologram2.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_PlasmaShield.shader" />
+     <None Include="Assets\Cartton FX Pack\FX Mega Pack\FX Mega Pack - Readme.txt" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_FireAdditive.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_NoiseAnimated.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Fire.shader" />
+     <None Include="Assets\Cartton FX Pack\Cartoon FX\Demo\Assets\CFX_Demo_WaterWiggle.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Clipping.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Additive.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Ice.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Wave.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Color.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_HSV.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Hologram3.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Ghost.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Pixel.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Jelly.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Waterfall.shader" />
+     <None Include="Assets\Cartton FX Pack\JMO Assets\Cartoon FX\Shaders\CFX2 Particle Alpha Blend Tint.shader" />
+     <None Include="Assets\Resources\Sprites-Diffuse-Flash.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Noise.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_ColorRGB.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_IcedFX.shader" />
+     <None Include="Assets\Cartton FX Pack\JMO Assets\Cartoon FX\CartoonFX2 Readme.txt" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_PlasmaRainbow.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Lightning.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Sepia.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_SkyCloud.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_GrassFX.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_Twist.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_CompressionFX.shader" />
+     <None Include="Assets\Cartton FX Pack\Cartoon FX\CartoonFX Readme.txt" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_WaterAndBackground.shader" />
+     <None Include="Assets\2DxFX\Resources\_2dxFX_DesintegrationFX.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>E:/Unity Engine/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>E:/Unity Engine/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="P31RestKit">
+ <HintPath>E:/Tempest Blade/TempestBlade/Assets/Plugins/P31RestKit.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{81A29CE4-99CD-D40D-C8DF-14E85AB3437E}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

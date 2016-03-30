@@ -1,0 +1,202 @@
+-debug
+-target:library
+-nowarn:0169
+-out:Temp/Assembly-CSharp.dll
+-r:"E:/Unity Engine/Editor/Data/Managed/UnityEngine.dll"
+-r:Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll
+-r:"E:/Unity Engine/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
+-r:"E:/Unity Engine/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:Assets/Plugins/P31RestKit.dll
+-r:"E:/Unity Engine/Editor/Data/Managed/UnityEditor.dll"
+-r:"E:/Unity Engine/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Xcode.dll"
+-r:"E:/Unity Engine/Editor/Data/PlaybackEngines/iOSSupport\UnityEditor.iOS.Extensions.Common.dll"
+-define:UNITY_5_3_3
+-define:UNITY_5_3
+-define:UNITY_5
+-define:ENABLE_NEW_BUGREPORTER
+-define:ENABLE_AUDIO
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_FRAME_DEBUGGER
+-define:ENABLE_GENERICS
+-define:ENABLE_HOME_SCREEN
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_LIGHT_PROBES_LEGACY
+-define:ENABLE_MICROPHONE
+-define:ENABLE_MULTIPLE_DISPLAYS
+-define:ENABLE_PHYSICS
+-define:ENABLE_PLUGIN_INSPECTOR
+-define:ENABLE_SHADOWS
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:ENABLE_SPRITERENDERER_FLIPPING
+-define:ENABLE_SPRITES
+-define:ENABLE_SPRITE_POLYGON
+-define:ENABLE_TERRAIN
+-define:ENABLE_RAKNET
+-define:ENABLE_UNET
+-define:ENABLE_UNITYEVENTS
+-define:ENABLE_VR
+-define:ENABLE_WEBCAM
+-define:ENABLE_WWW
+-define:ENABLE_CLOUD_SERVICES
+-define:ENABLE_CLOUD_SERVICES_ADS
+-define:ENABLE_CLOUD_HUB
+-define:ENABLE_CLOUD_PROJECT_ID
+-define:ENABLE_CLOUD_SERVICES_PURCHASING
+-define:ENABLE_CLOUD_SERVICES_ANALYTICS
+-define:ENABLE_CLOUD_SERVICES_UNET
+-define:ENABLE_CLOUD_SERVICES_BUILD
+-define:ENABLE_CLOUD_LICENSE
+-define:ENABLE_EDITOR_METRICS
+-define:ENABLE_EDITOR_METRICS_CACHING
+-define:INCLUDE_DYNAMIC_GI
+-define:INCLUDE_GI
+-define:INCLUDE_IL2CPP
+-define:INCLUDE_DIRECTX12
+-define:PLATFORM_SUPPORTS_MONO
+-define:ENABLE_LOCALIZATION
+-define:ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION
+-define:ENABLE_EDITOR_TESTS_RUNNER
+-define:UNITY_ANDROID
+-define:UNITY_ANDROID_API
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_EGL
+-define:ENABLE_NETWORK
+-define:ENABLE_RUNTIME_GI
+-define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+-define:ENABLE_LOG_MIXED_STACKTRACE
+-define:ENABLE_UNITYWEBREQUEST
+-define:PLATFORM_SUPPORTS_ADS_ID
+-define:ENABLE_UNITYADS_RUNTIME
+-define:UNITY_UNITYADS_API
+-define:ENABLE_MONO
+-define:ENABLE_PROFILER
+-define:DEBUG
+-define:TRACE
+-define:UNITY_ASSERTIONS
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_64
+-define:UNITY_EDITOR_WIN
+Assets/2DxFX/Scripts/_2dxFX_4Gradients.cs
+Assets/2DxFX/Scripts/_2dxFX_Additive.cs
+Assets/2DxFX/Scripts/_2dxFX_BlackHole.cs
+Assets/2DxFX/Scripts/_2dxFX_Blood.cs
+Assets/2DxFX/Scripts/_2dxFX_Blur.cs
+Assets/2DxFX/Scripts/_2dxFX_BurningFX.cs
+Assets/2DxFX/Scripts/_2dxFX_Cartoon.cs
+Assets/2DxFX/Scripts/_2dxFX_CircleFade.cs
+Assets/2DxFX/Scripts/_2dxFX_Clipping.cs
+Assets/2DxFX/Scripts/_2dxFX_Color.cs
+Assets/2DxFX/Scripts/_2dxFX_ColorChange.cs
+Assets/2DxFX/Scripts/_2dxFX_ColorRGB.cs
+Assets/2DxFX/Scripts/_2dxFX_CompressionFX.cs
+Assets/2DxFX/Scripts/_2dxFX_DesintegrationFX.cs
+Assets/2DxFX/Scripts/_2dxFX_DestroyedFX.cs
+Assets/2DxFX/Scripts/_2dxFX_EdgeColor.cs
+Assets/2DxFX/Scripts/_2dxFX_EnergyBar.cs
+Assets/2DxFX/Scripts/_2dxFX_Fire.cs
+Assets/2DxFX/Scripts/_2dxFX_FireAdditive.cs
+Assets/2DxFX/Scripts/_2dxFX_Ghost.cs
+Assets/2DxFX/Scripts/_2dxFX_GoldFX.cs
+Assets/2DxFX/Scripts/_2dxFX_GoldenFX.cs
+Assets/2DxFX/Scripts/_2dxFX_GrassFX.cs
+Assets/2DxFX/Scripts/_2dxFX_GrassMultiFX.cs
+Assets/2DxFX/Scripts/_2dxFX_GrayScale.cs
+Assets/2DxFX/Scripts/_2dxFX_HSV.cs
+Assets/2DxFX/Scripts/_2dxFX_Heat.cs
+Assets/2DxFX/Scripts/_2dxFX_Hologram.cs
+Assets/2DxFX/Scripts/_2dxFX_Hologram2.cs
+Assets/2DxFX/Scripts/_2dxFX_Hologram3.cs
+Assets/2DxFX/Scripts/_2dxFX_Ice.cs
+Assets/2DxFX/Scripts/_2dxFX_IcedFX.cs
+Assets/2DxFX/Scripts/_2dxFX_Jelly.cs
+Assets/2DxFX/Scripts/_2dxFX_JellyAutoMove.cs
+Assets/2DxFX/Scripts/_2dxFX_Lightning.cs
+Assets/2DxFX/Scripts/_2dxFX_LightningBolt.cs
+Assets/2DxFX/Scripts/_2dxFX_Liquid.cs
+Assets/2DxFX/Scripts/_2dxFX_Liquify.cs
+Assets/2DxFX/Scripts/_2dxFX_MetalFX.cs
+Assets/2DxFX/Scripts/_2dxFX_Negative.cs
+Assets/2DxFX/Scripts/_2dxFX_Noise.cs
+Assets/2DxFX/Scripts/_2dxFX_NoiseAnimated.cs
+Assets/2DxFX/Scripts/_2dxFX_Outline.cs
+Assets/2DxFX/Scripts/_2dxFX_Pattern.cs
+Assets/2DxFX/Scripts/_2dxFX_PatternAdditive.cs
+Assets/2DxFX/Scripts/_2dxFX_Pixel.cs
+Assets/2DxFX/Scripts/_2dxFX_Pixel8bitsBW.cs
+Assets/2DxFX/Scripts/_2dxFX_Pixel8bitsC64.cs
+Assets/2DxFX/Scripts/_2dxFX_Pixel8bitsGB.cs
+Assets/2DxFX/Scripts/_2dxFX_PlasmaRainbow.cs
+Assets/2DxFX/Scripts/_2dxFX_PlasmaShield.cs
+Assets/2DxFX/Scripts/_2dxFX_Posterize.cs
+Assets/2DxFX/Scripts/_2dxFX_SandFX.cs
+Assets/2DxFX/Scripts/_2dxFX_Sepia.cs
+Assets/2DxFX/Scripts/_2dxFX_Sharpen.cs
+Assets/2DxFX/Scripts/_2dxFX_Shiny_Reflect.cs
+Assets/2DxFX/Scripts/_2dxFX_SkyCloud.cs
+Assets/2DxFX/Scripts/_2dxFX_Slim.cs
+Assets/2DxFX/Scripts/_2dxFX_Smoke.cs
+Assets/2DxFX/Scripts/_2dxFX_StoneFX.cs
+Assets/2DxFX/Scripts/_2dxFX_Teleportation.cs
+Assets/2DxFX/Scripts/_2dxFX_Threshold.cs
+Assets/2DxFX/Scripts/_2dxFX_Twist.cs
+Assets/2DxFX/Scripts/_2dxFX_WaterAndBackground.cs
+Assets/2DxFX/Scripts/_2dxFX_WaterAndBackgroundDeluxe.cs
+Assets/2DxFX/Scripts/_2dxFX_Waterfall.cs
+Assets/2DxFX/Scripts/_2dxFX_Wave.cs
+Assets/2DxFX/Scripts/_2dxFX_WoodFX.cs
+"Assets/Cartton FX Pack/Cartoon FX/Demo/Assets/CFX_Demo.cs"
+"Assets/Cartton FX Pack/Cartoon FX/Demo/Assets/CFX_Demo_RandomDir.cs"
+"Assets/Cartton FX Pack/Cartoon FX/Demo/Assets/CFX_Demo_RandomDirectionTranslate.cs"
+"Assets/Cartton FX Pack/Cartoon FX/Demo/Assets/CFX_Demo_RotateCamera.cs"
+"Assets/Cartton FX Pack/Cartoon FX/Scripts/CFX_AutoDestructShuriken.cs"
+"Assets/Cartton FX Pack/Cartoon FX/Scripts/CFX_AutoRotate.cs"
+"Assets/Cartton FX Pack/Cartoon FX/Scripts/CFX_AutodestructWhenNoChildren.cs"
+"Assets/Cartton FX Pack/Cartoon FX/Scripts/CFX_LightIntensityFade.cs"
+"Assets/Cartton FX Pack/Cartoon FX/Scripts/CFX_ShurikenThreadFix.cs"
+"Assets/Cartton FX Pack/Cartoon FX/Spawn System/CFX_SpawnSystem.cs"
+"Assets/Cartton FX Pack/FX Mega Pack/Scripts/SmoothCameraOrbit.cs"
+"Assets/Cartton FX Pack/JMO Assets/Cartoon FX/Demo/Assets/CFX2_Demo.cs"
+"Assets/Cartton FX Pack/JMO Assets/Cartoon FX/Demo/Assets/CFX3_AutoStopLoopedEffect.cs"
+"Assets/Cartton FX Pack/JMO Assets/Cartoon FX/Demo/Assets/CFX3_Demo.cs"
+"Assets/Cartton FX Pack/JMO Assets/Cartoon FX/Demo/Assets/CFX3_Demo_Translate.cs"
+"Assets/Cartton FX Pack/JMO Assets/Cartoon FX/Scripts/CFX2_AutoRotate.cs"
+"Assets/Cartton FX Pack/JMO Assets/Cartoon FX/Scripts/CFX_ShurikenThreadFix.cs"
+Assets/ParticleScaler/ParticleScaler.cs
+Assets/Scripts/AnimationHelper.cs
+Assets/Scripts/Cache.cs
+Assets/Scripts/CameraScript.cs
+Assets/Scripts/Misc/Fireball.cs
+Assets/Scripts/Misc/SkyfallObject.cs
+Assets/Scripts/Player/Player.cs
+Assets/Scripts/Player/PlayerInfoCache.cs
+Assets/Scripts/PowerUps/CardManager.cs
+Assets/Scripts/PowerUps/CardSlot.cs
+"Assets/Scripts/PowerUps/Magic Cards/MoraleDebuffCard.cs"
+"Assets/Scripts/PowerUps/Might Cards/AttackBuffCard.cs"
+"Assets/Scripts/PowerUps/Might Cards/DefenseBuffCard.cs"
+"Assets/Scripts/PowerUps/Might Cards/ScorchedEarthCard.cs"
+Assets/Scripts/PowerUps/PowerUpCard.cs
+Assets/Scripts/SoldierScripts/Knight.cs
+Assets/Scripts/SoldierScripts/Soldier.cs
+Assets/Scripts/Squad.cs
+Assets/Scripts/SquadLeader.cs
+Assets/Scripts/TacticalAnalyst.cs
+Assets/Scripts/UI/CardUI.cs
+Assets/Scripts/UI/ChooseMagicCardUI.cs
+Assets/Scripts/UI/ChooseSoldierCardUI.cs
+Assets/Scripts/UI/ChooseUI.cs
+Assets/Scripts/UI/MagicCardUI.cs
+Assets/Scripts/UI/SoldierCardUI.cs
+Assets/TapjoyPlugin/ITapjoyEvent.cs
+Assets/TapjoyPlugin/TapjoyEvent.cs
+Assets/TapjoyPlugin/TapjoyEventRequest.cs
+Assets/TapjoyPlugin/TapjoyPlugin.cs
+Assets/TapjoyPlugin/TapjoyPluginAndroid.cs
+Assets/TapjoyPlugin/TapjoyPluginDefault.cs
+Assets/TapjoyPlugin/TapjoyPluginIOS.cs
+Assets/TapjoySample/TapjoySample.cs
+Assets/TestScript.cs
+-r:"E:\Unity Engine\Editor\Data\Mono\lib\mono\unity\System.Runtime.Serialization.dll"
+-r:"E:\Unity Engine\Editor\Data\Mono\lib\mono\unity\System.Xml.Linq.dll"
