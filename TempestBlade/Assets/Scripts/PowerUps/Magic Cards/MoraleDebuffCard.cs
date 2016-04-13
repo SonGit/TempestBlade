@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Shared;
 
 public class MoraleDebuffCard : PowerUpCard {
 
@@ -16,7 +17,7 @@ public class MoraleDebuffCard : PowerUpCard {
 		_type = CardType.MORALE_DEBUFF;
 	}
 
-	public override void Execute(SquadLeader target)
+	protected override void PlayEffect(SquadLeader target)
 	{
 		if (_prefab == null) {
 			print ("Null prefab!");
@@ -28,4 +29,10 @@ public class MoraleDebuffCard : PowerUpCard {
 
 		GameObject go = (GameObject)Instantiate (_prefab, targetPos, _prefab.transform.rotation);
 	}
+
+	protected override void ApplyEffect(SquadLeader target)
+	{
+
+	}
+
 }

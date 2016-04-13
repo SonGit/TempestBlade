@@ -19,11 +19,15 @@ public abstract class SkyfallObject : MonoBehaviour {
 
 	Vector3 offset;
 
+	protected Vector3 ally_target_offset = new Vector3 (7, -15, 0);
+	protected Vector3 enemy_target_offset= new Vector3 (-7, -15, 0);
+
 	// Use this for initialization
 	void Awake () {
 		t = transform;
 		_origin = t.position;
 		animator = this.GetComponent<Animator> ();
+
 	}
 
 	public void Fall(SquadLeader target)
@@ -33,9 +37,9 @@ public abstract class SkyfallObject : MonoBehaviour {
 		_isFalling = true;
 
 		if (target._allegiance == Allegiance.ALLY)
-			offset = new Vector3 (7, -15, 0);
+			offset = ally_target_offset;
 		else
-			offset = new Vector3 (-7, -15, 0);
+			offset = enemy_target_offset;
 	}
 
 	public void Fall()

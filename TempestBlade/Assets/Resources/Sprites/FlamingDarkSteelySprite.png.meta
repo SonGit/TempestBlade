@@ -1,0 +1,128 @@
+fileFormatVersion: 2
+guid: 0c0ae8f7da00dd94ea5fb5fd0515e946
+timeCreated: 1460299047
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: FlamingDarkSteelySprite_0
+    21300002: FlamingDarkSteelySprite_1
+    21300004: FlamingDarkSteelySprite_2
+    21300006: FlamingDarkSteelySprite_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 10
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: FlamingDarkSteelySprite_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 40
+        width: 80
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 21}
+        - {x: -38, y: 19}
+        - {x: -40, y: 12}
+        - {x: -40, y: -19}
+        - {x: -39, y: -21}
+        - {x: 32, y: -21}
+        - {x: 40, y: -19}
+        - {x: 40, y: 5}
+        - {x: 8, y: 21}
+    - name: FlamingDarkSteelySprite_1
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 40
+        width: 80
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 21}
+        - {x: -38, y: 19}
+        - {x: -40, y: 12}
+        - {x: -40, y: -19}
+        - {x: -39, y: -21}
+        - {x: 32, y: -21}
+        - {x: 40, y: -19}
+        - {x: 40, y: 5}
+        - {x: 8, y: 21}
+    - name: FlamingDarkSteelySprite_2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 76
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: FlamingDarkSteelySprite_3
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 3
+        width: 77
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Shared;
 
 public class AttackBuffCard : PowerUpCard {
 
@@ -16,7 +17,12 @@ public class AttackBuffCard : PowerUpCard {
 		_type = CardType.ATTACK_BUFF;
 	}
 
-	public override void Execute(SquadLeader target)
+	protected override void PlayEffect(SquadLeader target)
+	{
+
+	}
+
+	protected override void ApplyEffect(SquadLeader target)
 	{
 		target.AttackBuff (_buffLength,_buffValue);
 	}

@@ -1,10 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Shared;
 
 public class ScorchedEarthCard : PowerUpCard {
 
 	// Use this for initialization
-	void Start () {
+	void Awake () {
 		Init ();
 	}
 	
@@ -16,9 +17,10 @@ public class ScorchedEarthCard : PowerUpCard {
 	public override void Init()
 	{
 		_type = CardType.SCORCHED_EARTH;
+		_stackSkill = new SoldierAttackUpStack ();
 	}
 
-	public override void Execute(SquadLeader target)
+	protected override void PlayEffect(SquadLeader target)
 	{
 		float num = 20;
 
@@ -28,6 +30,11 @@ public class ScorchedEarthCard : PowerUpCard {
 			SkyfallObject skyfall_object = go.GetComponent<SkyfallObject> ();
 			skyfall_object.Fall (target);
 		}
+	}
+
+	protected override void ApplyEffect(SquadLeader target)
+	{
+
 	}
 
 }

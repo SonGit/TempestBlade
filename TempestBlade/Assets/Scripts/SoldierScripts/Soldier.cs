@@ -24,7 +24,20 @@ public class Soldier : MonoBehaviour {
 
 	public int _health;
 
-	public SquadLeader _leader;
+	public float _BaseDmg;
+
+	public float _DmgMultiplier = 1;
+
+	public float _BaseDefense;
+
+	public float _DfMultiplier = 1;
+
+	public SquadLeader leader;
+	public SquadLeader _leader
+	{
+		get { return leader;}
+		set { leader = value;}
+	}
 
 	public bool _isFree;
 
@@ -36,17 +49,21 @@ public class Soldier : MonoBehaviour {
 
 	public bool _hasArrivedAtFightLocation;
 
-	bool _walking;
-
 	public GameObject _defenseBuffParticleEffect;
 
 	public ParticleSystem _attackBuffParticleEffect;
+
+	private float _attackRate;
+
+	private float _defaultAttackRate;
 
 	void Awake()
 	{
 		t = transform;
 		_isFree = true;
 		_hasArrivedAtFightLocation = false;
+		_attackRate = 1;
+		_defaultAttackRate = 1;
 	}
 
 	void Start()
@@ -73,17 +90,28 @@ public class Soldier : MonoBehaviour {
 	{
 		if (_status == SoldierStatus.DEAD)
 			return;
-		
-		_health -= damage;
 
-		if (_health <= 0) {
+		int calculatedDmg = damage - (int)(_BaseDefense * _DfMultiplier);
+
+		//Check if the blow killed this unit
+		int tmp = _health - calculatedDmg;
+
+		//If the blow does not kill,subtract to health and total health
+		if (tmp > 0) {
+			_leader.HP -= calculatedDmg;
+			_health -= calculatedDmg;
+		}
+		else //If the blow does kill
+		{
+			_leader.HP -= _health;
+			_leader.UnitLost (_lane);
+
 			ChangeStatus (SoldierStatus.DEAD);
+
 			if (callback != null)
 				callback ();
-			_leader.UnitLost (_lane);
+
 			gameObject.SetActive (false);
-		} else {
-			//StartCoroutine (Flashing());
 		}
 	}
 
@@ -286,7 +314,7 @@ public class Soldier : MonoBehaviour {
 	public void OnEndAttack()
 	{
 		if(_enemySoldier != null && _status == SoldierStatus.ATTACKING)
-		_enemySoldier.GotHit (25,OnKilledEnemy);
+			_enemySoldier.GotHit ( (int)(_BaseDmg * _DmgMultiplier) ,OnKilledEnemy);
 	}
 
 	void RotateAnimation(Vector3 vect)
@@ -311,32 +339,69 @@ public class Soldier : MonoBehaviour {
 			
 			_animator.SetBool ("Attacking",true);
 			RotateAnimation (_enemySoldier.transform.position);
-			yield return new WaitForSeconds (0.9f);
+			yield return new WaitForSeconds (_attackRate);
 			OnEndAttack ();
 			_animator.SetBool ("Attacking",false);
 		}
 		yield return null;
 	}
 
+
+	//BUFF AND DEBUFF
+
 	public void DefenseBuffed_On(float defenseValue)
 	{
 		_defenseBuffParticleEffect.SetActive (true);
+		_DfMultiplier += defenseValue;
 	}
 
 	public void DefenseBuffed_Off()
 	{
 		_defenseBuffParticleEffect.SetActive (false);
+		_DfMultiplier = 1;
 	}
 
-	public void AttackBuffed_On(float defenseValue)
+	public void AttackBuffed_On(float attackValue)
 	{
 		_attackBuffParticleEffect.Play ();
+		_DmgMultiplier += attackValue;
 		_spriteRenderer.color = Color.red;
 	}
 
 	public void AttackBuffed_Off()
 	{
 		_spriteRenderer.color = Color.white;
+		_DmgMultiplier = 1;
 	}
 
+	public void AttackRateDebuffed(float value)
+	{
+		_animator.speed -= value;
+		_spriteRenderer.color = Color.yellow;
+		_speed = _speed / 2;
+		_attackRate += value; //slower attack
+	}
+
+	public void AttackRateDebuffed_Off()
+	{
+		_animator.speed = 1f;
+		_spriteRenderer.color = Color.white;
+		_speed = _speed * 2;
+		_attackRate = _defaultAttackRate;
+	}
+
+	public void AttackRateBuffed(float value)
+	{
+		_animator.speed += value;
+		_spriteRenderer.color = Color.green;
+		_attackRate -= value; //faster attack
+	}
+
+	public void AttackRateBuffed_Off()
+	{
+		_animator.speed = 1f;
+		_spriteRenderer.color = Color.green;
+		_attackRate = _defaultAttackRate;
+	}
+		
 }

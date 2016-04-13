@@ -5,8 +5,7 @@ public class Fireball : SkyfallObject {
 
 	public int times_beforeDestroy = 1;
 	int curr = 0;
-	float desiredHeight = 100;
-	float radius = 60;
+
 	Vector3 someRandomPoint;
 	 
 	protected override void OnTouchGround()

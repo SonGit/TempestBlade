@@ -539,7 +539,7 @@ TextureImporter:
         - {x: 25.5, y: 16.5}
         - {x: 15.5, y: 23.5}
     outline: []
-  spritePackingTag: 
+  spritePackingTag: Spritesheet
   userData: 
   assetBundleName: 
   assetBundleVariant: 

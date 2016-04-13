@@ -7,6 +7,7 @@ using System.Linq;
 namespace Shared
 {
 	public delegate void Callback();
+	public delegate void Callback_WithStackSkill(StackableSkill skill);
 }
 
 public enum Allegiance
@@ -38,6 +39,14 @@ public class SquadLeader : MonoBehaviour {
 	public Allegiance _allegiance;
 
 	public int _unitLost = 0;
+
+	public int _morale;
+
+	public int _moraleRestoreRate;
+
+	public int HP = 0;
+
+	float _moraleCheckTick;
 
 	List<SquadLeader> _enemySquadInSight = new List<SquadLeader> ();
 
@@ -79,6 +88,27 @@ public class SquadLeader : MonoBehaviour {
 	void Start()
 	{
 		t = transform;
+
+		_morale = Cache.MORALE_MAX;
+
+		_moraleRestoreRate = Cache.MORALE_RESTORE_RATE;
+
+		_moraleCheckTick = Cache.MORALE_CHECK_RATE;
+	}
+
+	void Update()
+	{
+		//tICK FOR MORALE Restore
+		_moraleCheckTick -= Time.deltaTime;
+
+		if (_moraleCheckTick <= 0) {
+			if (_morale + _moraleRestoreRate >= Cache.MORALE_MAX) {
+				_morale = Cache.MORALE_MAX;
+			} else {
+				_morale += _moraleRestoreRate;
+				_moraleCheckTick = Cache.MORALE_CHECK_RATE;
+			}
+		}
 	}
 
 	public void Advance()
@@ -118,13 +148,17 @@ public class SquadLeader : MonoBehaviour {
 				Vector3 position = new Vector3 ( (offset * i) + x, 0 ,offset * j);
 				GameObject go = SoldierMaker(position,type);
 
-				if (_allegiance == Allegiance.ALLY)
-					go.name = i +"";
-				else
-					go.name = "Enemy";
-
 				_soldiers [index] = go.GetComponent<Soldier> ();
 				_soldiers [index]._leader = this;
+
+				if (_allegiance == Allegiance.ALLY) {
+					HP += _soldiers [index]._health;
+					go.name = "Ally";
+				} else {
+					go.name = "Enemy";
+					HP += _soldiers [index]._health;
+				}
+					
 				index++;
 			}
 
@@ -281,6 +315,20 @@ public class SquadLeader : MonoBehaviour {
 
 		if (_unitLost % MAX_ENGAGEMENT == 0)
 			MoveUp ();
+
+		//Morale config
+		_morale -= Cache.MORALE_PENALTY_LOST_UNIT;
+		_moraleCheckTick =+ Cache.MORALE_PENALTY_CHECK_RATE;
+
+		CheckMorale ();
+	}
+
+	void CheckMorale()
+	{
+		if (_unitLost % 30 == 0) {
+			if(_moraleRestoreRate != 0)
+			_moraleRestoreRate -= 1;
+		}
 	}
 
 	public void MoveUp()
@@ -357,6 +405,47 @@ public class SquadLeader : MonoBehaviour {
 			}
 		}
 	}
+
+	public void AttackRateDebuff(float length,float attackValue)
+	{
+		for (int i = 0; i < _soldiers.Length; i++) {
+			if (_soldiers [i]._status != SoldierStatus.DEAD) {
+				_soldiers [i].AttackRateDebuffed (attackValue);
+			}
+		}
+		StartCoroutine (OffAttackRateDebuff(length));
+	}
+
+	IEnumerator OffAttackRateDebuff(float length)
+	{
+		yield return new WaitForSeconds (length);
+		for (int i = 0; i < _soldiers.Length; i++) {
+			if (_soldiers [i]._status != SoldierStatus.DEAD) {
+				_soldiers [i].AttackRateDebuffed_Off ();
+			}
+		}
+	}
+
+	public void AttackRateBuff(float length,float defenseValue)
+	{
+		for (int i = 0; i < _soldiers.Length; i++) {
+			if (_soldiers [i]._status != SoldierStatus.DEAD) {
+				_soldiers [i].AttackRateBuffed (defenseValue);
+			}
+		}
+		StartCoroutine (AttackRateBuff(length));
+	}
+
+	IEnumerator AttackRateBuff(float length)
+	{
+		yield return new WaitForSeconds (length);
+		for (int i = 0; i < _soldiers.Length; i++) {
+			if (_soldiers [i]._status != SoldierStatus.DEAD) {
+				_soldiers [i].AttackRateBuffed_Off ();
+			}
+		}
+	}
+
 }
 
 

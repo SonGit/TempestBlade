@@ -9,7 +9,6 @@ public class CardSlot : MonoBehaviour {
 	public bool coolingDown;
 	public float waitTime = 30.0f;
 	public bool isAvailable = true;
-	public Button RemoveCardButton;
 
 	private CardType cardType;
 
@@ -28,7 +27,6 @@ public class CardSlot : MonoBehaviour {
 	//These vars are only for UI in MapScene
 	//public bool _isChosen;
 	public bool isClicked;
-	public bool _isInDeck;
 
 	public bool _isClicked
 	{
@@ -69,19 +67,5 @@ public class CardSlot : MonoBehaviour {
 		coolingDown = true;
 		isAvailable = false;
 	}
-
-	//These code below are for UI in mapscene
-	public void EnableRemoveCardButton()
-	{
-		RemoveCardButton.gameObject.SetActive (true);
-	}
-
-	//Called when remove button card is clicked
-	public void Reset()
-	{
-		_cardType = CardType.NULL;
-		_isInDeck = false;
-		_isClicked = false;
-		RemoveCardButton.gameObject.SetActive (false);
-	}
+		
 }

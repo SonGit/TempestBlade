@@ -10,11 +10,19 @@ public enum CardType
 	DEFENSE_BUFF,
 	ATTACK_BUFF,
 	MORALE_DEBUFF,
+	ATTACK_RATE_DEBUFF,
+	ATTACK_RATE_BUFF,
+	WIND_OF_RUST,
+	FLAMING_ARROW,
+	ELECTRIC_GROUND,
+	FRENZY
 };
 
 public class CardManager : MonoBehaviour {
 
 	public static CardManager instance;
+
+	public StackManager _stackManager;
 
 	public GameObject _cardSlotPrefab;
 
@@ -33,21 +41,23 @@ public class CardManager : MonoBehaviour {
 	void Awake()
 	{
 		instance = this;
+		foreach (PowerUpCard card in _cards) {
+			card.Init ();
+		}
 	}
 
 	// Use this for initialization
 	void Start () {
 
 		CardType[] cards = new CardType[] {
-			CardType.SCORCHED_EARTH,
-			CardType.DEFENSE_BUFF,
-			CardType.NULL,
-			CardType.ATTACK_BUFF,
-			CardType.MORALE_DEBUFF
+			CardType.WIND_OF_RUST,
+			CardType.FLAMING_ARROW,
+			CardType.ELECTRIC_GROUND,
+			CardType.FRENZY
 		};
 
-		//SetCards(cards);
-		SetCards(PlayerInfoCache.instance.GetMagicCardDeck());
+		SetCards(cards);
+		//SetCards(PlayerInfoCache.instance.GetMagicCardDeck());
 	}
 
 	public void SetCards(CardType[] cards)
@@ -63,7 +73,6 @@ public class CardManager : MonoBehaviour {
 
 				_cardButtons.Add (btn);
 			}
-
 		}
 	}
 
@@ -103,15 +112,69 @@ public class CardManager : MonoBehaviour {
 		StartCooldown (10,slot);
 	}
 
+	public void ActivateAttackRateDebuff(CardSlot slot)
+	{
+		if (!slot.isAvailable)
+			return;
+
+		ActivateCard(CardType.ATTACK_RATE_DEBUFF,TacticalAnalyst.instance._enemyLeader);
+		StartCooldown (10,slot);
+	}
+
+
+	public void ActivateAttackRateBuff(CardSlot slot)
+	{
+		if (!slot.isAvailable)
+			return;
+
+		ActivateCard(CardType.ATTACK_RATE_BUFF,TacticalAnalyst.instance._allyLeader);
+		StartCooldown (10,slot);
+	}
+
 	void StartCooldown(float amount,CardSlot clickedCard)
 	{
-		print ("COOLING");
 		foreach (Button button in _cardButtons) {
 			CardSlot cardSlot = button.GetComponent<CardSlot>();
 			cardSlot.StartCooldown (5,OnEndCooldown);
 		}
 
 		clickedCard.StartCooldown(amount,OnEndCooldown);
+	}
+
+	public void ActivateWindOfRust(CardSlot slot)
+	{
+		if (!slot.isAvailable)
+			return;
+
+		ActivateCard(CardType.WIND_OF_RUST,TacticalAnalyst.instance._allyLeader);
+		StartCooldown (10,slot);
+	}
+
+	public void ActivateFlamingArrow(CardSlot slot)
+	{
+		if (!slot.isAvailable)
+			return;
+
+		ActivateCard(CardType.FLAMING_ARROW,TacticalAnalyst.instance._enemyLeader);
+		StartCooldown (10,slot);
+	}
+
+	public void ActivateElectricGround(CardSlot slot)
+	{
+		if (!slot.isAvailable)
+			return;
+
+		ActivateCard(CardType.FRENZY,TacticalAnalyst.instance._enemyLeader);
+		StartCooldown (10,slot);
+	}
+
+	public void ActivateFrenzy(CardSlot slot)
+	{
+		if (!slot.isAvailable)
+			return;
+
+		ActivateCard(CardType.FRENZY,TacticalAnalyst.instance._enemyLeader);
+		StartCooldown (10,slot);
 	}
 
 	void OnEndCooldown()
@@ -123,7 +186,7 @@ public class CardManager : MonoBehaviour {
 	{
 		foreach (PowerUpCard card in _cards) {
 			if (card._type == type) {
-				card.Execute (target);
+				card.Activate (target);
 				return;
 			}
 		}
@@ -158,7 +221,48 @@ public class CardManager : MonoBehaviour {
 					ActivateScorchedEarth(btn.GetComponent<CardSlot>());
 				});
 			break;
-		}
+
+		case CardType.ATTACK_RATE_DEBUFF:
+		btn.onClick.AddListener(() =>
+			{
+				ActivateAttackRateDebuff(btn.GetComponent<CardSlot>());
+			});
+		break;
+
+		case CardType.ATTACK_RATE_BUFF:
+			btn.onClick.AddListener(() =>
+				{
+					ActivateAttackRateBuff(btn.GetComponent<CardSlot>());
+				});
+			break;
+
+		case CardType.WIND_OF_RUST:
+			btn.onClick.AddListener(() =>
+				{
+					ActivateWindOfRust(btn.GetComponent<CardSlot>());
+				});
+			break;
+
+		case CardType.FLAMING_ARROW:
+			btn.onClick.AddListener(() =>
+				{
+					ActivateFlamingArrow(btn.GetComponent<CardSlot>());
+				});
+			break;
+		case CardType.ELECTRIC_GROUND:
+			btn.onClick.AddListener(() =>
+				{
+					ActivateElectricGround(btn.GetComponent<CardSlot>());
+				});
+			break;
+		case CardType.FRENZY:
+			btn.onClick.AddListener(() =>
+				{
+					ActivateFrenzy(btn.GetComponent<CardSlot>());
+				});
+			break;
+	}
+
 
 		btn.GetComponent<CardSlot> ()._cardType = type;
 	}

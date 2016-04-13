@@ -51,7 +51,7 @@
      <Compile Include="Assets\Cartton FX Pack\JMO Assets\Cartoon FX\Editor\CFX_SpawnSystemEditor.cs" />
      <None Include="Assets\2DxFX\Resources\_2dxFX_GrayScale.shader" />
      <None Include="Assets\2DxFX\Resources\_2dxFX_Smoke.shader" />
-     <None Include="Assets\Cartton FX Pack\JMO Assets\Cartoon FX\Shaders\CFX3 Multiply Color.shader" />
+     <None Include="Assets\Cartton FX Pack\Shaders\CFX3 Multiply Color.shader" />
      <None Include="Assets\2DxFX\Resources\_2dxFX_Pattern.shader" />
      <None Include="Assets\2DxFX\Resources\_2dxFX_Sharpen.shader" />
      <None Include="Assets\2DxFX\Resources\_2dxFX_DestroyedFX.shader" />
@@ -83,10 +83,10 @@
      <None Include="Assets\2DxFX\Resources\_2dxFX_PatternAdditive.shader" />
      <None Include="Assets\2DxFX\Resources\_2dxFX_CircleFade.shader" />
      <None Include="Assets\2DxFX\Resources\_2dxFX_Blur.shader" />
-     <None Include="Assets\Cartton FX Pack\JMO Assets\Cartoon FX\Shaders\CFX3 Invert.shader" />
+     <None Include="Assets\Cartton FX Pack\Shaders\CFX3 Invert.shader" />
      <None Include="Assets\2DxFX\Resources\_2dxFX_Negative.shader" />
      <None Include="Assets\2DxFX\Resources\_2dxFX_BlackHole.shader" />
-     <None Include="Assets\Cartton FX Pack\JMO Assets\Cartoon FX\Shaders\CFX2 Particle Alpha Blend Add.shader" />
+     <None Include="Assets\Cartton FX Pack\Shaders\CFX2 Particle Alpha Blend Add.shader" />
      <None Include="Assets\2DxFX\Resources\_2dxFX_GoldenFX.shader" />
      <None Include="Assets\ParticleScaler\How_to_use.txt" />
      <None Include="Assets\2DxFX\Resources\_2dxFX_Liquify.shader" />
@@ -117,7 +117,7 @@
      <None Include="Assets\2DxFX\Resources\_2dxFX_Pixel.shader" />
      <None Include="Assets\2DxFX\Resources\_2dxFX_Jelly.shader" />
      <None Include="Assets\2DxFX\Resources\_2dxFX_Waterfall.shader" />
-     <None Include="Assets\Cartton FX Pack\JMO Assets\Cartoon FX\Shaders\CFX2 Particle Alpha Blend Tint.shader" />
+     <None Include="Assets\Cartton FX Pack\Shaders\CFX2 Particle Alpha Blend Tint.shader" />
      <None Include="Assets\Resources\Sprites-Diffuse-Flash.shader" />
      <None Include="Assets\2DxFX\Resources\_2dxFX_Noise.shader" />
      <None Include="Assets\2DxFX\Resources\_2dxFX_ColorRGB.shader" />

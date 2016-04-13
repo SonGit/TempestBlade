@@ -17,6 +17,7 @@ public class TacticalAnalyst : MonoBehaviour {
 	public GameObject _chatBox;
 	public GameObject _AfterIntroUI;
 	public static TacticalAnalyst instance;
+	public HMBarManager _barAlly;
 
 	Vector3 enemyGeneralPos = new Vector3(-140,0,-18);
 	Vector3 allyGeneralPos = new Vector3(66.6f,0,-18);
@@ -34,7 +35,7 @@ public class TacticalAnalyst : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		t = transform;
-		//Intro ();
+		Intro ();
 	}
 
 	bool _cameraGoLeft;
@@ -89,6 +90,9 @@ public class TacticalAnalyst : MonoBehaviour {
 		_allyLeader.Advance ();
 		_enemyLeader.Advance ();
 		_isAllowed = true;
+
+		_AfterIntroUI.SetActive (true);
+		_barAlly.Init ();
 	}
 
 	public void Intro()
@@ -147,9 +151,7 @@ public class TacticalAnalyst : MonoBehaviour {
 			t.position = Vector3.MoveTowards(t.position, destination, Time.deltaTime * _speed * 2);
 			yield return new WaitForEndOfFrame ();
 		}
-
-		_isAllowed = true;
-		_AfterIntroUI.SetActive (true);
+			
 		StartBattle ();
 	}
 
@@ -241,4 +243,25 @@ public class TacticalAnalyst : MonoBehaviour {
 	{
 		Application.LoadLevel ("TestScene");
 	}
+
+	public int GetPlayerMorale()
+	{
+		return _allyLeader._morale;
+	}
+
+	public int GetEnemyMorale()
+	{
+		return _enemyLeader._morale;
+	}
+
+	public int GetPlayerHP()
+	{
+		return _allyLeader.HP;
+	}
+
+	public int GetEnemyHP()
+	{
+		return _enemyLeader.HP;
+	}
+
 }

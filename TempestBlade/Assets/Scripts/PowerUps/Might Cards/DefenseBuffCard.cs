@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Shared;
 
 public class DefenseBuffCard : PowerUpCard {
 
@@ -14,10 +15,25 @@ public class DefenseBuffCard : PowerUpCard {
 	public override void Init()
 	{
 		_type = CardType.DEFENSE_BUFF;
+		_stackSkill = new MagicAttackUpStack ();
+		_consumedStack = new SoldierAttackUpStack ();
 	}
 
-	public override void Execute(SquadLeader target)
+	protected override void PlayEffect(SquadLeader target)
 	{
-		target.DefenseBuff (_buffLength,_buffValue);
+
+	}
+
+	protected override void ApplyEffect(SquadLeader target)
+	{
+		int numStack = GetNumStack (); //Get existing stacks 
+		float value = _buffValue;
+
+		if (numStack > 0) //Add bonus
+			value += (numStack * 0.2f);
+
+		print ("_buffValue   " + _buffValue + "  value  " + value);
+
+		target.DefenseBuff (_buffLength,value);
 	}
 }
