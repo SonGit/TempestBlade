@@ -26,11 +26,47 @@ public class Soldier : MonoBehaviour {
 
 	public float _BaseDmg;
 
-	public float _DmgMultiplier = 1;
+	private float DmgMultiplier = 1;
+
+	public float _DmgMultiplier	
+	{
+		get{ return DmgMultiplier;}
+		set 
+		{
+			DmgMultiplier = value;
+			ActivateBuffFX(DmgMultiplier,Color.red);
+		}
+	}
 
 	public float _BaseDefense;
 
-	public float _DfMultiplier = 1;
+	private float DfMultiplier = 1;
+
+	public float _DfMultiplier
+	{
+		get{ return DfMultiplier;}
+		set 
+		{
+			DfMultiplier = value;
+			ActivateBuffFX(DfMultiplier,Color.yellow);
+		}
+	}
+
+	private float AttackRate;
+
+	public float _AttackRate
+	{
+		get{ return AttackRate;}
+		set
+		{
+			AttackRate = value;
+			if (_animator != null) {
+				_animator.speed = AttackRate;
+			} else {
+				print ("NULL ANIMATOR!");
+			}
+		}
+	}
 
 	public SquadLeader leader;
 	public SquadLeader _leader
@@ -49,27 +85,23 @@ public class Soldier : MonoBehaviour {
 
 	public bool _hasArrivedAtFightLocation;
 
-	public GameObject _defenseBuffParticleEffect;
+	public _2dxFX_Outline _outline;
 
-	public ParticleSystem _attackBuffParticleEffect;
-
-	private float _attackRate;
-
-	private float _defaultAttackRate;
+	public GameObject _debufFX;
 
 	void Awake()
 	{
 		t = transform;
 		_isFree = true;
 		_hasArrivedAtFightLocation = false;
-		_attackRate = 1;
-		_defaultAttackRate = 1;
+	
 	}
 
 	void Start()
 	{
 		_spriteRenderer = this.GetComponentInChildren<SpriteRenderer> ();
-		_defenseBuffParticleEffect.SetActive (false);
+		_outline = this.GetComponentInChildren<_2dxFX_Outline> ();
+		_outline.enabled = false;
 		Init ();
 	}
 
@@ -335,73 +367,35 @@ public class Soldier : MonoBehaviour {
 	IEnumerator AttackAnimation()
 	{		
 		ChangeStatus (SoldierStatus.ATTACKING);
-		while (_status == SoldierStatus.ATTACKING && _enemySoldier != null ) {
-			
-			_animator.SetBool ("Attacking",true);
-			RotateAnimation (_enemySoldier.transform.position);
-			yield return new WaitForSeconds (_attackRate);
-			OnEndAttack ();
-			_animator.SetBool ("Attacking",false);
-		}
+		RotateAnimation (_enemySoldier.transform.position);
+		_animator.SetBool ("Attacking",true);
 		yield return null;
 	}
 
-
-	//BUFF AND DEBUFF
-
-	public void DefenseBuffed_On(float defenseValue)
+	public void ResetMultipliers(AttributeBuff buff)
 	{
-		_defenseBuffParticleEffect.SetActive (true);
-		_DfMultiplier += defenseValue;
-	}
+		buff.OnEndEffect (this);
 
-	public void DefenseBuffed_Off()
-	{
-		_defenseBuffParticleEffect.SetActive (false);
-		_DfMultiplier = 1;
-	}
+		if (buff.type == BuffType.BUFF) {
+			_outline.enabled = false;
+		}
 
-	public void AttackBuffed_On(float attackValue)
-	{
-		_attackBuffParticleEffect.Play ();
-		_DmgMultiplier += attackValue;
-		_spriteRenderer.color = Color.red;
-	}
-
-	public void AttackBuffed_Off()
-	{
-		_spriteRenderer.color = Color.white;
-		_DmgMultiplier = 1;
-	}
-
-	public void AttackRateDebuffed(float value)
-	{
-		_animator.speed -= value;
-		_spriteRenderer.color = Color.yellow;
-		_speed = _speed / 2;
-		_attackRate += value; //slower attack
-	}
-
-	public void AttackRateDebuffed_Off()
-	{
-		_animator.speed = 1f;
-		_spriteRenderer.color = Color.white;
-		_speed = _speed * 2;
-		_attackRate = _defaultAttackRate;
-	}
-
-	public void AttackRateBuffed(float value)
-	{
-		_animator.speed += value;
-		_spriteRenderer.color = Color.green;
-		_attackRate -= value; //faster attack
-	}
-
-	public void AttackRateBuffed_Off()
-	{
-		_animator.speed = 1f;
-		_spriteRenderer.color = Color.green;
-		_attackRate = _defaultAttackRate;
+		if (buff.type == BuffType.DEBUFF) {
+			_debufFX.SetActive (false);
+		}
 	}
 		
+	void ActivateBuffFX(float value,Color color)
+	{
+		if (value > 1) {
+			_outline.enabled = true;
+			_outline._ColorX = Color.yellow;
+		} 
+
+		if ( value < 1 ) {
+			_debufFX.SetActive (true);
+			_debufFX.GetComponent<SpriteRenderer> ().color = Color.yellow;
+		} 
+			
+	}
 }

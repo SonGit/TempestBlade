@@ -7,6 +7,6 @@ public class AnimationHelper : MonoBehaviour {
 
 	public void OnEndAttackAnimation()
 	{
-		//soldierScript.OnEndAttack ();
+		soldierScript.OnEndAttack ();
 	}
 }

@@ -17,23 +17,12 @@ public class DefenseBuffCard : PowerUpCard {
 		_type = CardType.DEFENSE_BUFF;
 		_stackSkill = new MagicAttackUpStack ();
 		_consumedStack = new SoldierAttackUpStack ();
+		_effectBuff = Cache.instance.cardEffect [_type];
 	}
 
 	protected override void PlayEffect(SquadLeader target)
 	{
 
 	}
-
-	protected override void ApplyEffect(SquadLeader target)
-	{
-		int numStack = GetNumStack (); //Get existing stacks 
-		float value = _buffValue;
-
-		if (numStack > 0) //Add bonus
-			value += (numStack * 0.2f);
-
-		print ("_buffValue   " + _buffValue + "  value  " + value);
-
-		target.DefenseBuff (_buffLength,value);
-	}
+		
 }

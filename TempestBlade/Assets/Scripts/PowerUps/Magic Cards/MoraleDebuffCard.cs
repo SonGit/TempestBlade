@@ -15,6 +15,7 @@ public class MoraleDebuffCard : PowerUpCard {
 	public override void Init()
 	{
 		_type = CardType.MORALE_DEBUFF;
+		_effectBuff = Cache.instance.cardEffect [_type];
 	}
 
 	protected override void PlayEffect(SquadLeader target)
@@ -28,11 +29,6 @@ public class MoraleDebuffCard : PowerUpCard {
 		targetPos.y += 10;
 
 		GameObject go = (GameObject)Instantiate (_prefab, targetPos, _prefab.transform.rotation);
-	}
-
-	protected override void ApplyEffect(SquadLeader target)
-	{
-
 	}
 
 }

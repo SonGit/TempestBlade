@@ -33,6 +33,22 @@ public sealed class Cache {
 		{CardType.FRENZY,"Sprites/Cards/Frenzy_Icon"},
 	};
 
+	public Dictionary<CardType,AttributeBuff> cardEffect = new Dictionary<CardType,AttributeBuff>
+	{
+		{CardType.NULL,null},
+		{CardType.SCORCHED_EARTH,null},
+		{CardType.DEFENSE_BUFF,    new DefenseBuffEffect ( 0.24f , 15f )   },
+		{CardType.ATTACK_BUFF,     new AttackBuffEffect  ( 0.24f , 25f )   },
+		{CardType.MORALE_DEBUFF,   new MoraleDebuffEffect  ( 2 )   },
+		{CardType.ATTACK_RATE_DEBUFF, new AttackRateDebuffEffect  ( 1f , 15f )   },
+		{CardType.ATTACK_RATE_BUFF, new AttackRateBuffEffect  ( 1f , 15f )   },
+		{CardType.WIND_OF_RUST,new AttackDebuffEffect  ( 0.24f , 5f )    },
+		{CardType.FLAMING_ARROW,null},
+		{CardType.ELECTRIC_GROUND,null},
+		{CardType.FRENZY,null},
+	};
+
+
 	public Dictionary<SoldierType,string> soldierIconPaths = new Dictionary<SoldierType,string>
 	{
 		{SoldierType.NULL,""},
@@ -55,4 +71,6 @@ public sealed class Cache {
 	public const float MORALE_PENALTY_CHECK_RATE= 0.5f;
 
 	public const int STACK_MAX = 5;
+
+
 }

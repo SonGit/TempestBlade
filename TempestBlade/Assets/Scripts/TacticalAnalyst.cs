@@ -35,7 +35,7 @@ public class TacticalAnalyst : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		t = transform;
-		Intro ();
+		//Intro ();
 	}
 
 	bool _cameraGoLeft;

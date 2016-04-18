@@ -8,6 +8,7 @@ public abstract class PowerUpCard : MonoBehaviour {
 	public GameObject _prefab;
 	public StackableSkill _stackSkill;
 	public StackableSkill _consumedStack;
+	public AttributeBuff _effectBuff;
 
 	public abstract void Init();
 	protected abstract void PlayEffect(SquadLeader target);
@@ -34,5 +35,9 @@ public abstract class PowerUpCard : MonoBehaviour {
 		}
 	}
 
-	protected abstract void ApplyEffect(SquadLeader target);
+	protected virtual void ApplyEffect(SquadLeader target)
+	{
+		if(_effectBuff != null)
+		target.ReceiveBuff(_effectBuff);
+	}
 }

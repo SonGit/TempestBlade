@@ -14,6 +14,7 @@ public class AttackRateDebuffCard : PowerUpCard {
 	public override void Init()
 	{
 		_type = CardType.ATTACK_RATE_DEBUFF;
+		_effectBuff = Cache.instance.cardEffect [_type];
 	}
 
 	protected override void PlayEffect(SquadLeader target)
@@ -29,8 +30,4 @@ public class AttackRateDebuffCard : PowerUpCard {
 		GameObject go = (GameObject)Instantiate (_prefab, targetPos, _prefab.transform.rotation);
 	}
 
-	protected override void ApplyEffect(SquadLeader target)
-	{
-		target.AttackRateDebuff (_buffLength,_buffValue);
-	}
 }

@@ -4,9 +4,6 @@ using Shared;
 
 public class AttackBuffCard : PowerUpCard {
 
-	public float _buffValue;
-	public float _buffLength;
-
 	// Use this for initialization
 	void Awake () {
 		Init ();
@@ -15,6 +12,7 @@ public class AttackBuffCard : PowerUpCard {
 	public override void Init()
 	{
 		_type = CardType.ATTACK_BUFF;
+		_effectBuff = Cache.instance.cardEffect [_type];
 	}
 
 	protected override void PlayEffect(SquadLeader target)
@@ -22,8 +20,4 @@ public class AttackBuffCard : PowerUpCard {
 
 	}
 
-	protected override void ApplyEffect(SquadLeader target)
-	{
-		target.AttackBuff (_buffLength,_buffValue);
-	}
 }

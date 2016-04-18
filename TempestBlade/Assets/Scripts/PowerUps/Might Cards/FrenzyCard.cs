@@ -32,8 +32,5 @@ public class FrenzyCard : PowerUpCard {
 	{
 		SquadLeader ally = TacticalAnalyst.instance._allyLeader;
 		SquadLeader enemy = TacticalAnalyst.instance._enemyLeader;
-
-		ally.AttackBuff (_buffLength,_buffValue);
-		enemy.AttackBuff (_buffLength,_buffValue);
 	}
 }

@@ -14,6 +14,7 @@ public class WindOfRustCard : PowerUpCard {
 	public override void Init()
 	{
 		_type = CardType.WIND_OF_RUST;
+		_effectBuff = Cache.instance.cardEffect [_type];
 	}
 
 	protected override void PlayEffect(SquadLeader target)
@@ -34,7 +35,7 @@ public class WindOfRustCard : PowerUpCard {
 		SquadLeader ally = TacticalAnalyst.instance._allyLeader;
 		SquadLeader enemy = TacticalAnalyst.instance._enemyLeader;
 
-		ally.AttackRateDebuff (_buffLength,_buffValue);
-		enemy.AttackRateDebuff (_buffLength,_buffValue);
+		ally.ReceiveBuff(_effectBuff);
+		enemy.ReceiveBuff(_effectBuff);
 	}
 }

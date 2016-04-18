@@ -50,9 +50,9 @@ public class CardManager : MonoBehaviour {
 	void Start () {
 
 		CardType[] cards = new CardType[] {
+			CardType.ATTACK_BUFF,
+			CardType.ATTACK_RATE_BUFF,
 			CardType.WIND_OF_RUST,
-			CardType.FLAMING_ARROW,
-			CardType.ELECTRIC_GROUND,
 			CardType.FRENZY
 		};
 

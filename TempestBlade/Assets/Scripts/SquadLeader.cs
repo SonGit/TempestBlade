@@ -48,6 +48,31 @@ public class SquadLeader : MonoBehaviour {
 
 	float _moraleCheckTick;
 
+	private AttributeBuff activeBuff;
+
+	public AttributeBuff _activeBuff
+	{
+		get{ return activeBuff;}
+		set 
+		{
+			activeBuff = value;
+		}
+	}
+
+	private AttributeBuff activeDebuff;
+
+	public AttributeBuff _activeDebuff
+	{
+		get{ return activeDebuff;}
+		set 
+		{
+			activeDebuff = value;
+		}
+	}
+
+	private float _buffCountdown;
+	private float _debuffCountdown;
+
 	List<SquadLeader> _enemySquadInSight = new List<SquadLeader> ();
 
 	Dictionary<float,bool> _lanes = new Dictionary<float, bool>()
@@ -68,7 +93,7 @@ public class SquadLeader : MonoBehaviour {
 
 	void Awake()
 	{
-		_soldiers = new Soldier[100];
+		_soldiers = new Soldier[20];
 
 		SoldierType[] orders = new SoldierType[] {
 			SoldierType.FOOTMAN,
@@ -98,6 +123,26 @@ public class SquadLeader : MonoBehaviour {
 
 	void Update()
 	{
+		//COuntdown buff
+		if (_activeBuff != null) {
+
+			_buffCountdown -= Time.deltaTime;
+
+			if (_buffCountdown < 0) {
+				OnBuffEnd ();
+			}
+		}
+
+		//COuntdown debuff
+		if (_activeDebuff != null) {
+
+			_debuffCountdown -= Time.deltaTime;
+
+			if (_debuffCountdown < 0) {
+				OnDebuffEnd ();
+			}
+		}
+
 		//tICK FOR MORALE Restore
 		_moraleCheckTick -= Time.deltaTime;
 
@@ -131,7 +176,7 @@ public class SquadLeader : MonoBehaviour {
 		float x;
 		float offset = 5;
 		int index = 0;
-		int maxCollum = 10;
+		int maxCollum = _soldiers.Length / 10;
 		int maxRow = 10;
 		int currentType = 0;
 
@@ -365,87 +410,55 @@ public class SquadLeader : MonoBehaviour {
 	{
 		_lanes [laneKey] = false;
 	}
-
-	public void DefenseBuff(float length,float defenseValue)
+		
+	public void ReceiveBuff(AttributeBuff buff)
 	{
-		for (int i = 0; i < _soldiers.Length; i++) {
-			if (_soldiers [i]._status != SoldierStatus.DEAD) {
-				_soldiers [i].DefenseBuffed_On (defenseValue);
-			}
+		
+		if (buff.type == BuffType.BUFF) {
+			OnBuffEnd ();
+			_activeBuff = buff;
+			_buffCountdown = buff.BuffLength;
 		}
-		StartCoroutine (OffDefenseBuff(length));
-	}
 
-	IEnumerator OffDefenseBuff(float length)
-	{
-		yield return new WaitForSeconds (length);
-		for (int i = 0; i < _soldiers.Length; i++) {
-			if (_soldiers [i]._status != SoldierStatus.DEAD) {
-				_soldiers [i].DefenseBuffed_Off ();
-			}
+		if (buff.type == BuffType.DEBUFF) {
+			OnDebuffEnd ();
+			_activeDebuff = buff;
+			_debuffCountdown = buff.BuffLength;
 		}
-	}
 
-	public void AttackBuff(float length,float attackValue)
-	{
 		for (int i = 0; i < _soldiers.Length; i++) {
 			if (_soldiers [i]._status != SoldierStatus.DEAD) {
-				_soldiers [i].AttackBuffed_On (attackValue);
-			}
-		}
-		StartCoroutine (OffAttackBuff(length));
-	}
-
-	IEnumerator OffAttackBuff(float length)
-	{
-		yield return new WaitForSeconds (length);
-		for (int i = 0; i < _soldiers.Length; i++) {
-			if (_soldiers [i]._status != SoldierStatus.DEAD) {
-				_soldiers [i].AttackBuffed_Off ();
+				buff.ApplyTo (_soldiers [i]);
 			}
 		}
 	}
 
-	public void AttackRateDebuff(float length,float attackValue)
+	void OnBuffEnd()
+	{
+		if (_activeBuff == null)
+			return;
+		
+		Reset(_activeBuff );
+		_activeBuff = null;
+	}
+
+	void OnDebuffEnd()
+	{
+		if (_activeDebuff == null)
+			return;
+		
+		Reset(_activeDebuff );
+		_activeDebuff = null;
+	}
+
+	void Reset(AttributeBuff buff)
 	{
 		for (int i = 0; i < _soldiers.Length; i++) {
 			if (_soldiers [i]._status != SoldierStatus.DEAD) {
-				_soldiers [i].AttackRateDebuffed (attackValue);
-			}
-		}
-		StartCoroutine (OffAttackRateDebuff(length));
-	}
-
-	IEnumerator OffAttackRateDebuff(float length)
-	{
-		yield return new WaitForSeconds (length);
-		for (int i = 0; i < _soldiers.Length; i++) {
-			if (_soldiers [i]._status != SoldierStatus.DEAD) {
-				_soldiers [i].AttackRateDebuffed_Off ();
+				_soldiers [i].ResetMultipliers (buff);
 			}
 		}
 	}
-
-	public void AttackRateBuff(float length,float defenseValue)
-	{
-		for (int i = 0; i < _soldiers.Length; i++) {
-			if (_soldiers [i]._status != SoldierStatus.DEAD) {
-				_soldiers [i].AttackRateBuffed (defenseValue);
-			}
-		}
-		StartCoroutine (AttackRateBuff(length));
-	}
-
-	IEnumerator AttackRateBuff(float length)
-	{
-		yield return new WaitForSeconds (length);
-		for (int i = 0; i < _soldiers.Length; i++) {
-			if (_soldiers [i]._status != SoldierStatus.DEAD) {
-				_soldiers [i].AttackRateBuffed_Off ();
-			}
-		}
-	}
-
 }
 
 
