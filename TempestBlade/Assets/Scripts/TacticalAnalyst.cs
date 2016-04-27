@@ -19,6 +19,8 @@ public class TacticalAnalyst : MonoBehaviour {
 	public static TacticalAnalyst instance;
 	public HMBarManager _barAlly;
 
+
+
 	Vector3 enemyGeneralPos = new Vector3(-140,0,-18);
 	Vector3 allyGeneralPos = new Vector3(66.6f,0,-18);
 

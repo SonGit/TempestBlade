@@ -2,6 +2,17 @@
 using System.Collections;
 using System.Collections.Generic;
 
+public enum SceneryType
+{
+	DESERT,
+}
+
+public enum WeatherType
+{
+	NONE,
+	RAIN
+}
+
 public sealed class Cache {
 
 	static readonly Cache _instance = new Cache();
@@ -73,4 +84,58 @@ public sealed class Cache {
 	public const int STACK_MAX = 5;
 
 
+	public Dictionary<Music,string> musicPaths = new Dictionary<Music,string>
+	{
+		{Music.Realm_Of_Fantasy,"Musics/Realm-of-Fantasy"},
+		{Music.Dragon_Mystery,"Musics/Dragon-Mystery"},
+		{Music.Clock_Maker,"Musics/Clock-Maker-the-Hero"},
+	};
+
+	public Dictionary<SceneryType,SceneryData> backgroundData = new Dictionary<SceneryType,SceneryData>
+	{
+		{SceneryType.DESERT,new SceneryData("Sprites/Sceneries/Desert/BG","Sprites/Sceneries/Desert/TR")},
+	};
+
+	public Dictionary<int,MapProperties> levelData = new Dictionary<int,MapProperties>
+	{
+		{ 0,new MapProperties( new SoldierType[] {SoldierType.FOOTMAN,SoldierType.FOOTMAN,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON} , SceneryType.DESERT , WeatherType.NONE )},
+
+		{ 1,new MapProperties( new SoldierType[] {SoldierType.FOOTMAN,SoldierType.FOOTMAN,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON} , SceneryType.DESERT , WeatherType.NONE )},
+
+		{ 2,new MapProperties( new SoldierType[] {SoldierType.FOOTMAN,SoldierType.FOOTMAN,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON} , SceneryType.DESERT , WeatherType.NONE )},
+
+		{ 3,new MapProperties( new SoldierType[] {SoldierType.FOOTMAN,SoldierType.FOOTMAN,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON} , SceneryType.DESERT , WeatherType.NONE )},
+
+		{ 4,new MapProperties( new SoldierType[] {SoldierType.FOOTMAN,SoldierType.FOOTMAN,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON} , SceneryType.DESERT , WeatherType.NONE )},
+
+		{ 5,new MapProperties( new SoldierType[] {SoldierType.FOOTMAN,SoldierType.FOOTMAN,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON} , SceneryType.DESERT , WeatherType.NONE )},
+
+		{ 6,new MapProperties( new SoldierType[] {SoldierType.FOOTMAN,SoldierType.FOOTMAN,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON} , SceneryType.DESERT , WeatherType.NONE )},
+
+		{ 7,new MapProperties( new SoldierType[] {SoldierType.FOOTMAN,SoldierType.FOOTMAN,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON} , SceneryType.DESERT , WeatherType.NONE )},
+
+		{ 8,new MapProperties( new SoldierType[] {SoldierType.FOOTMAN,SoldierType.FOOTMAN,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON} , SceneryType.DESERT , WeatherType.NONE )},
+
+		{ 9,new MapProperties( new SoldierType[] {SoldierType.FOOTMAN,SoldierType.FOOTMAN,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON} , SceneryType.DESERT , WeatherType.NONE )},
+
+		{ 10,new MapProperties( new SoldierType[] {SoldierType.FOOTMAN,SoldierType.FOOTMAN,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON} , SceneryType.DESERT , WeatherType.NONE )},
+
+		{ 11,new MapProperties( new SoldierType[] {SoldierType.FOOTMAN,SoldierType.FOOTMAN,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON} , SceneryType.DESERT , WeatherType.NONE )},
+
+		{ 12,new MapProperties( new SoldierType[] {SoldierType.FOOTMAN,SoldierType.FOOTMAN,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON} , SceneryType.DESERT , WeatherType.NONE )},
+
+		{ 13,new MapProperties( new SoldierType[] {SoldierType.FOOTMAN,SoldierType.FOOTMAN,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON} , SceneryType.DESERT , WeatherType.NONE )},
+
+		{ 14,new MapProperties( new SoldierType[] {SoldierType.FOOTMAN,SoldierType.FOOTMAN,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON} , SceneryType.DESERT , WeatherType.NONE )},
+
+		{ 15,new MapProperties( new SoldierType[] {SoldierType.FOOTMAN,SoldierType.FOOTMAN,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON} , SceneryType.DESERT , WeatherType.NONE )},
+
+		{ 16,new MapProperties( new SoldierType[] {SoldierType.FOOTMAN,SoldierType.FOOTMAN,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON} , SceneryType.DESERT , WeatherType.NONE )},
+
+		{ 17,new MapProperties( new SoldierType[] {SoldierType.FOOTMAN,SoldierType.FOOTMAN,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON} , SceneryType.DESERT , WeatherType.NONE )},
+
+		{ 18,new MapProperties( new SoldierType[] {SoldierType.FOOTMAN,SoldierType.FOOTMAN,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON} , SceneryType.DESERT , WeatherType.NONE )},
+
+		{ 19,new MapProperties( new SoldierType[] {SoldierType.FOOTMAN,SoldierType.FOOTMAN,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON,SoldierType.FOOTMAN_SKELETON} , SceneryType.DESERT , WeatherType.NONE )},
+	};
 }

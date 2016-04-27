@@ -93,20 +93,28 @@ public class SquadLeader : MonoBehaviour {
 
 	void Awake()
 	{
-		_soldiers = new Soldier[20];
+		_soldiers = new Soldier[100];
 
-		SoldierType[] orders = new SoldierType[] {
+		SoldierType[] test = new SoldierType[] {
 			SoldierType.FOOTMAN,
-			SoldierType.KNIGHT_TIER_1,
 			SoldierType.FOOTMAN,
-			SoldierType.KNIGHT_TIER_1,
+			SoldierType.FOOTMAN,
+			SoldierType.FOOTMAN,
 			SoldierType.FOOTMAN,
 		};
 
 		if (_allegiance == Allegiance.ALLY) {
 			SpawnSoldiers (PlayerInfoCache.instance.GetSoldierCardDeck());
 		} else {
-			SpawnSoldiers(orders);
+			
+			MapProperties mapProperties = PlayerInfoCache.instance._currentMap; 
+			if (mapProperties != null) {
+				print ("aliofuhalohfalhfwqiuwqrfqwqwqwqwqwewwe");
+				SpawnSoldiers(mapProperties._soldiers);
+			}
+				
+			else
+				SpawnSoldiers(test);
 		}
 	}
 
@@ -238,7 +246,7 @@ public class SquadLeader : MonoBehaviour {
 		case SoldierType.KNIGHT_TIER_1:
 			return (GameObject)Instantiate (Resources.Load("Prefabs/Soldiers/Knight_Tier1"+ appendedString),pos,transform.rotation);
 		default:
-			print ("smt wrong");
+			print (type);
 			return (GameObject)Instantiate (Resources.Load("Prefabs/Soldiers/Footman"+ appendedString),pos,transform.rotation);
 		}
 	}

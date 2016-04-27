@@ -5,6 +5,8 @@ public class PlayerInfoCache {
 
 	static readonly PlayerInfoCache _instance = new PlayerInfoCache();
 
+	public MapProperties _currentMap;
+
 	public static PlayerInfoCache instance
 	{
 		get { return _instance; }

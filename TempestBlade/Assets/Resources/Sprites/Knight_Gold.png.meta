@@ -1,0 +1,832 @@
+fileFormatVersion: 2
+guid: 7f1538100578cd3418ed77295ae4e380
+timeCreated: 1461515201
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Knight_Gold_0
+    21300002: Knight_Gold_1
+    21300004: Knight_Gold_2
+    21300006: Knight_Gold_3
+    21300008: Knight_Gold_4
+    21300010: Knight_Gold_5
+    21300012: Knight_Gold_6
+    21300014: Knight_Gold_7
+    21300016: Knight_Gold_8
+    21300018: Knight_Gold_9
+    21300020: Knight_Gold_10
+    21300022: Knight_Gold_11
+    21300024: Knight_Gold_12
+    21300026: Knight_Gold_13
+    21300028: Knight_Gold_14
+    21300030: Knight_Gold_15
+    21300032: Knight_Gold_16
+    21300034: Knight_Gold_17
+    21300036: Knight_Gold_18
+    21300038: Knight_Gold_19
+    21300040: Knight_Gold_20
+    21300042: Knight_Gold_21
+    21300044: Knight_Gold_22
+    21300046: Knight_Gold_23
+    21300048: Knight_Gold_24
+    21300050: Knight_Gold_25
+    21300052: Knight_Gold_26
+    21300054: Knight_Gold_27
+    21300056: Knight_Gold_28
+    21300058: Knight_Gold_29
+    21300060: Knight_Gold_30
+    21300062: Knight_Gold_31
+    21300064: Knight_Gold_32
+    21300066: Knight_Gold_33
+    21300068: Knight_Gold_34
+    21300070: Knight_Gold_35
+    21300072: Knight_Gold_36
+    21300074: Knight_Gold_37
+    21300076: Knight_Gold_38
+    21300078: Knight_Gold_39
+    21300080: Knight_Gold_40
+    21300082: Knight_Gold_41
+    21300084: Knight_Gold_42
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Knight_Gold_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 479
+        width: 50
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 39.5}
+        - {x: -25, y: -39.5}
+        - {x: 24, y: -39.5}
+        - {x: 25, y: -33.5}
+        - {x: 25, y: 38.5}
+        - {x: 24, y: 39.5}
+    - name: Knight_Gold_1
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 480
+        width: 45
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 31.5}
+        - {x: -22.5, y: 30.5}
+        - {x: -22.5, y: -31.5}
+        - {x: 22.5, y: -31.5}
+        - {x: 22.5, y: 24.5}
+        - {x: 4.5, y: 31.5}
+    - name: Knight_Gold_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 480
+        width: 44
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 33.5}
+        - {x: -22, y: 30.5}
+        - {x: -22, y: -12.5}
+        - {x: -17, y: -33.5}
+        - {x: 13, y: -33.5}
+        - {x: 22, y: 3.5}
+        - {x: 22, y: 28.5}
+        - {x: 17, y: 33.5}
+    - name: Knight_Gold_3
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 480
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: 24}
+        - {x: 21.5, y: 23}
+        - {x: 21.5, y: 30}
+        - {x: 20.5, y: 32}
+        - {x: -8.5, y: 32}
+        - {x: -16.5, y: 21}
+        - {x: -24.5, y: -22}
+        - {x: -24.5, y: -32}
+        - {x: 16.5, y: -32}
+        - {x: 17.5, y: -31}
+        - {x: 17.5, y: -28}
+        - {x: 24.5, y: -15}
+    - name: Knight_Gold_4
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 478
+        width: 49
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 39}
+        - {x: -24.5, y: -39}
+        - {x: 24.5, y: -39}
+        - {x: 24.5, y: 39}
+    - name: Knight_Gold_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 410
+        width: 44
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 31.5}
+        - {x: -22, y: 24.5}
+        - {x: -22, y: -31.5}
+        - {x: 16, y: -31.5}
+        - {x: 22, y: -1.5}
+        - {x: 22, y: 18.5}
+        - {x: 9, y: 31.5}
+    - name: Knight_Gold_6
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 410
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 32}
+        - {x: -22.5, y: -32}
+        - {x: 3.5, y: -32}
+        - {x: 22.5, y: 7}
+        - {x: 22.5, y: 19}
+        - {x: 1.5, y: 32}
+    - name: Knight_Gold_7
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 411
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 31.5}
+        - {x: -31.5, y: 10.5}
+        - {x: -31.5, y: -31.5}
+        - {x: 6.5, y: -31.5}
+        - {x: 31.5, y: 10.5}
+        - {x: 31.5, y: 20.5}
+        - {x: 10.5, y: 31.5}
+    - name: Knight_Gold_8
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 410
+        width: 44
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 32}
+        - {x: -22, y: 29}
+        - {x: -22, y: -24}
+        - {x: -21, y: -32}
+        - {x: 4, y: -32}
+        - {x: 22, y: 0}
+        - {x: 22, y: 18}
+        - {x: 1, y: 32}
+    - name: Knight_Gold_9
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 329
+        width: 37
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 35.5}
+        - {x: -16.5, y: 18.5}
+        - {x: -18.5, y: 9.5}
+        - {x: -18.5, y: -35.5}
+        - {x: 5.5, y: -35.5}
+        - {x: 18.5, y: -25.5}
+        - {x: 18.5, y: 35.5}
+    - name: Knight_Gold_10
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 334
+        width: 45
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 33}
+        - {x: -21.5, y: 32}
+        - {x: -22.5, y: 29}
+        - {x: -22.5, y: -10}
+        - {x: -14.5, y: -33}
+        - {x: 22.5, y: -33}
+        - {x: 22.5, y: 27}
+        - {x: 9.5, y: 33}
+    - name: Knight_Gold_11
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 329
+        width: 47
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 36.5}
+        - {x: -23.5, y: -23.5}
+        - {x: -20.5, y: -36.5}
+        - {x: 17.5, y: -36.5}
+        - {x: 23.5, y: -30.5}
+        - {x: 23.5, y: 29.5}
+        - {x: 20.5, y: 36.5}
+    - name: Knight_Gold_12
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 397
+        width: 14
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Knight_Gold_13
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 393
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Knight_Gold_14
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 389
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Knight_Gold_15
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 333
+        width: 75
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: -17}
+        - {x: 4.5, y: -12}
+        - {x: 6.5, y: -4}
+        - {x: 27.5, y: 1}
+        - {x: -1.5, y: -19}
+        - {x: 0.5, y: -23}
+        - {x: 14.5, y: -22}
+        - {x: 34.5, y: -22}
+        - {x: 37.5, y: -12}
+        - {x: 37.5, y: 18}
+        - {x: 1.5, y: 33}
+        - {x: -25.5, y: 33}
+        - {x: -32.5, y: 31}
+        - {x: -37.5, y: 23}
+        - {x: -37.5, y: -6}
+        - {x: -32.5, y: -33}
+        - {x: -25.5, y: -33}
+        - {x: -23.5, y: -32}
+        - {x: -3.5, y: -27}
+        - {x: 0.5, y: -25}
+    - name: Knight_Gold_16
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 387
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Knight_Gold_17
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 327
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 31.5}
+        - {x: -16.5, y: -17.5}
+        - {x: -9.5, y: -31.5}
+        - {x: 11.5, y: -31.5}
+        - {x: 16.5, y: -17.5}
+        - {x: 16.5, y: 31.5}
+    - name: Knight_Gold_18
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 236
+        width: 56
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 39.5}
+        - {x: -28, y: 34.5}
+        - {x: -28, y: -39.5}
+        - {x: 28, y: -39.5}
+        - {x: 28, y: 24.5}
+        - {x: 19, y: 39.5}
+    - name: Knight_Gold_19
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 237
+        width: 83
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: 30}
+        - {x: 25.5, y: 30}
+        - {x: 16.5, y: 12}
+        - {x: 17.5, y: 9}
+        - {x: 16.5, y: 9}
+        - {x: -5.5, y: 25}
+        - {x: -13.5, y: 30}
+        - {x: -34.5, y: 30}
+        - {x: -41.5, y: 21}
+        - {x: -41.5, y: -30}
+        - {x: 0.5, y: -30}
+        - {x: 1.5, y: -29}
+        - {x: 41.5, y: 0}
+    - name: Knight_Gold_20
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 278
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Knight_Gold_21
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 283
+        width: 10
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Knight_Gold_22
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 239
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 28}
+        - {x: -9, y: 28}
+        - {x: -10, y: 27}
+        - {x: -8, y: 18}
+        - {x: -22, y: -15}
+        - {x: -22, y: -28}
+        - {x: 22, y: -28}
+        - {x: 22, y: 16}
+        - {x: 15, y: 22}
+      - - {x: 19, y: -14}
+        - {x: 21, y: -16}
+        - {x: 22, y: -16}
+        - {x: 22, y: -11}
+        - {x: 20, y: -11}
+    - name: Knight_Gold_23
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 240
+        width: 68
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: 19}
+        - {x: 11, y: 27}
+        - {x: -18, y: 27}
+        - {x: -34, y: -11}
+        - {x: -34, y: -27}
+        - {x: 21, y: -27}
+        - {x: 34, y: -21}
+        - {x: 34, y: 1}
+    - name: Knight_Gold_24
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 239
+        width: 70
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 31}
+        - {x: -35, y: 24}
+        - {x: -15, y: 12}
+        - {x: -20, y: -31}
+        - {x: 35, y: -31}
+        - {x: 35, y: 31}
+    - name: Knight_Gold_25
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 246
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Knight_Gold_26
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 249
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Knight_Gold_27
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 157
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 22.5}
+        - {x: 10, y: 22.5}
+        - {x: 11, y: 22.5}
+        - {x: 13, y: 24.5}
+        - {x: 14, y: 27.5}
+        - {x: 7, y: 32.5}
+        - {x: -19, y: 32.5}
+        - {x: -22, y: 30.5}
+        - {x: -22, y: -32.5}
+        - {x: 22, y: -32.5}
+        - {x: 22, y: 5.5}
+        - {x: 18, y: 21.5}
+    - name: Knight_Gold_28
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 161
+        width: 81
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -40.5, y: 29}
+        - {x: -40.5, y: -10}
+        - {x: -30.5, y: -29}
+        - {x: 40.5, y: -29}
+        - {x: 40.5, y: 29}
+    - name: Knight_Gold_29
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 162
+        width: 70
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: 31}
+        - {x: -35, y: -31}
+        - {x: 23, y: -31}
+        - {x: 35, y: 18}
+        - {x: 35, y: 31}
+    - name: Knight_Gold_30
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 163
+        width: 93
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.5, y: 32}
+        - {x: -46.5, y: -32}
+        - {x: -1.5, y: -32}
+        - {x: -0.5, y: -31}
+        - {x: 46.5, y: -2}
+        - {x: 46.5, y: 32}
+    - name: Knight_Gold_31
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 213
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Knight_Gold_32
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 207
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Knight_Gold_33
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 166
+        width: 60
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 27.5}
+        - {x: -30, y: 25.5}
+        - {x: -30, y: -12.5}
+        - {x: -27, y: -25.5}
+        - {x: -21, y: -27.5}
+        - {x: 30, y: -27.5}
+        - {x: 30, y: 14.5}
+        - {x: 22, y: 27.5}
+    - name: Knight_Gold_34
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 76
+        width: 59
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 38.5}
+        - {x: -23.5, y: 38.5}
+        - {x: -29.5, y: 31.5}
+        - {x: -29.5, y: -38.5}
+        - {x: 29.5, y: -38.5}
+        - {x: 29.5, y: -27.5}
+        - {x: 19.5, y: -11.5}
+    - name: Knight_Gold_35
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 81
+        width: 80
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 31}
+        - {x: -40, y: 31}
+        - {x: -40, y: 12}
+        - {x: -24, y: -31}
+        - {x: 40, y: -31}
+        - {x: 40, y: 13}
+        - {x: 32, y: 20}
+    - name: Knight_Gold_36
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 90
+        width: 63
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 19.5}
+        - {x: -30.5, y: 12.5}
+        - {x: -31.5, y: 9.5}
+        - {x: -31.5, y: -19.5}
+        - {x: 31.5, y: -19.5}
+        - {x: 31.5, y: 1.5}
+        - {x: 16.5, y: 19.5}
+    - name: Knight_Gold_37
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 73
+        width: 58
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 39}
+        - {x: -29, y: 2}
+        - {x: -20, y: -39}
+        - {x: 12, y: -39}
+        - {x: 26, y: -34}
+        - {x: 29, y: -31}
+        - {x: 29, y: 0}
+        - {x: 4, y: 39}
+    - name: Knight_Gold_38
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 21
+        width: 49
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 47.5}
+        - {x: -24.5, y: 28.5}
+        - {x: -24.5, y: -27.5}
+        - {x: -18.5, y: -47.5}
+        - {x: 15.5, y: -47.5}
+        - {x: 24.5, y: -6.5}
+        - {x: 24.5, y: 47.5}
+    - name: Knight_Gold_39
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 23
+        width: 40
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 57.5}
+        - {x: -20, y: 18.5}
+        - {x: -20, y: -51.5}
+        - {x: -17, y: -57.5}
+        - {x: 11, y: -57.5}
+        - {x: 20, y: -1.5}
+        - {x: 20, y: 51.5}
+        - {x: 15, y: 57.5}
+    - name: Knight_Gold_40
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 0
+        width: 36
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 32}
+        - {x: -7, y: 32}
+        - {x: -18, y: 17}
+        - {x: -18, y: -23}
+        - {x: -8, y: -31}
+        - {x: -1, y: -32}
+        - {x: 10, y: -32}
+        - {x: 12, y: -29}
+        - {x: 18, y: -19}
+        - {x: 18, y: 30}
+    - name: Knight_Gold_41
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 12
+        width: 84
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 20.5}
+        - {x: -42, y: 15.5}
+        - {x: -42, y: 7.5}
+        - {x: -39, y: 6.5}
+        - {x: -7, y: -20.5}
+        - {x: 16, y: -20.5}
+        - {x: 21, y: -19.5}
+        - {x: 42, y: 2.5}
+        - {x: 42, y: 18.5}
+        - {x: 40, y: 20.5}
+    - name: Knight_Gold_42
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 14
+        width: 83
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
