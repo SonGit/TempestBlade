@@ -16,6 +16,8 @@ public class Player  {
 
 		cardDeck = new CardType[5];
 		soldierDeck = new SoldierType[5];
+
+		PrintAll ();
 	}
 
 	public void AddToDeck(CardType[] cards)

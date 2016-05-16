@@ -11,8 +11,8 @@ public class ChooseSoldierCardUI : ChooseUI {
 	{
 		_deck = _deckGrid.GetComponentsInChildren<CardUI> ();
 		Enum[] cards = new Enum[] {
-			SoldierType.FOOTMAN,
-			SoldierType.KNIGHT_TIER_1,
+			SoldierType.KNIGHT,
+			SoldierType.KNIGHT,
 		};
 
 		SpawnCards(cards);

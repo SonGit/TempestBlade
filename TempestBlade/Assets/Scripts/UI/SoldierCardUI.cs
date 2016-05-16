@@ -11,7 +11,7 @@ public class SoldierCardUI : CardUI
 		get { return soldierType; }
 		set 
 		{
-			transform.GetChild(0).GetComponent<Image>().sprite =  Resources.Load<Sprite>( Cache.instance.soldierIconPaths[value]);
+			//transform.GetChild(0).GetComponent<Image>().sprite =  Resources.Load<Sprite>( Cache.instance.soldierIconPaths[value]);
 			soldierType = value;
 		}
 	}

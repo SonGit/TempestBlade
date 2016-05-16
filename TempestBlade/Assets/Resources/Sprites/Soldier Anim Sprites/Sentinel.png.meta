@@ -1,0 +1,1934 @@
+fileFormatVersion: 2
+guid: d8a38c8b27d075541abe3a538539d3e1
+timeCreated: 1462439778
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Sentinel_0
+    21300002: Sentinel_1
+    21300004: Sentinel_2
+    21300006: Sentinel_3
+    21300008: Sentinel_4
+    21300010: Sentinel_5
+    21300012: Sentinel_6
+    21300014: Sentinel_7
+    21300016: Sentinel_8
+    21300018: Sentinel_9
+    21300020: Sentinel_10
+    21300022: W1
+    21300024: W2
+    21300026: W3
+    21300028: W4
+    21300030: W5
+    21300032: W6
+    21300034: W7
+    21300036: W8
+    21300038: Sentinel_19
+    21300040: Sentinel_20
+    21300042: Sentinel_21
+    21300044: Sentinel_22
+    21300046: Sentinel_23
+    21300048: Sentinel_24
+    21300050: Sentinel_25
+    21300052: Sentinel_26
+    21300054: Sentinel_27
+    21300056: Sentinel_28
+    21300058: Sentinel_29
+    21300060: Sentinel_30
+    21300062: Sentinel_31
+    21300064: Sentinel_32
+    21300066: Sentinel_33
+    21300068: Sentinel_34
+    21300070: Sentinel_35
+    21300072: Sentinel_36
+    21300074: Sentinel_37
+    21300076: Sentinel_38
+    21300078: Sentinel_39
+    21300080: Sentinel_40
+    21300082: Sentinel_41
+    21300084: Sentinel_42
+    21300086: Sentinel_43
+    21300088: Sentinel_44
+    21300090: Sentinel_45
+    21300092: Sentinel_46
+    21300094: Sentinel_47
+    21300096: Sentinel_48
+    21300098: Sentinel_49
+    21300100: Sentinel_50
+    21300102: Sentinel_51
+    21300104: Sentinel_52
+    21300106: Sentinel_53
+    21300108: Sentinel_54
+    21300110: Sentinel_55
+    21300112: Sentinel_56
+    21300114: Sentinel_57
+    21300116: Sentinel_58
+    21300118: A1
+    21300120: A2
+    21300122: A3
+    21300124: A5
+    21300126: Sentinel_63
+    21300128: A4
+    21300130: A6
+    21300132: Sentinel_66
+    21300134: Sentinel_67
+    21300136: Sentinel_68
+    21300138: Sentinel_69
+    21300140: Sentinel_70
+    21300142: Sentinel_71
+    21300144: Sentinel_72
+    21300146: Sentinel_73
+    21300148: Sentinel_74
+    21300150: Sentinel_75
+    21300152: Sentinel_76
+    21300154: Sentinel_77
+    21300156: Sentinel_78
+    21300158: Sentinel_79
+    21300160: Sentinel_80
+    21300162: Sentinel_81
+    21300164: Sentinel_82
+    21300166: Sentinel_83
+    21300168: Sentinel_84
+    21300170: Sentinel_85
+    21300172: Sentinel_86
+    21300174: Sentinel_87
+    21300176: Sentinel_88
+    21300178: Sentinel_89
+    21300180: Sentinel_90
+    21300182: Sentinel_91
+    21300184: Sentinel_92
+    21300186: Sentinel_93
+    21300188: Sentinel_94
+    21300190: Sentinel_95
+    21300192: Sentinel_96
+    21300194: Sentinel_97
+    21300196: Sentinel_98
+    21300198: Sentinel_99
+    21300200: Sentinel_100
+    21300202: Sentinel_101
+    21300204: Sentinel_102
+    21300206: Sentinel_103
+    21300208: Sentinel_104
+    21300210: Sentinel_105
+    21300212: Sentinel_106
+    21300214: Sentinel_107
+    21300216: Sentinel_108
+    21300218: Sentinel_109
+    21300220: Sentinel_110
+    21300222: Sentinel_111
+    21300224: Sentinel_112
+    21300226: Sentinel_113
+    21300228: Sentinel_114
+    21300230: Sentinel_115
+    21300232: Sentinel_116
+    21300234: Sentinel_117
+    21300236: Sentinel_118
+    21300238: Sentinel_119
+    21300240: Sentinel_120
+    21300242: Sentinel_121
+    21300244: Sentinel_122
+    21300246: Sentinel_123
+    21300248: Sentinel_124
+    21300250: Sentinel_125
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: Sentinel_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 363
+        width: 47
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 42.5}
+        - {x: -22.5, y: 21.5}
+        - {x: -23.5, y: 12.5}
+        - {x: -23.5, y: -42.5}
+        - {x: 23.5, y: -42.5}
+        - {x: 23.5, y: 42.5}
+    - name: Sentinel_1
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 363
+        width: 48
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 21}
+        - {x: -24, y: -44}
+        - {x: 22, y: -44}
+        - {x: 24, y: -43}
+        - {x: 24, y: 44}
+        - {x: 6, y: 44}
+        - {x: 5, y: 43}
+    - name: Sentinel_2
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 363
+        width: 48
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 18}
+        - {x: -24, y: -45}
+        - {x: 23, y: -45}
+        - {x: 24, y: -42}
+        - {x: 24, y: 45}
+        - {x: 15, y: 45}
+        - {x: -23, y: 25}
+    - name: Sentinel_3
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 363
+        width: 51
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 42.5}
+        - {x: -17.5, y: 23.5}
+        - {x: -25.5, y: -17.5}
+        - {x: -25.5, y: -42.5}
+        - {x: 18.5, y: -42.5}
+        - {x: 25.5, y: -28.5}
+        - {x: 25.5, y: 42.5}
+    - name: Sentinel_4
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 363
+        width: 56
+        height: 83
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 41.5}
+        - {x: -28, y: 9.5}
+        - {x: -28, y: -41.5}
+        - {x: 19, y: -41.5}
+        - {x: 28, y: -38.5}
+        - {x: 28, y: 41.5}
+    - name: Sentinel_5
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 363
+        width: 51
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 26.5}
+        - {x: -25.5, y: -6.5}
+        - {x: -25.5, y: -42.5}
+        - {x: 18.5, y: -42.5}
+        - {x: 25.5, y: -33.5}
+        - {x: 25.5, y: 42.5}
+        - {x: 16.5, y: 42.5}
+        - {x: -4.5, y: 35.5}
+    - name: Sentinel_6
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 363
+        width: 47
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 19.5}
+        - {x: -23.5, y: -42.5}
+        - {x: 23.5, y: -42.5}
+        - {x: 23.5, y: 42.5}
+        - {x: -3.5, y: 42.5}
+        - {x: -22.5, y: 35.5}
+    - name: Sentinel_7
+      rect:
+        serializedVersion: 2
+        x: 843
+        y: 363
+        width: 49
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 42.5}
+        - {x: -24.5, y: -6.5}
+        - {x: -24.5, y: -42.5}
+        - {x: 17.5, y: -42.5}
+        - {x: 24.5, y: -26.5}
+        - {x: 24.5, y: 42.5}
+    - name: Sentinel_8
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 363
+        width: 52
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: -42.5}
+        - {x: 26, y: -42.5}
+        - {x: 26, y: 42.5}
+        - {x: -13, y: 42.5}
+        - {x: -26, y: 37.5}
+    - name: Sentinel_9
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 363
+        width: 53
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26.5, y: 8.5}
+        - {x: -26.5, y: -42.5}
+        - {x: 26.5, y: -42.5}
+        - {x: 26.5, y: 42.5}
+        - {x: 3.5, y: 42.5}
+        - {x: -16.5, y: 35.5}
+    - name: Sentinel_10
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 363
+        width: 49
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17.5, y: 42.5}
+        - {x: -23.5, y: 26.5}
+        - {x: -24.5, y: 9.5}
+        - {x: -24.5, y: -42.5}
+        - {x: 17.5, y: -42.5}
+        - {x: 24.5, y: -31.5}
+        - {x: 24.5, y: 42.5}
+    - name: W1
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 264
+        width: 50
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 42}
+        - {x: -25, y: 18}
+        - {x: -25, y: -42}
+        - {x: 19, y: -42}
+        - {x: 25, y: -34}
+        - {x: 25, y: 42}
+    - name: W2
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 264
+        width: 52
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: 43}
+        - {x: 19, y: 39}
+        - {x: -19, y: 25}
+        - {x: -26, y: -10}
+        - {x: -26, y: -43}
+        - {x: 26, y: -43}
+        - {x: 26, y: 43}
+    - name: W3
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 265
+        width: 54
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 43.5}
+        - {x: -14, y: 21.5}
+        - {x: -27, y: -10.5}
+        - {x: -27, y: -43.5}
+        - {x: 27, y: -43.5}
+        - {x: 27, y: 43.5}
+    - name: W4
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 265
+        width: 58
+        height: 86
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25, y: 43}
+        - {x: 22, y: 39}
+        - {x: -15, y: 23}
+        - {x: -29, y: -11}
+        - {x: -29, y: -43}
+        - {x: 28, y: -43}
+        - {x: 29, y: -35}
+        - {x: 29, y: 43}
+    - name: W5
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 265
+        width: 59
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 42}
+        - {x: -29.5, y: 11}
+        - {x: -29.5, y: -42}
+        - {x: 22.5, y: -42}
+        - {x: 29.5, y: -40}
+        - {x: 29.5, y: 42}
+    - name: W6
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 265
+        width: 63
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 40.5}
+        - {x: -31.5, y: 19.5}
+        - {x: -31.5, y: -40.5}
+        - {x: 23.5, y: -40.5}
+        - {x: 31.5, y: -30.5}
+        - {x: 31.5, y: 40.5}
+    - name: W7
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 265
+        width: 62
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 38.5}
+        - {x: -16, y: 25.5}
+        - {x: -31, y: -11.5}
+        - {x: -31, y: -38.5}
+        - {x: 31, y: -38.5}
+        - {x: 31, y: 38.5}
+    - name: W8
+      rect:
+        serializedVersion: 2
+        x: 879
+        y: 264
+        width: 56
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: -22}
+        - {x: 28, y: 19}
+        - {x: 28, y: 41}
+        - {x: 23, y: 41}
+        - {x: 21, y: 38}
+        - {x: -6, y: 34}
+        - {x: -19, y: 24}
+        - {x: -28, y: -12}
+        - {x: -28, y: -41}
+        - {x: 12, y: -41}
+        - {x: 28, y: -27}
+        - {x: 28, y: -20}
+    - name: Sentinel_19
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 324
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_20
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 324
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_21
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 324
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_22
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 324
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_23
+      rect:
+        serializedVersion: 2
+        x: 1040
+        y: 324
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_24
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 306
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_25
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 306
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_26
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 306
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_27
+      rect:
+        serializedVersion: 2
+        x: 1018
+        y: 306
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_28
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 306
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_29
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 306
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_30
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 306
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_31
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 306
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_32
+      rect:
+        serializedVersion: 2
+        x: 1064
+        y: 306
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_33
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 303
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_34
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 306
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_35
+      rect:
+        serializedVersion: 2
+        x: 1094
+        y: 306
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_36
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 306
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_37
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 306
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_38
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 306
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_39
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 306
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_40
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 306
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_41
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 303
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_42
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 306
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_43
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 290
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_44
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 290
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_45
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 288
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_46
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 290
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_47
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 290
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_48
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 290
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_49
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 287
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_50
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 290
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_51
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 290
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_52
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 290
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_53
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 290
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_54
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 290
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_55
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 290
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_56
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 290
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_57
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 290
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 151
+        width: 71
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.5, y: 9.5}
+        - {x: 35.5, y: 29.5}
+        - {x: 8.5, y: 29.5}
+        - {x: -22.5, y: 22.5}
+        - {x: -34.5, y: -11.5}
+        - {x: -34.5, y: -49.5}
+        - {x: -33.5, y: -51.5}
+        - {x: 16.5, y: -51.5}
+        - {x: 35.5, y: -35.5}
+        - {x: 35.5, y: -29.5}
+        - {x: 31.5, y: -29.5}
+    - name: A1
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 152
+        width: 44
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: -18.5}
+        - {x: -22, y: -51.5}
+        - {x: 22, y: -51.5}
+        - {x: 22, y: 39.5}
+        - {x: 15, y: 39.5}
+        - {x: -19, y: 10.5}
+    - name: A2
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 151
+        width: 39
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 51.5}
+        - {x: -19.5, y: 4.5}
+        - {x: -19.5, y: -51.5}
+        - {x: 19.5, y: -51.5}
+        - {x: 19.5, y: 2.5}
+        - {x: 5.5, y: 51.5}
+    - name: A3
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 151
+        width: 94
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 25.5}
+        - {x: -47, y: 15.5}
+        - {x: -47, y: -51.5}
+        - {x: 21, y: -51.5}
+        - {x: 21, y: 15.5}
+        - {x: 8, y: 25.5}
+    - name: A5
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 151
+        width: 85
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 36.5, y: 51.5}
+        - {x: -8.5, y: 13.5}
+        - {x: -7.5, y: 10.5}
+        - {x: -0.5, y: 7.5}
+        - {x: 2.5, y: 7.5}
+        - {x: -3.5, y: 6.5}
+        - {x: -8.5, y: 1.5}
+        - {x: -24.5, y: -12.5}
+        - {x: -24.5, y: -51.5}
+        - {x: 31.5, y: -51.5}
+        - {x: 42.5, y: -44.5}
+        - {x: 42.5, y: 51.5}
+    - name: Sentinel_63
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 155
+        width: 90
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: -31.5}
+        - {x: 30, y: -33.5}
+        - {x: 45, y: 13.5}
+        - {x: 45, y: 28.5}
+        - {x: 38, y: 28.5}
+        - {x: -25, y: 21.5}
+        - {x: -25, y: -51.5}
+        - {x: 24, y: -51.5}
+        - {x: 45, y: -43.5}
+        - {x: 45, y: -29.5}
+        - {x: 40, y: -30.5}
+    - name: A4
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 154
+        width: 48
+        height: 101
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 50.5}
+        - {x: -24, y: -17.5}
+        - {x: -24, y: -50.5}
+        - {x: 24, y: -50.5}
+        - {x: 24, y: 35.5}
+        - {x: 21, y: 50.5}
+    - name: A6
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 154
+        width: 118
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: -51.5}
+        - {x: 59, y: -51.5}
+        - {x: 59, y: -29.5}
+        - {x: 43, y: 18.5}
+        - {x: -18, y: 18.5}
+        - {x: -29, y: -20.5}
+    - name: Sentinel_66
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 155
+        width: 65
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: -18}
+        - {x: 32.5, y: 23}
+        - {x: 32.5, y: 38}
+        - {x: 27.5, y: 38}
+        - {x: 19.5, y: 30}
+        - {x: -8.5, y: 35}
+        - {x: -28.5, y: 27}
+        - {x: -32.5, y: 1}
+        - {x: -32.5, y: -38}
+        - {x: 11.5, y: -38}
+        - {x: 32.5, y: -23}
+        - {x: 32.5, y: -18}
+    - name: Sentinel_67
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 154
+        width: 65
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: 47}
+        - {x: -22.5, y: 19}
+        - {x: -32.5, y: -20}
+        - {x: -32.5, y: -47}
+        - {x: 19.5, y: -47}
+        - {x: 32.5, y: -29}
+        - {x: 32.5, y: 47}
+    - name: Sentinel_68
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 119
+        width: 53
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 49}
+        - {x: -26.5, y: 17}
+        - {x: -26.5, y: -18}
+        - {x: 17.5, y: -49}
+        - {x: 26.5, y: -49}
+        - {x: 26.5, y: 49}
+    - name: Sentinel_69
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 57
+        width: 82
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: -29.5}
+        - {x: 41, y: -20.5}
+        - {x: 41, y: -10.5}
+        - {x: 10, y: 26.5}
+        - {x: -5, y: 36.5}
+        - {x: -27, y: 36.5}
+        - {x: -30, y: 30.5}
+        - {x: -41, y: 0.5}
+        - {x: -41, y: -34.5}
+        - {x: -29, y: -36.5}
+        - {x: 41, y: -36.5}
+        - {x: 41, y: -33.5}
+        - {x: 34, y: -31.5}
+    - name: Sentinel_70
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 57
+        width: 82
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41, y: -29.5}
+        - {x: 41, y: -7.5}
+        - {x: 8, y: 36.5}
+        - {x: -40, y: 36.5}
+        - {x: -41, y: 28.5}
+        - {x: -41, y: -36.5}
+        - {x: 41, y: -36.5}
+        - {x: 41, y: -33.5}
+        - {x: 34, y: -31.5}
+    - name: Sentinel_71
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 55
+        width: 64
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: -32.5}
+        - {x: -15, y: -36.5}
+        - {x: 32, y: -36.5}
+        - {x: 32, y: -6.5}
+        - {x: 5, y: 33.5}
+        - {x: -2, y: 36.5}
+        - {x: -25, y: 36.5}
+        - {x: -32, y: 29.5}
+    - name: Sentinel_72
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 57
+        width: 83
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: -29.5}
+        - {x: 41.5, y: -9.5}
+        - {x: 4.5, y: 36.5}
+        - {x: -22.5, y: 36.5}
+        - {x: -29.5, y: 29.5}
+        - {x: -28.5, y: 26.5}
+        - {x: -31.5, y: 19.5}
+        - {x: -41.5, y: -8.5}
+        - {x: -41.5, y: -33.5}
+        - {x: -29.5, y: -36.5}
+        - {x: 41.5, y: -36.5}
+        - {x: 41.5, y: -33.5}
+        - {x: 34.5, y: -31.5}
+    - name: Sentinel_73
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 57
+        width: 82
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 30.5}
+        - {x: -23, y: 26.5}
+        - {x: -41, y: -13.5}
+        - {x: -41, y: -35.5}
+        - {x: -32, y: -36.5}
+        - {x: 41, y: -36.5}
+        - {x: 41, y: -28.5}
+        - {x: 1, y: 30.5}
+    - name: Sentinel_74
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 60
+        width: 95
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: 18.5}
+        - {x: -33.5, y: 18.5}
+        - {x: -47.5, y: -7.5}
+        - {x: -47.5, y: -36.5}
+        - {x: 47.5, y: -36.5}
+        - {x: 47.5, y: -22.5}
+        - {x: 46.5, y: -9.5}
+    - name: Sentinel_75
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 63
+        width: 80
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 1.5}
+        - {x: -20, y: 0.5}
+        - {x: -40, y: -20.5}
+        - {x: -40, y: -35.5}
+        - {x: -38, y: -36.5}
+        - {x: 40, y: -36.5}
+        - {x: 40, y: -25.5}
+        - {x: 14, y: 1.5}
+    - name: Sentinel_76
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 64
+        width: 79
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.5, y: -11.5}
+        - {x: -9.5, y: -11.5}
+        - {x: -30.5, y: -18.5}
+        - {x: -35.5, y: -20.5}
+        - {x: -39.5, y: -23.5}
+        - {x: -39.5, y: -36.5}
+        - {x: 39.5, y: -36.5}
+        - {x: 39.5, y: -28.5}
+        - {x: 26.5, y: -17.5}
+    - name: Sentinel_77
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 63
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_78
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 60
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_79
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 60
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_80
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 63
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_81
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 63
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_82
+      rect:
+        serializedVersion: 2
+        x: 1183
+        y: 63
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_83
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 60
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_84
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 7
+        width: 49
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 50}
+        - {x: -24.5, y: -50}
+        - {x: 24.5, y: -50}
+        - {x: 24.5, y: 50}
+    - name: Sentinel_85
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 45
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_86
+      rect:
+        serializedVersion: 2
+        x: 1075
+        y: 42
+        width: 124
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_87
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 45
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_88
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 45
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_89
+      rect:
+        serializedVersion: 2
+        x: 1178
+        y: 45
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_90
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 6
+        width: 49
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: -6}
+        - {x: -6.5, y: -16}
+        - {x: 19.5, y: -16}
+        - {x: 24.5, y: -4}
+        - {x: 24.5, y: 16}
+        - {x: -18.5, y: 16}
+        - {x: -24.5, y: 15}
+    - name: Sentinel_91
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 6
+        width: 49
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 16}
+        - {x: -24.5, y: 2}
+        - {x: -24.5, y: -5}
+        - {x: -7.5, y: -16}
+        - {x: 20.5, y: -16}
+        - {x: 24.5, y: 5}
+        - {x: 24.5, y: 16}
+    - name: Sentinel_92
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 6
+        width: 49
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: -5}
+        - {x: -14.5, y: -12}
+        - {x: -6.5, y: -16}
+        - {x: 18.5, y: -16}
+        - {x: 24.5, y: -1}
+        - {x: 24.5, y: 16}
+        - {x: -13.5, y: 16}
+        - {x: -24.5, y: 13}
+    - name: Sentinel_93
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 6
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 16}
+        - {x: -24, y: 14}
+        - {x: -24, y: -7}
+        - {x: -17, y: -15}
+        - {x: -11, y: -16}
+        - {x: 17, y: -16}
+        - {x: 24, y: 1}
+        - {x: 24, y: 16}
+    - name: Sentinel_94
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 6
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 16}
+        - {x: -24, y: 2}
+        - {x: -24, y: -11}
+        - {x: -11, y: -16}
+        - {x: 16, y: -16}
+        - {x: 22, y: -10}
+        - {x: 24, y: 5}
+        - {x: 24, y: 16}
+    - name: Sentinel_95
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 6
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 16}
+        - {x: -24, y: 14}
+        - {x: -24, y: -12}
+        - {x: -22, y: -15}
+        - {x: -17, y: -16}
+        - {x: 22, y: -16}
+        - {x: 24, y: -5}
+        - {x: 24, y: 16}
+    - name: Sentinel_96
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 6
+        width: 59
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 16}
+        - {x: -29.5, y: 2}
+        - {x: -29.5, y: -4}
+        - {x: -15.5, y: -15}
+        - {x: -14.5, y: -16}
+        - {x: 19.5, y: -16}
+        - {x: 29.5, y: 4}
+        - {x: 29.5, y: 16}
+    - name: Sentinel_97
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 6
+        width: 59
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 16}
+        - {x: -11.5, y: 9}
+        - {x: -6.5, y: 4}
+        - {x: -17.5, y: 3}
+        - {x: -29.5, y: 0}
+        - {x: -29.5, y: -7}
+        - {x: 0.5, y: -16}
+        - {x: 28.5, y: -16}
+        - {x: 29.5, y: -15}
+        - {x: 29.5, y: 16}
+    - name: Sentinel_98
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 29
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_99
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 29
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_100
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 29
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_101
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 29
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_102
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 26
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_103
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 29
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_104
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 29
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_105
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 29
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_106
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 27
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_107
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 26
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_108
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 29
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_109
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 29
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_110
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 29
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_111
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 29
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_112
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 29
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_113
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 10
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_114
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 13
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_115
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 13
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_116
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 13
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_117
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 13
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_118
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 10
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_119
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 13
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_120
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 13
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_121
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 13
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_122
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 13
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_123
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 13
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_124
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 13
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Sentinel_125
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 13
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

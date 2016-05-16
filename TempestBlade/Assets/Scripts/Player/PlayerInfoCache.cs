@@ -28,7 +28,7 @@ public class PlayerInfoCache {
 	{
 		for (int i = 0; i < cards.Length; i++) {
 			if (cards[i] == SoldierType.NULL) {
-				cards[i] = SoldierType.FOOTMAN;
+				cards[i] = SoldierType.KNIGHT;
 			}
 		}
 		player.AddToDeck (cards);

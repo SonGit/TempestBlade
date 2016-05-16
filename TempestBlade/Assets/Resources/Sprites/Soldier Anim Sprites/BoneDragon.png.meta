@@ -1,0 +1,3161 @@
+fileFormatVersion: 2
+guid: 2a805a54b1f28f24ea1d27cab8d38214
+timeCreated: 1462337191
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: BoneDragon_0
+    21300002: BoneDragon_1
+    21300004: BoneDragon_2
+    21300006: BoneDragon_3
+    21300008: BoneDragon_4
+    21300010: BoneDragon_5
+    21300012: BoneDragon_6
+    21300014: BoneDragon_7
+    21300016: BoneDragon_8
+    21300018: BoneDragon_9
+    21300020: BoneDragon_10
+    21300022: BoneDragon_11
+    21300024: BoneDragon_12
+    21300026: BoneDragon_13
+    21300028: BoneDragon_14
+    21300030: BoneDragon_15
+    21300032: BoneDragon_16
+    21300034: BoneDragon_17
+    21300036: BoneDragon_18
+    21300038: BoneDragon_19
+    21300040: BoneDragon_20
+    21300042: BoneDragon_21
+    21300044: BoneDragon_22
+    21300046: BoneDragon_23
+    21300048: BoneDragon_24
+    21300050: BoneDragon_25
+    21300052: 1
+    21300054: BoneDragon_27
+    21300056: 2
+    21300058: BoneDragon_29
+    21300060: 3
+    21300062: BoneDragon_31
+    21300064: BoneDragon_32
+    21300066: BoneDragon_33
+    21300068: BoneDragon_34
+    21300070: 4
+    21300072: BoneDragon_36
+    21300074: BoneDragon_37
+    21300076: BoneDragon_38
+    21300078: BoneDragon_39
+    21300080: BoneDragon_40
+    21300082: BoneDragon_41
+    21300084: 5
+    21300086: BoneDragon_43
+    21300088: BoneDragon_44
+    21300090: 6
+    21300092: BoneDragon_46
+    21300094: BoneDragon_47
+    21300096: 7
+    21300098: BoneDragon_49
+    21300100: BoneDragon_50
+    21300102: BoneDragon_51
+    21300104: BoneDragon_52
+    21300106: BoneDragon_53
+    21300108: BoneDragon_54
+    21300110: 8
+    21300112: BoneDragon_56
+    21300114: BoneDragon_57
+    21300116: BoneDragon_58
+    21300118: BoneDragon_59
+    21300120: BoneDragon_60
+    21300122: BoneDragon_61
+    21300124: BoneDragon_62
+    21300126: 9
+    21300128: 10
+    21300130: 11
+    21300132: 12
+    21300134: BoneDragon_67
+    21300136: BoneDragon_68
+    21300138: BoneDragon_69
+    21300140: BoneDragon_70
+    21300142: BoneDragon_71
+    21300144: BoneDragon_72
+    21300146: BoneDragon_73
+    21300148: BoneDragon_74
+    21300150: BoneDragon_75
+    21300152: BoneDragon_76
+    21300154: BoneDragon_77
+    21300156: BoneDragon_78
+    21300158: BoneDragon_79
+    21300160: BoneDragon_80
+    21300162: BoneDragon_81
+    21300164: BoneDragon_82
+    21300166: BoneDragon_83
+    21300168: BoneDragon_84
+    21300170: BoneDragon_85
+    21300172: BoneDragon_86
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: BoneDragon_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1043
+        width: 75
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 48.5}
+        - {x: -37.5, y: 24.5}
+        - {x: -37.5, y: -48.5}
+        - {x: 31.5, y: -48.5}
+        - {x: 37.5, y: -40.5}
+        - {x: 37.5, y: 41.5}
+        - {x: 22.5, y: 48.5}
+    - name: BoneDragon_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1043
+        width: 80
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30, y: -25}
+        - {x: 23, y: -24}
+        - {x: 22, y: -24}
+        - {x: 24, y: -24}
+        - {x: 34, y: -16}
+        - {x: 40, y: -12}
+        - {x: 40, y: 7}
+        - {x: 32, y: 10}
+        - {x: 40, y: 21}
+        - {x: 40, y: 49}
+        - {x: -2, y: 49}
+        - {x: -5, y: 35}
+        - {x: -3, y: 32}
+        - {x: -9, y: 24}
+        - {x: -7, y: 28}
+        - {x: -6, y: 31}
+        - {x: -6, y: 35}
+        - {x: -9, y: 39}
+        - {x: -17, y: 43}
+        - {x: -39, y: 17}
+        - {x: -40, y: 10}
+        - {x: -40, y: -49}
+        - {x: 34, y: -49}
+        - {x: 40, y: -47}
+        - {x: 40, y: -22}
+        - {x: 32, y: -18}
+    - name: BoneDragon_2
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1043
+        width: 85
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.5, y: -17}
+        - {x: 28.5, y: -26}
+        - {x: 20.5, y: -25}
+        - {x: 19.5, y: -25}
+        - {x: 21.5, y: -25}
+        - {x: 24.5, y: -24}
+        - {x: 36.5, y: -14}
+        - {x: 42.5, y: -7}
+        - {x: 42.5, y: 44}
+        - {x: 40.5, y: 50}
+        - {x: -9.5, y: 50}
+        - {x: -42.5, y: 25}
+        - {x: -42.5, y: -50}
+        - {x: 42.5, y: -50}
+        - {x: 42.5, y: -26}
+        - {x: 38.5, y: -19}
+    - name: BoneDragon_3
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 1043
+        width: 84
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: -27}
+        - {x: 20, y: -27}
+        - {x: 22, y: -27}
+        - {x: 35, y: -25}
+        - {x: 42, y: -5}
+        - {x: 42, y: 3}
+        - {x: 36, y: 7}
+        - {x: 42, y: 25}
+        - {x: 42, y: 48}
+        - {x: 37, y: 52}
+        - {x: -18, y: 52}
+        - {x: -42, y: 37}
+        - {x: -42, y: -52}
+        - {x: 42, y: -52}
+        - {x: 42, y: -24}
+        - {x: 31, y: -26}
+      - - {x: 33, y: -19}
+        - {x: 31, y: -22}
+        - {x: 31, y: -26}
+        - {x: 33, y: -28}
+        - {x: 36, y: -26}
+        - {x: 38, y: -22}
+        - {x: 38, y: -20}
+        - {x: 36, y: -19}
+    - name: BoneDragon_4
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 1043
+        width: 81
+        height: 103
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: -26.5}
+        - {x: 21.5, y: -26.5}
+        - {x: 23.5, y: -26.5}
+        - {x: 36.5, y: -22.5}
+        - {x: 40.5, y: -12.5}
+        - {x: 40.5, y: 34.5}
+        - {x: 38.5, y: 43.5}
+        - {x: 23.5, y: 48.5}
+        - {x: -2.5, y: 48.5}
+        - {x: -17.5, y: 40.5}
+        - {x: -40.5, y: 18.5}
+        - {x: -40.5, y: -51.5}
+        - {x: 40.5, y: -51.5}
+        - {x: 40.5, y: -23.5}
+        - {x: 25.5, y: -27.5}
+      - - {x: 34.5, y: -23.5}
+        - {x: 36.5, y: -24.5}
+        - {x: 39.5, y: -23.5}
+        - {x: 39.5, y: -18.5}
+        - {x: 38.5, y: -15.5}
+        - {x: 35.5, y: -15.5}
+        - {x: 34.5, y: -17.5}
+      - - {x: 33.5, y: 44.5}
+        - {x: 34.5, y: 41.5}
+        - {x: 36.5, y: 41.5}
+        - {x: 40.5, y: 44.5}
+        - {x: 40.5, y: 49.5}
+        - {x: 39.5, y: 49.5}
+      - - {x: 29.5, y: 51.5}
+        - {x: 28.5, y: 49.5}
+        - {x: 31.5, y: 45.5}
+        - {x: 36.5, y: 45.5}
+        - {x: 37.5, y: 48.5}
+        - {x: 37.5, y: 50.5}
+        - {x: 36.5, y: 51.5}
+    - name: BoneDragon_5
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 1043
+        width: 77
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 48.5}
+        - {x: -38.5, y: 21.5}
+        - {x: -38.5, y: -47.5}
+        - {x: -34.5, y: -48.5}
+        - {x: 38.5, y: -48.5}
+        - {x: 38.5, y: 48.5}
+    - name: BoneDragon_6
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1043
+        width: 96
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 48.5}
+        - {x: -34, y: 15.5}
+        - {x: -48, y: -12.5}
+        - {x: -48, y: -46.5}
+        - {x: -38, y: -48.5}
+        - {x: 44, y: -48.5}
+        - {x: 48, y: -42.5}
+        - {x: 48, y: 43.5}
+        - {x: 39, y: 48.5}
+    - name: BoneDragon_7
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 1043
+        width: 88
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 48.5}
+        - {x: -44, y: 11.5}
+        - {x: -44, y: -46.5}
+        - {x: -41, y: -48.5}
+        - {x: 44, y: -48.5}
+        - {x: 44, y: 48.5}
+    - name: BoneDragon_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 921
+        width: 111
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 48}
+        - {x: -42.5, y: 20}
+        - {x: -55.5, y: -8}
+        - {x: -55.5, y: -47}
+        - {x: -38.5, y: -48}
+        - {x: 55.5, y: -48}
+        - {x: 55.5, y: 40}
+        - {x: 34.5, y: 48}
+    - name: BoneDragon_9
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 921
+        width: 144
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45, y: -56.5}
+        - {x: 72, y: -46.5}
+        - {x: 72, y: 56.5}
+        - {x: -62, y: 56.5}
+        - {x: -72, y: 49.5}
+        - {x: -72, y: -52.5}
+        - {x: -58, y: -56.5}
+        - {x: 17, y: -56.5}
+        - {x: 17, y: -53.5}
+        - {x: 21, y: -55.5}
+        - {x: 40, y: -56.5}
+    - name: BoneDragon_10
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 924
+        width: 169
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: -48}
+        - {x: -43.5, y: -45}
+        - {x: -47.5, y: -45}
+        - {x: -48.5, y: -48}
+      - - {x: 80.5, y: 48}
+        - {x: 8.5, y: 48}
+        - {x: -32.5, y: 26}
+        - {x: -70.5, y: -11}
+        - {x: -75.5, y: -26}
+        - {x: -73.5, y: -33}
+        - {x: -33.5, y: -28}
+        - {x: -25.5, y: -26}
+        - {x: -38.5, y: -33}
+        - {x: -84.5, y: -40}
+        - {x: -84.5, y: -48}
+        - {x: 58.5, y: -48}
+        - {x: 84.5, y: -30}
+        - {x: 84.5, y: 47}
+    - name: BoneDragon_11
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 925
+        width: 179
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -89.5, y: 46.5}
+        - {x: -89.5, y: -46.5}
+        - {x: 52.5, y: -46.5}
+        - {x: 89.5, y: -28.5}
+        - {x: 89.5, y: 46.5}
+    - name: BoneDragon_12
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 939
+        width: 169
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 44.5, y: 2.5}
+        - {x: 38.5, y: -1.5}
+        - {x: 35.5, y: -1.5}
+        - {x: 39.5, y: -0.5}
+        - {x: 45.5, y: 5.5}
+        - {x: 49.5, y: 2.5}
+        - {x: 63.5, y: -2.5}
+        - {x: 84.5, y: 7.5}
+        - {x: 84.5, y: 32.5}
+        - {x: -65.5, y: 32.5}
+        - {x: -52.5, y: 0.5}
+        - {x: -46.5, y: -1.5}
+        - {x: -36.5, y: -4.5}
+        - {x: -30.5, y: -2.5}
+        - {x: -32.5, y: -5.5}
+        - {x: -84.5, y: -5.5}
+        - {x: -84.5, y: -18.5}
+        - {x: -64.5, y: -32.5}
+        - {x: 38.5, y: -32.5}
+        - {x: 61.5, y: -18.5}
+        - {x: 53.5, y: -1.5}
+        - {x: 48.5, y: 2.5}
+      - - {x: 80.5, y: 9.5}
+        - {x: 82.5, y: 6.5}
+        - {x: 84.5, y: 7.5}
+        - {x: 84.5, y: 10.5}
+        - {x: 82.5, y: 11.5}
+    - name: BoneDragon_13
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 924
+        width: 165
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BoneDragon_14
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 782
+        width: 159
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64.5, y: -50.5}
+        - {x: 61.5, y: -28.5}
+        - {x: 57.5, y: -24.5}
+        - {x: 75.5, y: -29.5}
+        - {x: 79.5, y: -27.5}
+        - {x: 79.5, y: -5.5}
+        - {x: 60.5, y: 22.5}
+        - {x: 15.5, y: 68.5}
+        - {x: -51.5, y: 68.5}
+        - {x: -52.5, y: 64.5}
+        - {x: -58.5, y: 37.5}
+        - {x: -79.5, y: -26.5}
+        - {x: -79.5, y: -68.5}
+        - {x: 68.5, y: -68.5}
+        - {x: 79.5, y: -61.5}
+        - {x: 79.5, y: -56.5}
+        - {x: 76.5, y: -54.5}
+    - name: BoneDragon_15
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 776
+        width: 136
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 68, y: -13}
+        - {x: 68, y: 48}
+        - {x: 55, y: 52}
+        - {x: 7, y: 52}
+        - {x: 2, y: 50}
+        - {x: -6, y: 46}
+        - {x: -14, y: 39}
+        - {x: -27, y: 26}
+        - {x: -38, y: 3}
+        - {x: -34, y: -12}
+        - {x: -31, y: -10}
+        - {x: -20, y: -10}
+        - {x: -33, y: -13}
+        - {x: -53, y: 1}
+        - {x: -68, y: 3}
+        - {x: -68, y: -45}
+        - {x: -40, y: -52}
+        - {x: 42, y: -52}
+        - {x: 59, y: -49}
+        - {x: 63, y: -32}
+        - {x: 59, y: -30}
+        - {x: 33, y: -27}
+    - name: BoneDragon_16
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 769
+        width: 133
+        height: 111
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 62.5, y: 15.5}
+        - {x: 54.5, y: 13.5}
+        - {x: 57.5, y: 14.5}
+        - {x: 61.5, y: 16.5}
+        - {x: 66.5, y: 21.5}
+        - {x: 66.5, y: 27.5}
+        - {x: 60.5, y: 33.5}
+        - {x: 66.5, y: 48.5}
+        - {x: 66.5, y: 55.5}
+        - {x: -37.5, y: 55.5}
+        - {x: -66.5, y: 33.5}
+        - {x: -66.5, y: 24.5}
+        - {x: -27.5, y: -2.5}
+        - {x: -42.5, y: 4.5}
+        - {x: -52.5, y: -4.5}
+        - {x: -66.5, y: -30.5}
+        - {x: -66.5, y: -44.5}
+        - {x: -35.5, y: -53.5}
+        - {x: -23.5, y: -55.5}
+        - {x: 56.5, y: -55.5}
+        - {x: 66.5, y: -47.5}
+        - {x: 66.5, y: 13.5}
+    - name: BoneDragon_17
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 770
+        width: 106
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: -29.5}
+        - {x: 48, y: -29.5}
+        - {x: 53, y: -28.5}
+        - {x: 53, y: 17.5}
+        - {x: 44, y: 20.5}
+        - {x: 43, y: 27.5}
+        - {x: 41, y: 29.5}
+        - {x: 49, y: 28.5}
+        - {x: 53, y: 30.5}
+        - {x: 51, y: 36.5}
+        - {x: 32, y: 47.5}
+        - {x: -18, y: 47.5}
+        - {x: -41, y: 9.5}
+        - {x: -32, y: -18.5}
+        - {x: -27, y: -22.5}
+        - {x: -24, y: -21.5}
+        - {x: -8, y: -15.5}
+        - {x: -2, y: -13.5}
+        - {x: -21, y: -24.5}
+        - {x: -53, y: -13.5}
+        - {x: -53, y: -40.5}
+        - {x: -52, y: -43.5}
+        - {x: -39, y: -47.5}
+        - {x: 45, y: -47.5}
+        - {x: 53, y: -35.5}
+        - {x: 53, y: -30.5}
+        - {x: 50, y: -29.5}
+    - name: BoneDragon_18
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 771
+        width: 123
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.5, y: -35}
+        - {x: 43.5, y: -35}
+        - {x: 39.5, y: -39}
+        - {x: 38.5, y: -43}
+        - {x: 39.5, y: -44}
+        - {x: 61.5, y: -44}
+        - {x: 61.5, y: 34}
+        - {x: 58.5, y: 44}
+        - {x: -27.5, y: 44}
+        - {x: -61.5, y: 6}
+        - {x: -61.5, y: -44}
+        - {x: 36.5, y: -44}
+        - {x: 38.5, y: -42}
+        - {x: 38.5, y: -40}
+        - {x: 39.5, y: -35}
+    - name: BoneDragon_19
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 771
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BoneDragon_20
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 772
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BoneDragon_21
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 633
+        width: 101
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: 26}
+        - {x: -27.5, y: 7}
+        - {x: -29.5, y: -50}
+        - {x: -25.5, y: -53}
+        - {x: -27.5, y: -54}
+        - {x: -44.5, y: -32}
+        - {x: -50.5, y: -30}
+        - {x: -50.5, y: -67}
+        - {x: 50.5, y: -67}
+        - {x: 50.5, y: 26}
+    - name: BoneDragon_22
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 633
+        width: 151
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 75.5, y: -7}
+        - {x: 75.5, y: 10}
+        - {x: 53.5, y: 21}
+        - {x: 40.5, y: 18}
+        - {x: 33.5, y: 4}
+        - {x: 28.5, y: 0}
+        - {x: 34.5, y: 5}
+        - {x: 36.5, y: 17}
+        - {x: 22.5, y: 25}
+        - {x: 11.5, y: 31}
+        - {x: -0.5, y: 36}
+        - {x: -57.5, y: 36}
+        - {x: -75.5, y: 31}
+        - {x: -75.5, y: -44}
+        - {x: -73.5, y: -46}
+        - {x: -41.5, y: -52}
+        - {x: -47.5, y: -51}
+        - {x: -60.5, y: -50}
+        - {x: -70.5, y: -56}
+        - {x: -69.5, y: -59}
+        - {x: -67.5, y: -61}
+        - {x: -64.5, y: -61}
+        - {x: -65.5, y: -61}
+        - {x: -70.5, y: -64}
+        - {x: -71.5, y: -67}
+        - {x: 75.5, y: -67}
+        - {x: 75.5, y: -14}
+        - {x: 74.5, y: -13}
+    - name: BoneDragon_23
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 633
+        width: 157
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48.5, y: -26}
+        - {x: 56.5, y: -23}
+        - {x: 73.5, y: -31}
+        - {x: 78.5, y: -22}
+        - {x: 78.5, y: -4}
+        - {x: 2.5, y: 67}
+        - {x: -17.5, y: 67}
+        - {x: -18.5, y: 66}
+        - {x: -17.5, y: 63}
+        - {x: -37.5, y: 67}
+        - {x: -53.5, y: 67}
+        - {x: -71.5, y: 52}
+        - {x: -78.5, y: 31}
+        - {x: -78.5, y: -67}
+        - {x: 56.5, y: -67}
+        - {x: 74.5, y: -58}
+        - {x: 59.5, y: -30}
+        - {x: 54.5, y: -27}
+      - - {x: 72.5, y: -56}
+        - {x: 75.5, y: -55}
+        - {x: 75.5, y: -52}
+        - {x: 72.5, y: -51}
+        - {x: 70.5, y: -53}
+    - name: BoneDragon_24
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 633
+        width: 151
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 61.5, y: -7}
+        - {x: 69.5, y: -11}
+        - {x: 75.5, y: -7}
+        - {x: 75.5, y: 15}
+        - {x: 50.5, y: 24}
+        - {x: 23.5, y: 24}
+        - {x: -7.5, y: 20}
+        - {x: -42.5, y: 2}
+        - {x: -62.5, y: -21}
+        - {x: -75.5, y: -32}
+        - {x: -75.5, y: -54}
+        - {x: -51.5, y: -57}
+        - {x: -38.5, y: -58}
+        - {x: -28.5, y: -57}
+        - {x: -33.5, y: -58}
+        - {x: -75.5, y: -58}
+        - {x: -75.5, y: -64}
+        - {x: -59.5, y: -67}
+        - {x: 56.5, y: -67}
+        - {x: 75.5, y: -58}
+        - {x: 75.5, y: -28}
+        - {x: 65.5, y: -10}
+    - name: BoneDragon_25
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 633
+        width: 106
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43, y: -49}
+        - {x: 46, y: -49}
+        - {x: 52, y: -48}
+        - {x: 53, y: -40}
+        - {x: 53, y: -5}
+        - {x: 49, y: -2}
+        - {x: 45, y: -3}
+        - {x: 42, y: -5}
+        - {x: 43, y: 1}
+        - {x: 43, y: 6}
+        - {x: 41, y: 8}
+        - {x: 49, y: 7}
+        - {x: 53, y: 9}
+        - {x: 51, y: 15}
+        - {x: 32, y: 28}
+        - {x: 0, y: 28}
+        - {x: -13, y: 25}
+        - {x: -26, y: 10}
+        - {x: -35, y: -4}
+        - {x: -33, y: -41}
+        - {x: -27, y: -44}
+        - {x: -24, y: -43}
+        - {x: -8, y: -37}
+        - {x: -2, y: -35}
+        - {x: -2, y: -40}
+        - {x: -37, y: -46}
+        - {x: -48, y: -37}
+        - {x: -53, y: -35}
+        - {x: -53, y: -63}
+        - {x: -38, y: -67}
+        - {x: 44, y: -67}
+        - {x: 53, y: -55}
+        - {x: 53, y: -50}
+        - {x: 50, y: -49}
+    - name: 1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 365
+        width: 94
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 42, y: -36}
+        - {x: 25, y: -37}
+        - {x: 36, y: -36}
+        - {x: 38, y: -29}
+        - {x: 35, y: -26}
+        - {x: 29, y: -26}
+        - {x: 35, y: -25}
+        - {x: 45, y: -23}
+        - {x: 45, y: 57}
+        - {x: -47, y: 57}
+        - {x: -47, y: -21}
+        - {x: -45, y: -22}
+        - {x: -47, y: -31}
+        - {x: -47, y: -48}
+        - {x: -44, y: -54}
+        - {x: 34, y: -54}
+        - {x: 45, y: -42}
+        - {x: 45, y: -40}
+        - {x: 44, y: -38}
+    - name: BoneDragon_27
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 508
+        width: 134
+        height: 75
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 63, y: 14.5}
+        - {x: 61, y: 17.5}
+        - {x: 49, y: 37.5}
+        - {x: -7, y: 37.5}
+        - {x: -66, y: 24.5}
+        - {x: -67, y: 22.5}
+        - {x: -67, y: 8.5}
+        - {x: -66, y: 7.5}
+        - {x: -28, y: -17.5}
+        - {x: -21, y: -19.5}
+        - {x: -5, y: -20.5}
+        - {x: -20, y: -19.5}
+        - {x: -39, y: -17.5}
+        - {x: -67, y: -21.5}
+        - {x: -67, y: -31.5}
+        - {x: -18, y: -37.5}
+        - {x: 56, y: -37.5}
+        - {x: 67, y: -32.5}
+        - {x: 67, y: -0.5}
+        - {x: 65, y: 8.5}
+    - name: 2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 370
+        width: 91
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.5, y: 8}
+        - {x: -45.5, y: -57}
+        - {x: 40.5, y: -57}
+        - {x: 45.5, y: -48}
+        - {x: 45.5, y: 36}
+        - {x: -12.5, y: 36}
+        - {x: -34.5, y: 30}
+      - - {x: 26.5, y: -33}
+        - {x: 29.5, y: -32}
+        - {x: 29.5, y: -29}
+        - {x: 26.5, y: -28}
+        - {x: 24.5, y: -30}
+      - - {x: 33.5, y: 38}
+        - {x: 33.5, y: 34}
+        - {x: 35.5, y: 32}
+        - {x: 36.5, y: 32}
+        - {x: 40.5, y: 36}
+        - {x: 39.5, y: 39}
+        - {x: 35.5, y: 40}
+      - - {x: 26.5, y: 37}
+        - {x: 30.5, y: 36}
+        - {x: 33.5, y: 38}
+        - {x: 32.5, y: 41}
+        - {x: 27.5, y: 42}
+        - {x: 25.5, y: 40}
+    - name: BoneDragon_29
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 457
+        width: 175
+        height: 172
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -63.5, y: -80}
+        - {x: -64.5, y: -81}
+        - {x: -64.5, y: -84}
+        - {x: -62.5, y: -86}
+        - {x: -55.5, y: -86}
+        - {x: -55.5, y: -84}
+        - {x: -59.5, y: -80}
+      - - {x: -27.5, y: -52}
+        - {x: -31.5, y: -58}
+        - {x: -31.5, y: -81}
+        - {x: -27.5, y: -86}
+        - {x: -17.5, y: -86}
+        - {x: -17.5, y: -64}
+        - {x: -21.5, y: -52}
+      - - {x: -14.5, y: -86}
+        - {x: -10.5, y: -86}
+        - {x: -10.5, y: -83}
+        - {x: -13.5, y: -82}
+        - {x: -15.5, y: -84}
+      - - {x: -6.5, y: -74}
+        - {x: -8.5, y: -83}
+        - {x: -7.5, y: -86}
+        - {x: -1.5, y: -86}
+        - {x: -1.5, y: -73}
+        - {x: -3.5, y: -72}
+      - - {x: 39.5, y: -37}
+        - {x: 35.5, y: -37}
+        - {x: 30.5, y: -42}
+        - {x: 29.5, y: -62}
+        - {x: 18.5, y: -48}
+        - {x: 10.5, y: -52}
+        - {x: 9.5, y: -55}
+        - {x: 9.5, y: -86}
+        - {x: 44.5, y: -86}
+        - {x: 48.5, y: -81}
+        - {x: 48.5, y: -77}
+        - {x: 47.5, y: -55}
+      - - {x: 77.5, y: -48}
+        - {x: 74.5, y: -49}
+        - {x: 70.5, y: -53}
+        - {x: 70.5, y: -76}
+        - {x: 72.5, y: -86}
+        - {x: 83.5, y: -86}
+        - {x: 84.5, y: -84}
+        - {x: 84.5, y: -61}
+        - {x: 81.5, y: -48}
+      - - {x: -70.5, y: -78}
+        - {x: -70.5, y: -82}
+        - {x: -68.5, y: -84}
+        - {x: -67.5, y: -84}
+        - {x: -63.5, y: -80}
+        - {x: -64.5, y: -77}
+        - {x: -68.5, y: -76}
+      - - {x: -77.5, y: -79}
+        - {x: -73.5, y: -80}
+        - {x: -70.5, y: -78}
+        - {x: -71.5, y: -75}
+        - {x: -76.5, y: -74}
+        - {x: -78.5, y: -76}
+      - - {x: -5.5, y: -64}
+        - {x: -2.5, y: -63}
+        - {x: -2.5, y: -60}
+        - {x: -5.5, y: -59}
+        - {x: -7.5, y: -61}
+      - - {x: -7.5, y: -57}
+        - {x: -4.5, y: -56}
+        - {x: -4.5, y: -53}
+        - {x: -7.5, y: -52}
+        - {x: -9.5, y: -54}
+      - - {x: -26.5, y: -46}
+        - {x: -28.5, y: -47}
+        - {x: -28.5, y: -51}
+        - {x: -26.5, y: -52}
+        - {x: -22.5, y: -52}
+        - {x: -22.5, y: -46}
+      - - {x: -6.5, y: -46}
+        - {x: -9.5, y: -49}
+        - {x: -9.5, y: -50}
+        - {x: -7.5, y: -52}
+        - {x: -5.5, y: -52}
+        - {x: -3.5, y: -50}
+        - {x: -3.5, y: -48}
+        - {x: -5.5, y: -46}
+      - - {x: 10.5, y: -44}
+        - {x: 10.5, y: -47}
+        - {x: 13.5, y: -50}
+        - {x: 16.5, y: -48}
+        - {x: 16.5, y: -45}
+        - {x: 15.5, y: -42}
+        - {x: 12.5, y: -42}
+      - - {x: -10.5, y: -47}
+        - {x: -7.5, y: -46}
+        - {x: -7.5, y: -43}
+        - {x: -10.5, y: -42}
+        - {x: -12.5, y: -44}
+      - - {x: 75.5, y: -45}
+        - {x: 77.5, y: -46}
+        - {x: 80.5, y: -45}
+        - {x: 80.5, y: -41}
+        - {x: 79.5, y: -38}
+        - {x: 76.5, y: -38}
+        - {x: 75.5, y: -40}
+      - - {x: -27.5, y: -43}
+        - {x: -25.5, y: -45}
+        - {x: -22.5, y: -44}
+        - {x: -21.5, y: -40}
+        - {x: -23.5, y: -38}
+        - {x: -26.5, y: -39}
+      - - {x: 52.5, y: 7}
+        - {x: 42.5, y: 6}
+        - {x: 34.5, y: 7}
+        - {x: 32.5, y: 9}
+        - {x: 29.5, y: 9}
+        - {x: 32.5, y: 10}
+        - {x: 36.5, y: 7}
+        - {x: 40.5, y: 6}
+        - {x: 46.5, y: 9}
+        - {x: 45.5, y: 11}
+        - {x: 85.5, y: 30}
+        - {x: 87.5, y: 32}
+        - {x: 87.5, y: 51}
+        - {x: -0.5, y: 86}
+        - {x: -63.5, y: 86}
+        - {x: -53.5, y: 54}
+        - {x: -48.5, y: 46}
+        - {x: -45.5, y: 44}
+        - {x: -39.5, y: 39}
+        - {x: -32.5, y: 36}
+        - {x: -34.5, y: 37}
+        - {x: -40.5, y: 34}
+        - {x: -44.5, y: 43}
+        - {x: -50.5, y: 47}
+        - {x: -53.5, y: 46}
+        - {x: -69.5, y: 33}
+        - {x: -87.5, y: 18}
+        - {x: -87.5, y: -32}
+        - {x: -32.5, y: -36}
+        - {x: 35.5, y: -36}
+        - {x: 85.5, y: -1}
+        - {x: 83.5, y: 4}
+        - {x: 56.5, y: 7}
+    - name: 3
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 371
+        width: 89
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 57}
+        - {x: 22.5, y: 53}
+        - {x: 19.5, y: 57}
+        - {x: -44.5, y: 57}
+        - {x: -44.5, y: -57}
+        - {x: 44.5, y: -57}
+        - {x: 44.5, y: 54}
+        - {x: 40.5, y: 57}
+      - - {x: -20.5, y: 28}
+        - {x: -17.5, y: 29}
+        - {x: -17.5, y: 32}
+        - {x: -20.5, y: 33}
+        - {x: -22.5, y: 31}
+      - - {x: -12.5, y: 51}
+        - {x: -9.5, y: 52}
+        - {x: -9.5, y: 55}
+        - {x: -12.5, y: 56}
+        - {x: -14.5, y: 54}
+    - name: BoneDragon_31
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 460
+        width: 5
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BoneDragon_32
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 471
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BoneDragon_33
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 462
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BoneDragon_34
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 492
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 4
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 370
+        width: 89
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27.5, y: 12}
+        - {x: 26.5, y: 3}
+        - {x: 22.5, y: 17}
+        - {x: 38.5, y: 18}
+        - {x: 44.5, y: 34}
+        - {x: 44.5, y: 44}
+        - {x: 38.5, y: 57}
+        - {x: 9.5, y: 57}
+        - {x: 1.5, y: 52}
+        - {x: -7.5, y: 57}
+        - {x: -16.5, y: 57}
+        - {x: -16.5, y: 54}
+        - {x: -14.5, y: 52}
+        - {x: -25.5, y: 57}
+        - {x: -39.5, y: 57}
+        - {x: -44.5, y: 30}
+        - {x: -44.5, y: -57}
+        - {x: 44.5, y: -57}
+        - {x: 44.5, y: 5}
+        - {x: 33.5, y: 14}
+      - - {x: -20.5, y: 29}
+        - {x: -17.5, y: 30}
+        - {x: -17.5, y: 33}
+        - {x: -20.5, y: 34}
+        - {x: -22.5, y: 32}
+    - name: BoneDragon_36
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 455
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BoneDragon_37
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 471
+        width: 132
+        height: 110
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -65, y: -40}
+        - {x: -65, y: -55}
+        - {x: -58, y: -55}
+        - {x: -57, y: -54}
+        - {x: -57, y: -43}
+        - {x: -62, y: -40}
+      - - {x: -38, y: -25}
+        - {x: -44, y: -29}
+        - {x: -46, y: -46}
+        - {x: -46, y: -55}
+        - {x: -37, y: -55}
+        - {x: -32, y: -43}
+        - {x: -32, y: -25}
+      - - {x: -15, y: -23}
+        - {x: -18, y: -19}
+        - {x: -22, y: -19}
+        - {x: -24, y: -29}
+        - {x: -24, y: -47}
+        - {x: -23, y: -50}
+        - {x: -19, y: -55}
+        - {x: -10, y: -55}
+        - {x: -10, y: -37}
+        - {x: -12, y: -31}
+      - - {x: 20, y: -50}
+        - {x: 15, y: -52}
+        - {x: 15, y: -55}
+        - {x: 22, y: -55}
+        - {x: 24, y: -54}
+        - {x: 24, y: -51}
+        - {x: 21, y: -50}
+      - - {x: 57, y: -49}
+        - {x: 57, y: -55}
+        - {x: 64, y: -55}
+        - {x: 66, y: -53}
+        - {x: 66, y: -36}
+        - {x: 63, y: -37}
+      - - {x: 39, y: -46}
+        - {x: 39, y: -49}
+        - {x: 41, y: -53}
+        - {x: 43, y: -53}
+        - {x: 45, y: -52}
+        - {x: 45, y: -49}
+        - {x: 43, y: -44}
+        - {x: 40, y: -44}
+      - - {x: 16, y: -43}
+        - {x: 15, y: -44}
+        - {x: 15, y: -46}
+        - {x: 20, y: -50}
+        - {x: 25, y: -48}
+        - {x: 25, y: -43}
+      - - {x: 36, y: -29}
+        - {x: 34, y: -30}
+        - {x: 34, y: -34}
+        - {x: 40, y: -41}
+        - {x: 42, y: -41}
+        - {x: 46, y: -38}
+        - {x: 46, y: -36}
+        - {x: 43, y: -29}
+      - - {x: -66, y: -25}
+        - {x: -66, y: -38}
+        - {x: -63, y: -40}
+        - {x: -58, y: -38}
+        - {x: -56, y: -33}
+        - {x: -57, y: -26}
+        - {x: -61, y: -25}
+      - - {x: 59, y: -36}
+        - {x: 62, y: -35}
+        - {x: 62, y: -32}
+        - {x: 59, y: -31}
+        - {x: 57, y: -33}
+      - - {x: -43, y: -33}
+        - {x: -40, y: -32}
+        - {x: -40, y: -29}
+        - {x: -43, y: -28}
+        - {x: -45, y: -30}
+      - - {x: 22, y: -33}
+        - {x: 25, y: -32}
+        - {x: 25, y: -29}
+        - {x: 22, y: -28}
+        - {x: 20, y: -30}
+      - - {x: 39, y: 1}
+        - {x: 41, y: 1}
+        - {x: 45, y: 4}
+        - {x: 46, y: 7}
+        - {x: 44, y: 9}
+        - {x: 42, y: 13}
+        - {x: 47, y: 5}
+        - {x: 50, y: 5}
+        - {x: 57, y: 10}
+        - {x: 57, y: 26}
+        - {x: 35, y: 49}
+        - {x: 30, y: 53}
+        - {x: 27, y: 55}
+        - {x: -57, y: 55}
+        - {x: -64, y: 54}
+        - {x: -65, y: 49}
+        - {x: -65, y: -20}
+        - {x: 50, y: -20}
+        - {x: 54, y: -11}
+        - {x: 55, y: -7}
+        - {x: 40, y: 1}
+    - name: BoneDragon_38
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 462
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BoneDragon_39
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 480
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BoneDragon_40
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 489
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BoneDragon_41
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 467
+        width: 5
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 5
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 370
+        width: 97
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 30.5, y: -40}
+        - {x: 30.5, y: -41}
+        - {x: 32.5, y: -39}
+        - {x: 33.5, y: -34}
+        - {x: 32.5, y: -31}
+        - {x: 29.5, y: -30}
+        - {x: 19.5, y: -32}
+        - {x: 8.5, y: -24}
+        - {x: 30.5, y: -30}
+        - {x: 33.5, y: -30}
+        - {x: 37.5, y: -27}
+        - {x: 43.5, y: 35}
+        - {x: 43.5, y: 40}
+        - {x: 36.5, y: 57}
+        - {x: -46.5, y: 57}
+        - {x: -48.5, y: 37}
+        - {x: -48.5, y: -57}
+        - {x: 43.5, y: -57}
+        - {x: 43.5, y: -48}
+        - {x: 40.5, y: -47}
+      - - {x: -29.5, y: -18}
+        - {x: -26.5, y: -17}
+        - {x: -26.5, y: -14}
+        - {x: -29.5, y: -13}
+        - {x: -31.5, y: -15}
+      - - {x: -24.5, y: 29}
+        - {x: -21.5, y: 30}
+        - {x: -21.5, y: 33}
+        - {x: -24.5, y: 34}
+        - {x: -26.5, y: 32}
+      - - {x: -18.5, y: 52}
+        - {x: -17.5, y: 48}
+        - {x: -15.5, y: 46}
+        - {x: -12.5, y: 47}
+        - {x: -12.5, y: 50}
+        - {x: -14.5, y: 55}
+        - {x: -17.5, y: 55}
+      - - {x: -41.5, y: 56}
+        - {x: -42.5, y: 55}
+        - {x: -42.5, y: 53}
+        - {x: -37.5, y: 49}
+        - {x: -32.5, y: 51}
+        - {x: -32.5, y: 56}
+    - name: BoneDragon_43
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 462
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BoneDragon_44
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 471
+        width: 92
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -35, y: -36}
+        - {x: -36, y: -37}
+        - {x: -39, y: -51}
+        - {x: -39, y: -61}
+        - {x: -34, y: -67}
+        - {x: -25, y: -67}
+        - {x: -25, y: -46}
+        - {x: -31, y: -36}
+      - - {x: 33, y: -59}
+        - {x: 33, y: -62}
+        - {x: 35, y: -66}
+        - {x: 37, y: -66}
+        - {x: 39, y: -65}
+        - {x: 39, y: -62}
+        - {x: 37, y: -57}
+        - {x: 34, y: -57}
+      - - {x: -5, y: -63}
+        - {x: -2, y: -62}
+        - {x: -2, y: -59}
+        - {x: -5, y: -58}
+        - {x: -7, y: -60}
+      - - {x: 10, y: -56}
+        - {x: 9, y: -57}
+        - {x: 9, y: -59}
+        - {x: 14, y: -63}
+        - {x: 19, y: -61}
+        - {x: 19, y: -56}
+      - - {x: 33, y: -54}
+        - {x: 33, y: -56}
+        - {x: 35, y: -57}
+        - {x: 37, y: -57}
+        - {x: 40, y: -53}
+        - {x: 40, y: -51}
+        - {x: 37, y: -50}
+      - - {x: 30, y: -50}
+        - {x: 33, y: -49}
+        - {x: 33, y: -46}
+        - {x: 30, y: -45}
+        - {x: 28, y: -47}
+      - - {x: -6, y: 63}
+        - {x: -46, y: 31}
+        - {x: -46, y: -32}
+        - {x: 30, y: -32}
+        - {x: 44, y: -20}
+        - {x: 46, y: -13}
+        - {x: 46, y: 63}
+      - - {x: 26, y: -6}
+        - {x: 29, y: -5}
+        - {x: 29, y: -2}
+        - {x: 26, y: -1}
+        - {x: 24, y: -3}
+      - - {x: 33, y: 65}
+        - {x: 33, y: 61}
+        - {x: 35, y: 59}
+        - {x: 36, y: 59}
+        - {x: 40, y: 63}
+        - {x: 39, y: 66}
+        - {x: 35, y: 67}
+      - - {x: 30, y: 63}
+        - {x: 33, y: 65}
+        - {x: 32, y: 67}
+        - {x: 25, y: 67}
+        - {x: 26, y: 64}
+    - name: 6
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 369
+        width: 94
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: 57}
+        - {x: 13, y: 56}
+        - {x: -21, y: 27}
+        - {x: -47, y: -5}
+        - {x: -47, y: -57}
+        - {x: 41, y: -57}
+        - {x: 41, y: 56}
+        - {x: 39, y: 57}
+      - - {x: 25, y: -3}
+        - {x: 28, y: -6}
+        - {x: 31, y: -5}
+        - {x: 31, y: -3}
+        - {x: 28, y: 0}
+        - {x: 26, y: 0}
+      - - {x: 23, y: 2}
+        - {x: 26, y: 1}
+        - {x: 29, y: 1}
+        - {x: 29, y: 6}
+        - {x: 27, y: 11}
+        - {x: 22, y: 11}
+        - {x: 21, y: 8}
+      - - {x: -46, y: 8}
+        - {x: -43, y: 5}
+        - {x: -42, y: 5}
+        - {x: -39, y: 8}
+        - {x: -40, y: 11}
+        - {x: -45, y: 11}
+      - - {x: -37, y: 23}
+        - {x: -44, y: 21}
+        - {x: -44, y: 12}
+        - {x: -42, y: 11}
+        - {x: -35, y: 11}
+        - {x: -29, y: 14}
+        - {x: -29, y: 18}
+        - {x: -31, y: 23}
+      - - {x: -27, y: 18}
+        - {x: -24, y: 19}
+        - {x: -24, y: 22}
+        - {x: -27, y: 23}
+        - {x: -29, y: 21}
+      - - {x: -32, y: 27}
+        - {x: -30, y: 30}
+        - {x: -34, y: 35}
+        - {x: -38, y: 34}
+        - {x: -41, y: 31}
+        - {x: -40, y: 27}
+        - {x: -36, y: 23}
+        - {x: -33, y: 24}
+        - {x: -33, y: 26}
+        - {x: -36, y: 29}
+        - {x: -35, y: 28}
+      - - {x: -15, y: 38}
+        - {x: -17, y: 36}
+        - {x: -16, y: 33}
+        - {x: -13, y: 33}
+        - {x: -15, y: 33}
+        - {x: -18, y: 31}
+        - {x: -16, y: 28}
+        - {x: -12, y: 28}
+        - {x: -9, y: 29}
+        - {x: -9, y: 34}
+        - {x: -10, y: 38}
+      - - {x: -27, y: 30}
+        - {x: -24, y: 31}
+        - {x: -24, y: 34}
+        - {x: -27, y: 35}
+        - {x: -29, y: 33}
+      - - {x: -41, y: 42}
+        - {x: -37, y: 37}
+        - {x: -34, y: 38}
+        - {x: -34, y: 40}
+        - {x: -38, y: 45}
+        - {x: -40, y: 45}
+      - - {x: -3, y: 47}
+        - {x: -3, y: 43}
+        - {x: 2, y: 43}
+        - {x: 7, y: 47}
+        - {x: 7, y: 55}
+        - {x: 5, y: 57}
+        - {x: 2, y: 56}
+      - - {x: -21, y: 52}
+        - {x: -20, y: 48}
+        - {x: -18, y: 46}
+        - {x: -15, y: 47}
+        - {x: -15, y: 50}
+        - {x: -17, y: 55}
+        - {x: -20, y: 55}
+      - - {x: -44, y: 56}
+        - {x: -45, y: 55}
+        - {x: -45, y: 53}
+        - {x: -40, y: 49}
+        - {x: -35, y: 51}
+        - {x: -35, y: 56}
+    - name: BoneDragon_46
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 434
+        width: 150
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58, y: -27}
+        - {x: -75, y: -49}
+        - {x: -75, y: -91}
+        - {x: -47, y: -91}
+        - {x: -39, y: -77}
+        - {x: -39, y: -27}
+      - - {x: -48, y: -91}
+        - {x: -48, y: -89}
+        - {x: -51, y: -88}
+        - {x: -53, y: -91}
+      - - {x: -4, y: -77}
+        - {x: -4, y: -84}
+        - {x: -1, y: -91}
+        - {x: 6, y: -91}
+        - {x: 6, y: -89}
+        - {x: 5, y: -84}
+        - {x: 0, y: -76}
+        - {x: -3, y: -76}
+      - - {x: 13, y: -82}
+        - {x: 13, y: -87}
+        - {x: 14, y: -91}
+        - {x: 19, y: -91}
+        - {x: 22, y: -88}
+        - {x: 20, y: -83}
+        - {x: 15, y: -81}
+      - - {x: 42, y: -89}
+        - {x: 43, y: -91}
+        - {x: 50, y: -91}
+        - {x: 50, y: -90}
+        - {x: 47, y: -87}
+        - {x: 44, y: -87}
+      - - {x: 56, y: -33}
+        - {x: 44, y: -46}
+        - {x: 47, y: -49}
+        - {x: 50, y: -50}
+        - {x: 27, y: -76}
+        - {x: 27, y: -84}
+        - {x: 29, y: -88}
+        - {x: 63, y: -88}
+        - {x: 69, y: -64}
+        - {x: 63, y: -33}
+      - - {x: 21, y: -77}
+        - {x: 19, y: -77}
+        - {x: 17, y: -79}
+        - {x: 17, y: -83}
+        - {x: 25, y: -83}
+        - {x: 27, y: -81}
+        - {x: 25, y: -78}
+      - - {x: 21, y: -76}
+        - {x: 22, y: -78}
+        - {x: 24, y: -78}
+        - {x: 27, y: -76}
+        - {x: 27, y: -71}
+        - {x: 25, y: -69}
+        - {x: 22, y: -70}
+      - - {x: -7, y: -77}
+        - {x: 4, y: -77}
+        - {x: 4, y: -71}
+        - {x: 0, y: -60}
+        - {x: -10, y: -60}
+        - {x: -10, y: -75}
+      - - {x: 21, y: -61}
+        - {x: 20, y: -65}
+        - {x: 20, y: -67}
+        - {x: 22, y: -68}
+        - {x: 25, y: -66}
+        - {x: 26, y: -62}
+        - {x: 26, y: -60}
+        - {x: 24, y: -59}
+      - - {x: 12, y: -59}
+        - {x: 12, y: -64}
+        - {x: 16, y: -65}
+        - {x: 19, y: -63}
+        - {x: 21, y: -51}
+        - {x: 19, y: -49}
+        - {x: 14, y: -49}
+      - - {x: 33, y: -64}
+        - {x: 37, y: -65}
+        - {x: 40, y: -63}
+        - {x: 39, y: -60}
+        - {x: 34, y: -59}
+        - {x: 32, y: -61}
+      - - {x: 38, y: -60}
+        - {x: 41, y: -59}
+        - {x: 41, y: -56}
+        - {x: 38, y: -55}
+        - {x: 36, y: -57}
+      - - {x: 0, y: -49}
+        - {x: -2, y: -50}
+        - {x: -5, y: -57}
+        - {x: -3, y: -59}
+        - {x: 6, y: -58}
+        - {x: 7, y: -56}
+        - {x: 7, y: -54}
+        - {x: 2, y: -49}
+      - - {x: 66, y: -58}
+        - {x: 69, y: -57}
+        - {x: 69, y: -54}
+        - {x: 66, y: -53}
+        - {x: 64, y: -55}
+      - - {x: -73, y: -42}
+        - {x: -75, y: -47}
+        - {x: -75, y: -56}
+        - {x: -70, y: -56}
+        - {x: -67, y: -48}
+        - {x: -67, y: -42}
+      - - {x: 15, y: -37}
+        - {x: 11, y: -42}
+        - {x: 10, y: -48}
+        - {x: 10, y: -54}
+        - {x: 12, y: -55}
+        - {x: 17, y: -54}
+        - {x: 19, y: -47}
+        - {x: 19, y: -37}
+      - - {x: 37, y: -53}
+        - {x: 40, y: -52}
+        - {x: 40, y: -49}
+        - {x: 37, y: -48}
+        - {x: 35, y: -50}
+      - - {x: -12, y: -50}
+        - {x: -10, y: -52}
+        - {x: -5, y: -52}
+        - {x: -2, y: -49}
+        - {x: -3, y: -46}
+        - {x: -12, y: -46}
+      - - {x: -22, y: -51}
+        - {x: -19, y: -50}
+        - {x: -19, y: -47}
+        - {x: -22, y: -46}
+        - {x: -24, y: -48}
+      - - {x: 38, y: -48}
+        - {x: 41, y: -47}
+        - {x: 41, y: -44}
+        - {x: 38, y: -43}
+        - {x: 36, y: -45}
+      - - {x: 32, y: -41}
+        - {x: 35, y: -40}
+        - {x: 35, y: -37}
+        - {x: 32, y: -36}
+        - {x: 30, y: -38}
+      - - {x: -72, y: -38}
+        - {x: -72, y: -35}
+        - {x: -75, y: -34}
+        - {x: -75, y: -39}
+      - - {x: 9, y: -39}
+        - {x: 12, y: -38}
+        - {x: 12, y: -35}
+        - {x: 9, y: -34}
+        - {x: 7, y: -36}
+      - - {x: 61, y: 83}
+        - {x: 50, y: 91}
+        - {x: 30, y: 91}
+        - {x: 14, y: 87}
+        - {x: -42, y: 83}
+        - {x: -75, y: 79}
+        - {x: -75, y: -7}
+        - {x: -64, y: -9}
+        - {x: -41, y: -6}
+        - {x: -29, y: -11}
+        - {x: -16, y: -11}
+        - {x: -8, y: -9}
+        - {x: -14, y: -11}
+        - {x: -32, y: -12}
+        - {x: -40, y: -8}
+        - {x: -64, y: -10}
+        - {x: -69, y: -13}
+        - {x: -58, y: -19}
+        - {x: 64, y: -19}
+        - {x: 73, y: -15}
+        - {x: 73, y: -8}
+        - {x: 72, y: -5}
+      - - {x: 72, y: -17}
+        - {x: 74, y: -19}
+        - {x: 75, y: -19}
+        - {x: 75, y: -14}
+        - {x: 73, y: -14}
+    - name: BoneDragon_47
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 439
+        width: 34
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: 7
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 370
+        width: 95
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 23.5, y: -28}
+        - {x: 22.5, y: 4}
+        - {x: 11.5, y: 13}
+        - {x: -2.5, y: 6}
+        - {x: -4.5, y: 2}
+        - {x: -3.5, y: -2}
+        - {x: -12.5, y: 12}
+        - {x: -19.5, y: 17}
+        - {x: -27.5, y: 17}
+        - {x: -29.5, y: -19}
+        - {x: -29.5, y: -20}
+        - {x: -29.5, y: -12}
+        - {x: -30.5, y: -7}
+        - {x: -31.5, y: -4}
+        - {x: -34.5, y: -4}
+        - {x: -37.5, y: -6}
+        - {x: -38.5, y: -20}
+        - {x: -38.5, y: -21}
+        - {x: -36.5, y: -23}
+        - {x: -36.5, y: -26}
+        - {x: -37.5, y: -24}
+        - {x: -39.5, y: -17}
+        - {x: -47.5, y: -14}
+        - {x: -47.5, y: -57}
+        - {x: 38.5, y: -57}
+        - {x: 38.5, y: -39}
+        - {x: 29.5, y: -25}
+      - - {x: -47.5, y: -41}
+        - {x: -44.5, y: -44}
+        - {x: -41.5, y: -43}
+        - {x: -41.5, y: -41}
+        - {x: -45.5, y: -37}
+        - {x: -47.5, y: -37}
+      - - {x: -33.5, y: 5}
+        - {x: -34.5, y: 3}
+        - {x: -34.5, y: -2}
+        - {x: -32.5, y: -3}
+        - {x: -30.5, y: -3}
+        - {x: -28.5, y: -1}
+        - {x: -28.5, y: 2}
+        - {x: -31.5, y: 5}
+      - - {x: -38.5, y: 3}
+        - {x: -35.5, y: 4}
+        - {x: -35.5, y: 7}
+        - {x: -38.5, y: 8}
+        - {x: -40.5, y: 6}
+      - - {x: -39.5, y: 22}
+        - {x: -40.5, y: 19}
+        - {x: -38.5, y: 10}
+        - {x: -34.5, y: 5}
+        - {x: -32.5, y: 5}
+        - {x: -30.5, y: 6}
+        - {x: -30.5, y: 12}
+        - {x: -36.5, y: 22}
+      - - {x: 24.5, y: 57}
+        - {x: 14.5, y: 57}
+        - {x: 9.5, y: 52}
+        - {x: 8.5, y: 48}
+        - {x: -9.5, y: 25}
+        - {x: -9.5, y: 14}
+        - {x: -4.5, y: 10}
+        - {x: 28.5, y: 10}
+        - {x: 32.5, y: 25}
+        - {x: 32.5, y: 40}
+        - {x: 27.5, y: 49}
+      - - {x: -17.5, y: 21}
+        - {x: -19.5, y: 19}
+        - {x: -19.5, y: 17}
+        - {x: -18.5, y: 15}
+        - {x: -11.5, y: 15}
+        - {x: -9.5, y: 17}
+        - {x: -11.5, y: 20}
+        - {x: -15.5, y: 21}
+      - - {x: -15.5, y: 22}
+        - {x: -14.5, y: 20}
+        - {x: -12.5, y: 20}
+        - {x: -9.5, y: 22}
+        - {x: -9.5, y: 27}
+        - {x: -11.5, y: 29}
+        - {x: -14.5, y: 28}
+      - - {x: -46.5, y: 25}
+        - {x: -42.5, y: 21}
+        - {x: -32.5, y: 21}
+        - {x: -32.5, y: 26}
+        - {x: -34.5, y: 32}
+        - {x: -37.5, y: 38}
+        - {x: -46.5, y: 38}
+      - - {x: -16.5, y: 32}
+        - {x: -15.5, y: 30}
+        - {x: -12.5, y: 30}
+        - {x: -10.5, y: 32}
+        - {x: -10.5, y: 37}
+        - {x: -12.5, y: 39}
+        - {x: -15.5, y: 37}
+        - {x: -16.5, y: 35}
+      - - {x: -24.5, y: 39}
+        - {x: -23.5, y: 36}
+        - {x: -20.5, y: 33}
+        - {x: -17.5, y: 35}
+        - {x: -15.5, y: 47}
+        - {x: -17.5, y: 49}
+        - {x: -20.5, y: 48}
+      - - {x: -3.5, y: 34}
+        - {x: 0.5, y: 33}
+        - {x: 3.5, y: 35}
+        - {x: 2.5, y: 38}
+        - {x: -2.5, y: 39}
+        - {x: -4.5, y: 37}
+      - - {x: 1.5, y: 38}
+        - {x: 4.5, y: 39}
+        - {x: 4.5, y: 42}
+        - {x: 1.5, y: 43}
+        - {x: -0.5, y: 41}
+      - - {x: -29.5, y: 44}
+        - {x: -34.5, y: 49}
+        - {x: -36.5, y: 49}
+        - {x: -38.5, y: 48}
+        - {x: -41.5, y: 41}
+        - {x: -39.5, y: 39}
+        - {x: -36.5, y: 40}
+        - {x: -30.5, y: 40}
+        - {x: -29.5, y: 42}
+      - - {x: 29.5, y: 40}
+        - {x: 32.5, y: 41}
+        - {x: 32.5, y: 44}
+        - {x: 29.5, y: 45}
+        - {x: 27.5, y: 43}
+      - - {x: -18.5, y: 57}
+        - {x: -24.5, y: 57}
+        - {x: -25.5, y: 55}
+        - {x: -26.5, y: 48}
+        - {x: -26.5, y: 44}
+        - {x: -24.5, y: 43}
+        - {x: -21.5, y: 45}
+        - {x: -17.5, y: 52}
+        - {x: -17.5, y: 56}
+      - - {x: 0.5, y: 45}
+        - {x: 3.5, y: 46}
+        - {x: 3.5, y: 49}
+        - {x: 0.5, y: 50}
+        - {x: -1.5, y: 48}
+      - - {x: -47.5, y: 52}
+        - {x: -47.5, y: 47}
+        - {x: -46.5, y: 46}
+        - {x: -41.5, y: 46}
+        - {x: -38.5, y: 49}
+        - {x: -39.5, y: 52}
+      - - {x: 1.5, y: 50}
+        - {x: 4.5, y: 51}
+        - {x: 4.5, y: 54}
+        - {x: 1.5, y: 55}
+        - {x: -0.5, y: 53}
+    - name: BoneDragon_49
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 422
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BoneDragon_50
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 315
+        width: 40
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BoneDragon_51
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 285
+        width: 107
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: -11.5}
+        - {x: -47.5, y: -11.5}
+        - {x: -53.5, y: -17.5}
+        - {x: -53.5, y: -23.5}
+        - {x: -44.5, y: -23.5}
+        - {x: -41.5, y: -21.5}
+        - {x: -39.5, y: -15.5}
+      - - {x: 50.5, y: -20.5}
+        - {x: 52.5, y: -22.5}
+        - {x: 53.5, y: -22.5}
+        - {x: 53.5, y: -17.5}
+        - {x: 51.5, y: -17.5}
+      - - {x: -49.5, y: -17.5}
+        - {x: -46.5, y: -16.5}
+        - {x: -46.5, y: -13.5}
+        - {x: -49.5, y: -12.5}
+        - {x: -51.5, y: -14.5}
+      - - {x: -33.5, y: -17.5}
+        - {x: -30.5, y: -16.5}
+        - {x: -30.5, y: -13.5}
+        - {x: -33.5, y: -12.5}
+        - {x: -35.5, y: -14.5}
+      - - {x: 0.5, y: 23.5}
+        - {x: -20.5, y: -2.5}
+        - {x: -20.5, y: -13.5}
+        - {x: -16.5, y: -15.5}
+        - {x: 16.5, y: -15.5}
+        - {x: 21.5, y: -3.5}
+        - {x: 21.5, y: 19.5}
+        - {x: 19.5, y: 23.5}
+      - - {x: 45.5, y: -8.5}
+        - {x: 48.5, y: -13.5}
+        - {x: 51.5, y: -11.5}
+        - {x: 50.5, y: -7.5}
+        - {x: 48.5, y: -5.5}
+        - {x: 46.5, y: -5.5}
+      - - {x: -51.5, y: -6.5}
+        - {x: -48.5, y: -11.5}
+        - {x: -45.5, y: -9.5}
+        - {x: -46.5, y: -5.5}
+        - {x: -48.5, y: -3.5}
+        - {x: -50.5, y: -3.5}
+      - - {x: -27.5, y: -9.5}
+        - {x: -23.5, y: -10.5}
+        - {x: -20.5, y: -8.5}
+        - {x: -21.5, y: -5.5}
+        - {x: -26.5, y: -4.5}
+        - {x: -28.5, y: -6.5}
+      - - {x: 46.5, y: -3.5}
+        - {x: 49.5, y: -2.5}
+        - {x: 49.5, y: 0.5}
+        - {x: 46.5, y: 1.5}
+        - {x: 44.5, y: -0.5}
+      - - {x: -24.5, y: 8.5}
+        - {x: -21.5, y: 9.5}
+        - {x: -21.5, y: 12.5}
+        - {x: -24.5, y: 13.5}
+        - {x: -26.5, y: 11.5}
+      - - {x: -33.5, y: 10.5}
+        - {x: -30.5, y: 11.5}
+        - {x: -30.5, y: 14.5}
+        - {x: -33.5, y: 15.5}
+        - {x: -35.5, y: 13.5}
+      - - {x: -50.5, y: 11.5}
+        - {x: -47.5, y: 12.5}
+        - {x: -47.5, y: 15.5}
+        - {x: -50.5, y: 16.5}
+        - {x: -52.5, y: 14.5}
+      - - {x: -9.5, y: 17.5}
+        - {x: -6.5, y: 18.5}
+        - {x: -6.5, y: 21.5}
+        - {x: -9.5, y: 22.5}
+        - {x: -11.5, y: 20.5}
+      - - {x: -31.5, y: 19.5}
+        - {x: -28.5, y: 20.5}
+        - {x: -28.5, y: 23.5}
+        - {x: -32.5, y: 23.5}
+        - {x: -33.5, y: 22.5}
+      - - {x: -35.5, y: 21.5}
+        - {x: -35.5, y: 23.5}
+        - {x: -40.5, y: 23.5}
+        - {x: -38.5, y: 20.5}
+    - name: BoneDragon_52
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 294
+        width: 53
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 19}
+        - {x: -26.5, y: 9}
+        - {x: -26.5, y: -10}
+        - {x: -13.5, y: -19}
+        - {x: 26.5, y: -19}
+        - {x: 26.5, y: 19}
+    - name: BoneDragon_53
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 294
+        width: 53
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 19}
+        - {x: -0.5, y: 19}
+        - {x: -26.5, y: 4}
+        - {x: -26.5, y: -10}
+        - {x: -13.5, y: -19}
+        - {x: 23.5, y: -19}
+        - {x: 26.5, y: -15}
+        - {x: 26.5, y: 17}
+    - name: BoneDragon_54
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 294
+        width: 53
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 19}
+        - {x: -25.5, y: 5}
+        - {x: -26.5, y: 2}
+        - {x: -26.5, y: -10}
+        - {x: -18.5, y: -15}
+        - {x: -9.5, y: -19}
+        - {x: 23.5, y: -19}
+        - {x: 26.5, y: -12}
+        - {x: 26.5, y: 18}
+        - {x: 24.5, y: 19}
+    - name: 8
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 251
+        width: 85
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 1}
+        - {x: -21.5, y: -2}
+        - {x: -24.5, y: -18}
+        - {x: -24.5, y: -19}
+        - {x: -24.5, y: -13}
+        - {x: -21.5, y: -2}
+        - {x: -26.5, y: 19}
+        - {x: -28.5, y: 25}
+        - {x: -38.5, y: 25}
+        - {x: -38.5, y: 11}
+        - {x: -37.5, y: 0}
+        - {x: -29.5, y: -15}
+        - {x: -33.5, y: -19}
+        - {x: -33.5, y: -20}
+        - {x: -33.5, y: -19}
+        - {x: -31.5, y: -14}
+        - {x: -31.5, y: -12}
+        - {x: -35.5, y: -7}
+        - {x: -39.5, y: -8}
+        - {x: -40.5, y: -32}
+        - {x: -36.5, y: -35}
+        - {x: -36.5, y: -39}
+        - {x: -33.5, y: -42}
+        - {x: -31.5, y: -42}
+        - {x: -33.5, y: -42}
+        - {x: -35.5, y: -43}
+        - {x: -37.5, y: -36}
+        - {x: -39.5, y: -34}
+        - {x: -42.5, y: -34}
+        - {x: -42.5, y: -57}
+        - {x: 42.5, y: -57}
+        - {x: 42.5, y: -20}
+        - {x: 28.5, y: 1}
+      - - {x: -37.5, y: -7}
+        - {x: -34.5, y: -6}
+        - {x: -34.5, y: -3}
+        - {x: -37.5, y: -2}
+        - {x: -39.5, y: -4}
+      - - {x: -19.5, y: 1}
+        - {x: -17.5, y: 0}
+        - {x: -13.5, y: -1}
+        - {x: -10.5, y: 0}
+        - {x: -10.5, y: 7}
+        - {x: -11.5, y: 10}
+        - {x: -16.5, y: 12}
+        - {x: -19.5, y: 10}
+      - - {x: 26.5, y: 42}
+        - {x: 22.5, y: 36}
+        - {x: 5.5, y: 25}
+        - {x: -4.5, y: 15}
+        - {x: -4.5, y: 9}
+        - {x: 0.5, y: 5}
+        - {x: 20.5, y: 5}
+        - {x: 31.5, y: 6}
+        - {x: 37.5, y: 25}
+        - {x: 37.5, y: 32}
+        - {x: 29.5, y: 43}
+      - - {x: -11.5, y: 11}
+        - {x: -7.5, y: 10}
+        - {x: -4.5, y: 12}
+        - {x: -5.5, y: 15}
+        - {x: -10.5, y: 16}
+        - {x: -12.5, y: 14}
+      - - {x: -10.5, y: 22}
+        - {x: -9.5, y: 19}
+        - {x: -6.5, y: 19}
+        - {x: -4.5, y: 21}
+        - {x: -5.5, y: 24}
+        - {x: -8.5, y: 24}
+      - - {x: -9.5, y: 25}
+        - {x: -6.5, y: 26}
+        - {x: -6.5, y: 29}
+        - {x: -9.5, y: 30}
+        - {x: -11.5, y: 28}
+      - - {x: -37.5, y: 29}
+        - {x: -31.5, y: 29}
+        - {x: -28.5, y: 33}
+        - {x: -28.5, y: 41}
+        - {x: -31.5, y: 42}
+        - {x: -32.5, y: 42}
+        - {x: -35.5, y: 39}
+        - {x: -37.5, y: 34}
+      - - {x: -13.5, y: 40}
+        - {x: -16.5, y: 40}
+        - {x: -19.5, y: 35}
+        - {x: -19.5, y: 33}
+        - {x: -15.5, y: 29}
+        - {x: -12.5, y: 30}
+        - {x: -12.5, y: 33}
+        - {x: -11.5, y: 35}
+        - {x: -11.5, y: 39}
+      - - {x: 1.5, y: 30}
+        - {x: 3.5, y: 29}
+        - {x: 7.5, y: 29}
+        - {x: 9.5, y: 31}
+        - {x: 9.5, y: 37}
+        - {x: 8.5, y: 38}
+        - {x: 5.5, y: 38}
+        - {x: 1.5, y: 36}
+        - {x: 0.5, y: 33}
+      - - {x: -8.5, y: 30}
+        - {x: -5.5, y: 31}
+        - {x: -5.5, y: 34}
+        - {x: -8.5, y: 35}
+        - {x: -10.5, y: 33}
+      - - {x: 3.5, y: 41}
+        - {x: 5.5, y: 39}
+        - {x: 8.5, y: 40}
+        - {x: 9.5, y: 45}
+        - {x: 7.5, y: 47}
+        - {x: 4.5, y: 46}
+      - - {x: -42.5, y: 41}
+        - {x: -41.5, y: 40}
+        - {x: -38.5, y: 41}
+        - {x: -38.5, y: 44}
+        - {x: -41.5, y: 45}
+        - {x: -42.5, y: 44}
+      - - {x: -36.5, y: 40}
+        - {x: -33.5, y: 41}
+        - {x: -33.5, y: 44}
+        - {x: -36.5, y: 45}
+        - {x: -38.5, y: 43}
+      - - {x: -19.5, y: 48}
+        - {x: -19.5, y: 44}
+        - {x: -18.5, y: 41}
+        - {x: -16.5, y: 41}
+        - {x: -14.5, y: 43}
+        - {x: -12.5, y: 48}
+        - {x: -12.5, y: 50}
+        - {x: -15.5, y: 51}
+      - - {x: 22.5, y: 56}
+        - {x: 22.5, y: 45}
+        - {x: 27.5, y: 43}
+        - {x: 30.5, y: 45}
+        - {x: 30.5, y: 53}
+        - {x: 28.5, y: 56}
+      - - {x: 0.5, y: 48}
+        - {x: 3.5, y: 49}
+        - {x: 3.5, y: 52}
+        - {x: 0.5, y: 53}
+        - {x: -1.5, y: 51}
+      - - {x: -22.5, y: 50}
+        - {x: -19.5, y: 51}
+        - {x: -19.5, y: 54}
+        - {x: -22.5, y: 55}
+        - {x: -24.5, y: 53}
+    - name: BoneDragon_56
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 286
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BoneDragon_57
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 291
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BoneDragon_58
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 280
+        width: 50
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BoneDragon_59
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 279
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BoneDragon_60
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 254
+        width: 53
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 19}
+        - {x: -12.5, y: 18}
+        - {x: -26.5, y: 3}
+        - {x: -26.5, y: -16}
+        - {x: -23.5, y: -19}
+        - {x: 25.5, y: -19}
+        - {x: 26.5, y: -17}
+        - {x: 26.5, y: 14}
+        - {x: 24.5, y: 19}
+    - name: BoneDragon_61
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 254
+        width: 53
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 19}
+        - {x: -11.5, y: 18}
+        - {x: -26.5, y: 4}
+        - {x: -26.5, y: -16}
+        - {x: -19.5, y: -19}
+        - {x: 21.5, y: -19}
+        - {x: 26.5, y: -10}
+        - {x: 26.5, y: 11}
+        - {x: 22.5, y: 19}
+    - name: BoneDragon_62
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 254
+        width: 54
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 19}
+        - {x: -6, y: 19}
+        - {x: -27, y: 8}
+        - {x: -27, y: -8}
+        - {x: -21, y: -19}
+        - {x: 22, y: -19}
+        - {x: 27, y: -9}
+        - {x: 27, y: 8}
+    - name: 9
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 251
+        width: 87
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.5, y: -22}
+        - {x: -39.5, y: -25}
+        - {x: -40.5, y: -29}
+        - {x: -43.5, y: -38}
+        - {x: -41.5, y: -43}
+        - {x: -39.5, y: -43}
+        - {x: -40.5, y: -43}
+        - {x: -43.5, y: -45}
+        - {x: -43.5, y: -57}
+        - {x: 42.5, y: -57}
+        - {x: 42.5, y: -22}
+      - - {x: -32.5, y: -11}
+        - {x: -40.5, y: -20}
+        - {x: -40.5, y: -24}
+        - {x: -34.5, y: -26}
+        - {x: -25.5, y: -26}
+        - {x: -24.5, y: -25}
+        - {x: -24.5, y: -14}
+        - {x: -28.5, y: -11}
+      - - {x: -34.5, y: -17}
+        - {x: -31.5, y: -16}
+        - {x: -31.5, y: -13}
+        - {x: -34.5, y: -12}
+        - {x: -36.5, y: -14}
+      - - {x: -18.5, y: -17}
+        - {x: -15.5, y: -16}
+        - {x: -15.5, y: -13}
+        - {x: -18.5, y: -12}
+        - {x: -20.5, y: -14}
+      - - {x: 27.5, y: 24}
+        - {x: 24.5, y: 24}
+        - {x: -5.5, y: -6}
+        - {x: -5.5, y: -11}
+        - {x: -0.5, y: -15}
+        - {x: 19.5, y: -15}
+        - {x: 30.5, y: -14}
+        - {x: 36.5, y: 7}
+        - {x: 36.5, y: 11}
+        - {x: 32.5, y: 21}
+      - - {x: -36.5, y: -6}
+        - {x: -33.5, y: -11}
+        - {x: -30.5, y: -9}
+        - {x: -31.5, y: -5}
+        - {x: -33.5, y: -3}
+        - {x: -35.5, y: -3}
+      - - {x: -12.5, y: -9}
+        - {x: -8.5, y: -10}
+        - {x: -5.5, y: -8}
+        - {x: -6.5, y: -5}
+        - {x: -11.5, y: -4}
+        - {x: -13.5, y: -6}
+      - - {x: -9.5, y: 9}
+        - {x: -6.5, y: 10}
+        - {x: -6.5, y: 13}
+        - {x: -9.5, y: 14}
+        - {x: -11.5, y: 12}
+      - - {x: -18.5, y: 11}
+        - {x: -15.5, y: 12}
+        - {x: -15.5, y: 15}
+        - {x: -18.5, y: 16}
+        - {x: -20.5, y: 14}
+      - - {x: -35.5, y: 12}
+        - {x: -32.5, y: 13}
+        - {x: -32.5, y: 16}
+        - {x: -35.5, y: 17}
+        - {x: -37.5, y: 15}
+      - - {x: 5.5, y: 18}
+        - {x: 8.5, y: 19}
+        - {x: 8.5, y: 22}
+        - {x: 5.5, y: 23}
+        - {x: 3.5, y: 21}
+      - - {x: -16.5, y: 20}
+        - {x: -13.5, y: 21}
+        - {x: -13.5, y: 24}
+        - {x: -16.5, y: 25}
+        - {x: -18.5, y: 23}
+      - - {x: -23.5, y: 21}
+        - {x: -20.5, y: 22}
+        - {x: -20.5, y: 25}
+        - {x: -23.5, y: 26}
+        - {x: -25.5, y: 24}
+    - name: 10
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 250
+        width: 85
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 0}
+        - {x: -4.5, y: -4}
+        - {x: -4.5, y: -8}
+        - {x: -42.5, y: -27}
+        - {x: -42.5, y: -57}
+        - {x: 42.5, y: -57}
+        - {x: 42.5, y: -10}
+        - {x: 15.5, y: 0}
+      - - {x: -18.5, y: -24}
+        - {x: -15.5, y: -23}
+        - {x: -15.5, y: -20}
+        - {x: -18.5, y: -19}
+        - {x: -20.5, y: -21}
+      - - {x: -29.5, y: -21}
+        - {x: -26.5, y: -20}
+        - {x: -26.5, y: -17}
+        - {x: -29.5, y: -16}
+        - {x: -31.5, y: -18}
+      - - {x: -36.5, y: -7}
+        - {x: -33.5, y: -12}
+        - {x: -30.5, y: -10}
+        - {x: -31.5, y: -6}
+        - {x: -33.5, y: -4}
+        - {x: -35.5, y: -4}
+      - - {x: -12.5, y: -10}
+        - {x: -8.5, y: -11}
+        - {x: -5.5, y: -9}
+        - {x: -6.5, y: -6}
+        - {x: -11.5, y: -5}
+        - {x: -13.5, y: -7}
+      - - {x: -9.5, y: -4}
+        - {x: -6.5, y: -3}
+        - {x: -6.5, y: 0}
+        - {x: -9.5, y: 1}
+        - {x: -11.5, y: -1}
+      - - {x: -18.5, y: -3}
+        - {x: -15.5, y: -2}
+        - {x: -15.5, y: 1}
+        - {x: -18.5, y: 2}
+        - {x: -20.5, y: 0}
+      - - {x: -35.5, y: -2}
+        - {x: -32.5, y: -1}
+        - {x: -32.5, y: 2}
+        - {x: -35.5, y: 3}
+        - {x: -37.5, y: 1}
+      - - {x: 25.5, y: 3}
+        - {x: 28.5, y: -1}
+        - {x: 31.5, y: 0}
+        - {x: 31.5, y: 3}
+        - {x: 28.5, y: 6}
+        - {x: 26.5, y: 6}
+      - - {x: 5.5, y: 1}
+        - {x: 8.5, y: 2}
+        - {x: 8.5, y: 5}
+        - {x: 5.5, y: 6}
+        - {x: 3.5, y: 4}
+    - name: 11
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 251
+        width: 87
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 5.5}
+        - {x: -38.5, y: -27.5}
+        - {x: -35.5, y: -38.5}
+        - {x: -32.5, y: -41.5}
+        - {x: -30.5, y: -41.5}
+        - {x: -32.5, y: -41.5}
+        - {x: -37.5, y: -43.5}
+        - {x: -43.5, y: -50.5}
+        - {x: -43.5, y: -56.5}
+        - {x: 43.5, y: -56.5}
+        - {x: 43.5, y: -3.5}
+        - {x: 16.5, y: 5.5}
+    - name: 12
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 251
+        width: 84
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: -18}
+        - {x: -42, y: -23}
+        - {x: -42, y: -30}
+        - {x: -37, y: -40}
+        - {x: -33, y: -42}
+        - {x: -31, y: -42}
+        - {x: -33, y: -42}
+        - {x: -38, y: -44}
+        - {x: -42, y: -48}
+        - {x: -42, y: -57}
+        - {x: 42, y: -57}
+        - {x: 42, y: -29}
+        - {x: 35, y: -18}
+    - name: BoneDragon_67
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 221
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BoneDragon_68
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 197
+        width: 92
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 26.5}
+        - {x: -46, y: 6.5}
+        - {x: -46, y: -26.5}
+        - {x: 30, y: -26.5}
+        - {x: 33, y: -24.5}
+        - {x: 46, y: -7.5}
+        - {x: 46, y: 4.5}
+        - {x: 21, y: 26.5}
+    - name: BoneDragon_69
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 197
+        width: 73
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 26.5}
+        - {x: -36.5, y: 1.5}
+        - {x: -36.5, y: -19.5}
+        - {x: -15.5, y: -26.5}
+        - {x: 36.5, y: -26.5}
+        - {x: 36.5, y: 19.5}
+        - {x: 33.5, y: 26.5}
+    - name: BoneDragon_70
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 125
+        width: 115
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: -21}
+        - {x: 57.5, y: -11}
+        - {x: 57.5, y: 10}
+        - {x: 53.5, y: 13}
+        - {x: 49.5, y: 12}
+        - {x: 46.5, y: 9}
+        - {x: 50.5, y: 15}
+        - {x: 57.5, y: 18}
+        - {x: 57.5, y: 22}
+        - {x: 50.5, y: 48}
+        - {x: 45.5, y: 48}
+        - {x: 38.5, y: 39}
+        - {x: 37.5, y: 32}
+        - {x: 37.5, y: 22}
+        - {x: 36.5, y: 33}
+        - {x: 33.5, y: 36}
+        - {x: 38.5, y: 46}
+        - {x: 38.5, y: 48}
+        - {x: -21.5, y: 48}
+        - {x: -56.5, y: 45}
+        - {x: -57.5, y: 44}
+        - {x: -57.5, y: -16}
+        - {x: -20.5, y: -3}
+        - {x: -18.5, y: -9}
+        - {x: -44.5, y: -11}
+        - {x: -48.5, y: -15}
+        - {x: -57.5, y: -25}
+        - {x: -57.5, y: -42}
+        - {x: -45.5, y: -48}
+        - {x: 51.5, y: -48}
+        - {x: 57.5, y: -41}
+        - {x: 57.5, y: -31}
+        - {x: 48.5, y: -24}
+      - - {x: 51.5, y: -46}
+        - {x: 54.5, y: -45}
+        - {x: 54.5, y: -42}
+        - {x: 51.5, y: -41}
+        - {x: 49.5, y: -43}
+    - name: BoneDragon_71
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 189
+        width: 33
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BoneDragon_72
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 177
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BoneDragon_73
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 170
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BoneDragon_74
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 125
+        width: 84
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: -5.5}
+        - {x: 18, y: -11.5}
+        - {x: 18, y: -15.5}
+        - {x: 18, y: -13.5}
+        - {x: 17, y: -10.5}
+        - {x: 17, y: -7.5}
+        - {x: 28, y: 1.5}
+        - {x: 37, y: 31.5}
+        - {x: -20, y: 31.5}
+        - {x: -24, y: 6.5}
+        - {x: -24, y: 5.5}
+        - {x: -24, y: 13.5}
+        - {x: -25, y: 18.5}
+        - {x: -26, y: 21.5}
+        - {x: -29, y: 21.5}
+        - {x: -32, y: 19.5}
+        - {x: -33, y: 5.5}
+        - {x: -33, y: 4.5}
+        - {x: -31, y: 2.5}
+        - {x: -31, y: -0.5}
+        - {x: -32, y: 1.5}
+        - {x: -34, y: 8.5}
+        - {x: -39, y: 7.5}
+        - {x: -42, y: -0.5}
+        - {x: -42, y: -31.5}
+        - {x: 42, y: -31.5}
+        - {x: 42, y: -17.5}
+        - {x: 34, y: -0.5}
+      - - {x: -42, y: -15.5}
+        - {x: -39, y: -18.5}
+        - {x: -36, y: -17.5}
+        - {x: -36, y: -15.5}
+        - {x: -40, y: -11.5}
+        - {x: -42, y: -11.5}
+      - - {x: -28, y: 30.5}
+        - {x: -29, y: 28.5}
+        - {x: -29, y: 23.5}
+        - {x: -27, y: 22.5}
+        - {x: -25, y: 22.5}
+        - {x: -23, y: 24.5}
+        - {x: -23, y: 27.5}
+        - {x: -26, y: 30.5}
+      - - {x: -30, y: 29.5}
+        - {x: -30, y: 31.5}
+        - {x: -35, y: 31.5}
+        - {x: -33, y: 28.5}
+    - name: BoneDragon_75
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 125
+        width: 85
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32.5, y: 20}
+        - {x: -33.5, y: 17}
+        - {x: -33.5, y: 16}
+        - {x: -33.5, y: 20}
+        - {x: -38.5, y: 20}
+        - {x: -39.5, y: 12}
+        - {x: -39.5, y: 5}
+        - {x: -36.5, y: 1}
+        - {x: -36.5, y: -3}
+        - {x: -37.5, y: 0}
+        - {x: -39.5, y: 4}
+        - {x: -42.5, y: 0}
+        - {x: -42.5, y: -20}
+        - {x: 42.5, y: -20}
+        - {x: 42.5, y: 16}
+        - {x: 39.5, y: 20}
+    - name: BoneDragon_76
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 159
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BoneDragon_77
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 164
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: BoneDragon_78
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 125
+        width: 85
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.5, y: 17}
+        - {x: 27.5, y: 14}
+        - {x: 23.5, y: 18}
+        - {x: 14.5, y: 21}
+        - {x: 2.5, y: 21}
+        - {x: -3.5, y: 18}
+        - {x: -42.5, y: 13}
+        - {x: -42.5, y: -3}
+        - {x: -40.5, y: -8}
+        - {x: -38.5, y: -8}
+        - {x: -39.5, y: -8}
+        - {x: -42.5, y: -11}
+        - {x: -42.5, y: -21}
+        - {x: 42.5, y: -21}
+        - {x: 42.5, y: -6}
+        - {x: 36.5, y: 17}
+      - - {x: -26.5, y: 10}
+        - {x: -23.5, y: 11}
+        - {x: -23.5, y: 14}
+        - {x: -26.5, y: 15}
+        - {x: -28.5, y: 13}
+      - - {x: -31.5, y: 13}
+        - {x: -28.5, y: 14}
+        - {x: -28.5, y: 17}
+        - {x: -31.5, y: 18}
+        - {x: -33.5, y: 16}
+      - - {x: -37.5, y: 21}
+        - {x: -39.5, y: 17}
+        - {x: -37.5, y: 14}
+        - {x: -33.5, y: 15}
+        - {x: -32.5, y: 20}
+        - {x: -32.5, y: 21}
+    - name: BoneDragon_79
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 125
+        width: 85
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -42.5, y: -24.5}
+        - {x: 42.5, y: -24.5}
+        - {x: 42.5, y: 10.5}
+        - {x: 30.5, y: 13.5}
+        - {x: -17.5, y: 13.5}
+        - {x: -42.5, y: 6.5}
+      - - {x: -30.5, y: 23.5}
+        - {x: -35.5, y: 23.5}
+        - {x: -36.5, y: 20.5}
+        - {x: -37.5, y: 12.5}
+        - {x: -35.5, y: 9.5}
+        - {x: -32.5, y: 10.5}
+        - {x: -27.5, y: 11.5}
+        - {x: -25.5, y: 12.5}
+        - {x: -25.5, y: 16.5}
+      - - {x: -17.5, y: 10.5}
+        - {x: -14.5, y: 11.5}
+        - {x: -14.5, y: 14.5}
+        - {x: -17.5, y: 15.5}
+        - {x: -19.5, y: 13.5}
+      - - {x: -12.5, y: 17.5}
+        - {x: -12.5, y: 15.5}
+        - {x: -7.5, y: 13.5}
+        - {x: -4.5, y: 15.5}
+        - {x: -5.5, y: 19.5}
+        - {x: -7.5, y: 21.5}
+        - {x: -8.5, y: 21.5}
+      - - {x: -17.5, y: 17.5}
+        - {x: -14.5, y: 18.5}
+        - {x: -14.5, y: 21.5}
+        - {x: -17.5, y: 22.5}
+        - {x: -19.5, y: 20.5}
+      - - {x: 26.5, y: 24.5}
+        - {x: 29.5, y: 19.5}
+        - {x: 32.5, y: 20.5}
+        - {x: 32.5, y: 23.5}
+        - {x: 31.5, y: 24.5}
+      - - {x: 9.5, y: 22.5}
+        - {x: 9.5, y: 24.5}
+        - {x: 4.5, y: 24.5}
+        - {x: 6.5, y: 21.5}
+    - name: BoneDragon_80
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 125
+        width: 85
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 18}
+        - {x: -37.5, y: 9}
+        - {x: -42.5, y: -8}
+        - {x: -42.5, y: -18}
+        - {x: 42.5, y: -18}
+        - {x: 42.5, y: 3}
+        - {x: 36.5, y: 18}
+    - name: BoneDragon_81
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 14
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45.5, y: -13.5}
+        - {x: 45.5, y: -0.5}
+        - {x: 42.5, y: 2.5}
+        - {x: 45.5, y: 3.5}
+        - {x: 45.5, y: 23.5}
+        - {x: 41.5, y: 26.5}
+        - {x: 37.5, y: 25.5}
+        - {x: 33.5, y: 20.5}
+        - {x: 41.5, y: 32.5}
+        - {x: 40.5, y: 38.5}
+        - {x: 37.5, y: 40.5}
+        - {x: 20.5, y: 47.5}
+        - {x: 8.5, y: 47.5}
+        - {x: 0.5, y: 46.5}
+        - {x: -30.5, y: -0.5}
+        - {x: -35.5, y: -29.5}
+        - {x: -34.5, y: -16.5}
+        - {x: -40.5, y: -13.5}
+        - {x: -45.5, y: -12.5}
+        - {x: -45.5, y: -47.5}
+        - {x: 39.5, y: -47.5}
+        - {x: 45.5, y: -44.5}
+        - {x: 45.5, y: -26.5}
+        - {x: 38.5, y: -20.5}
+    - name: BoneDragon_82
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 14
+        width: 92
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31, y: 49}
+        - {x: 31, y: 48}
+        - {x: 36, y: 41}
+        - {x: 40, y: 41}
+        - {x: 40, y: 39}
+        - {x: 36, y: 41}
+        - {x: 33, y: 44}
+        - {x: 15, y: 49}
+        - {x: -33, y: -1}
+        - {x: -45, y: -18}
+        - {x: -46, y: -26}
+        - {x: -46, y: -49}
+        - {x: 32, y: -49}
+        - {x: 46, y: -39}
+        - {x: 46, y: 49}
+      - - {x: 28, y: 45}
+        - {x: 31, y: 46}
+        - {x: 31, y: 49}
+        - {x: 27, y: 49}
+        - {x: 26, y: 48}
+    - name: BoneDragon_83
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 12
+        width: 96
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 48, y: 37.5}
+        - {x: 40, y: 48.5}
+        - {x: -4, y: 48.5}
+        - {x: -13, y: 44.5}
+        - {x: -32, y: 20.5}
+        - {x: -33, y: 4.5}
+        - {x: -33, y: -20.5}
+        - {x: -37, y: -32.5}
+        - {x: -33, y: -20.5}
+        - {x: -33, y: -17.5}
+        - {x: -34, y: -14.5}
+        - {x: -39, y: -10.5}
+        - {x: -41, y: -10.5}
+        - {x: -44, y: -11.5}
+        - {x: -48, y: -32.5}
+        - {x: -48, y: -45.5}
+        - {x: -41, y: -48.5}
+        - {x: 30, y: -48.5}
+        - {x: 47, y: -28.5}
+        - {x: 46, y: -26.5}
+        - {x: 48, y: -20.5}
+    - name: BoneDragon_84
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 14
+        width: 182
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33, y: 30}
+        - {x: 29, y: 31}
+        - {x: 27, y: 29}
+        - {x: 22, y: 23}
+        - {x: 22, y: 20}
+        - {x: 20, y: 22}
+        - {x: 25, y: 29}
+        - {x: 31, y: 32}
+        - {x: 32, y: 35}
+        - {x: 17, y: 49}
+        - {x: -4, y: 49}
+        - {x: -9, y: 48}
+        - {x: -14, y: 42}
+        - {x: -14, y: 40}
+        - {x: -34, y: 44}
+        - {x: -91, y: 31}
+        - {x: -91, y: -49}
+        - {x: 91, y: -49}
+        - {x: 91, y: -16}
+        - {x: 75, y: 8}
+    - name: BoneDragon_85
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 5
+        width: 99
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: 53.5}
+        - {x: 19.5, y: 51.5}
+        - {x: 2.5, y: 51.5}
+        - {x: -38.5, y: 8.5}
+        - {x: -47.5, y: -16.5}
+        - {x: -49.5, y: -27.5}
+        - {x: -43.5, y: -31.5}
+        - {x: -45.5, y: -32.5}
+        - {x: -49.5, y: -35.5}
+        - {x: -49.5, y: -41.5}
+        - {x: -37.5, y: -47.5}
+        - {x: -21.5, y: -53.5}
+        - {x: 24.5, y: -53.5}
+        - {x: 49.5, y: -34.5}
+        - {x: 49.5, y: 48.5}
+        - {x: 39.5, y: 53.5}
+      - - {x: 45.5, y: -26.5}
+        - {x: 48.5, y: -25.5}
+        - {x: 48.5, y: -22.5}
+        - {x: 45.5, y: -21.5}
+        - {x: 43.5, y: -23.5}
+      - - {x: 46.5, y: 30.5}
+        - {x: 48.5, y: 28.5}
+        - {x: 49.5, y: 28.5}
+        - {x: 49.5, y: 33.5}
+        - {x: 47.5, y: 33.5}
+      - - {x: -1.5, y: 42.5}
+        - {x: 1.5, y: 43.5}
+        - {x: 1.5, y: 46.5}
+        - {x: -1.5, y: 47.5}
+        - {x: -3.5, y: 45.5}
+      - - {x: 17.5, y: 47.5}
+        - {x: 20.5, y: 48.5}
+        - {x: 20.5, y: 51.5}
+        - {x: 17.5, y: 52.5}
+        - {x: 15.5, y: 50.5}
+    - name: BoneDragon_86
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 11
+        width: 90
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45, y: 16}
+        - {x: 6, y: 16}
+        - {x: -45, y: 10}
+        - {x: -45, y: -16}
+        - {x: 45, y: -16}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

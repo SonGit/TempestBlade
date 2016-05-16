@@ -1,0 +1,991 @@
+fileFormatVersion: 2
+guid: f368e9dec4b3e5b4dbd176a20ca61bbb
+timeCreated: 1462354135
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Brute_0
+    21300002: Brute_1
+    21300004: Brute_2
+    21300006: Brute_3
+    21300008: Brute_4
+    21300010: Brute_5
+    21300012: Brute_6
+    21300014: Brute_7
+    21300016: Brute_8
+    21300018: Brute_9
+    21300020: Brute_10
+    21300022: Brute_11
+    21300024: Brute_12
+    21300026: Brute_13
+    21300028: Brute_14
+    21300030: Brute_15
+    21300032: Brute_16
+    21300034: Brute_17
+    21300036: Brute_18
+    21300038: Brute_19
+    21300040: Brute_20
+    21300042: Brute_21
+    21300044: Brute_22
+    21300046: Brute_23
+    21300048: Brute_24
+    21300050: Brute_25
+    21300052: Brute_26
+    21300054: Brute_27
+    21300056: Brute_28
+    21300058: Brute_29
+    21300060: Brute_30
+    21300062: Brute_31
+    21300064: Brute_32
+    21300066: Brute_33
+    21300068: Brute_34
+    21300070: Brute_35
+    21300072: Brute_36
+    21300074: Brute_37
+    21300076: Brute_38
+    21300078: Brute_39
+    21300080: Brute_40
+    21300082: Brute_41
+    21300084: Brute_42
+    21300086: Brute_43
+    21300088: Brute_44
+    21300090: Brute_45
+    21300092: Brute_46
+    21300094: Brute_47
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Brute_0
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 550
+        width: 41
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 35.5}
+        - {x: -20.5, y: 22.5}
+        - {x: -20.5, y: -35.5}
+        - {x: 20.5, y: -35.5}
+        - {x: 20.5, y: 18.5}
+        - {x: 7.5, y: 35.5}
+    - name: Brute_1
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 550
+        width: 41
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 35.5}
+        - {x: -20.5, y: 24.5}
+        - {x: -20.5, y: -35.5}
+        - {x: 20.5, y: -35.5}
+        - {x: 20.5, y: 17.5}
+        - {x: 7.5, y: 35.5}
+    - name: Brute_2
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 550
+        width: 41
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 35.5}
+        - {x: -13.5, y: 35.5}
+        - {x: -20.5, y: 23.5}
+        - {x: -20.5, y: -35.5}
+        - {x: 16.5, y: -35.5}
+        - {x: 20.5, y: -30.5}
+        - {x: 20.5, y: 16.5}
+        - {x: 10.5, y: 30.5}
+    - name: Brute_3
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 550
+        width: 41
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 35.5}
+        - {x: -11.5, y: 35.5}
+        - {x: -15.5, y: 33.5}
+        - {x: -20.5, y: 18.5}
+        - {x: -20.5, y: -35.5}
+        - {x: 17.5, y: -35.5}
+        - {x: 20.5, y: -30.5}
+        - {x: 20.5, y: 10.5}
+        - {x: 13.5, y: 27.5}
+    - name: Brute_4
+      rect:
+        serializedVersion: 2
+        x: 782
+        y: 589
+        width: 41
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Brute_5
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 589
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Brute_6
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 589
+        width: 40
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Brute_7
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 589
+        width: 42
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Brute_8
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 544
+        width: 43
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Brute_9
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 544
+        width: 45
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Brute_10
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 544
+        width: 48
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Brute_11
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 544
+        width: 47
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Brute_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 459
+        width: 42
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: -21.5}
+        - {x: 21, y: -12.5}
+        - {x: 21, y: 10.5}
+        - {x: 15, y: 32.5}
+        - {x: 8, y: 35.5}
+        - {x: -14, y: 35.5}
+        - {x: -21, y: 24.5}
+        - {x: -21, y: -35.5}
+        - {x: 12, y: -35.5}
+        - {x: 19, y: -30.5}
+        - {x: 21, y: -28.5}
+        - {x: 21, y: -24.5}
+    - name: Brute_13
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 459
+        width: 43
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: -22}
+        - {x: 21.5, y: -13}
+        - {x: 21.5, y: 10}
+        - {x: 19.5, y: 14}
+        - {x: 15.5, y: 27}
+        - {x: 8.5, y: 35}
+        - {x: -7.5, y: 35}
+        - {x: -10.5, y: 32}
+        - {x: -11.5, y: 29}
+        - {x: -20.5, y: 16}
+        - {x: -21.5, y: 6}
+        - {x: -21.5, y: -35}
+        - {x: 18.5, y: -35}
+        - {x: 21.5, y: -31}
+        - {x: 21.5, y: -23}
+    - name: Brute_14
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 459
+        width: 48
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: -18.5}
+        - {x: 11, y: -5.5}
+        - {x: 13, y: -10.5}
+        - {x: 24, y: -6.5}
+        - {x: 24, y: 24.5}
+        - {x: 23, y: 32.5}
+        - {x: 17, y: 34.5}
+        - {x: -13, y: 34.5}
+        - {x: -24, y: 3.5}
+        - {x: -24, y: -34.5}
+        - {x: 19, y: -34.5}
+        - {x: 24, y: -31.5}
+        - {x: 24, y: -21.5}
+        - {x: 23, y: -20.5}
+    - name: Brute_15
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 460
+        width: 51
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: -9.5}
+        - {x: 12.5, y: -5.5}
+        - {x: 14.5, y: -9.5}
+        - {x: 20.5, y: -8.5}
+        - {x: 25.5, y: -3.5}
+        - {x: 25.5, y: 16.5}
+        - {x: 22.5, y: 31.5}
+        - {x: 13.5, y: 34.5}
+        - {x: -11.5, y: 34.5}
+        - {x: -19.5, y: 16.5}
+        - {x: -25.5, y: -15.5}
+        - {x: -25.5, y: -34.5}
+        - {x: 15.5, y: -34.5}
+        - {x: 23.5, y: -30.5}
+        - {x: 25.5, y: -27.5}
+        - {x: 25.5, y: -21.5}
+    - name: Brute_16
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 460
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22, y: -26}
+        - {x: 20, y: -22}
+        - {x: 22, y: -13}
+        - {x: 22, y: 17}
+        - {x: 9, y: 35}
+        - {x: -8, y: 35}
+        - {x: -12, y: 32}
+        - {x: -13, y: 29}
+        - {x: -21, y: 16}
+        - {x: -22, y: 6}
+        - {x: -22, y: -35}
+        - {x: 7, y: -35}
+        - {x: 9, y: -33}
+        - {x: 20, y: -31}
+        - {x: 22, y: -29}
+    - name: Brute_17
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 460
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 34.5}
+        - {x: -22, y: 17.5}
+        - {x: -22, y: -34.5}
+        - {x: 19, y: -34.5}
+        - {x: 22, y: -30.5}
+        - {x: 22, y: 11.5}
+        - {x: 7, y: 34.5}
+    - name: Brute_18
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 459
+        width: 47
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21.5, y: 15.5}
+        - {x: 7.5, y: 34.5}
+        - {x: -10.5, y: 34.5}
+        - {x: -22.5, y: 18.5}
+        - {x: -23.5, y: 8.5}
+        - {x: -23.5, y: -34.5}
+        - {x: 19.5, y: -34.5}
+        - {x: 23.5, y: -31.5}
+        - {x: 23.5, y: 11.5}
+    - name: Brute_19
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 459
+        width: 44
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 35}
+        - {x: -21, y: 20}
+        - {x: -22, y: 14}
+        - {x: -22, y: -35}
+        - {x: 15, y: -35}
+        - {x: 22, y: -29}
+        - {x: 22, y: 18}
+        - {x: 8, y: 35}
+    - name: Brute_20
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 340
+        width: 49
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 35.5}
+        - {x: -18.5, y: 35.5}
+        - {x: -24.5, y: 24.5}
+        - {x: -24.5, y: -35.5}
+        - {x: 19.5, y: -35.5}
+        - {x: 24.5, y: -30.5}
+        - {x: 24.5, y: 28.5}
+        - {x: 23.5, y: 30.5}
+    - name: Brute_21
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 340
+        width: 42
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 26}
+        - {x: 15, y: 23}
+        - {x: 17, y: 21}
+        - {x: 18, y: 21}
+        - {x: 21, y: 24}
+        - {x: 21, y: 37}
+        - {x: 17, y: 41}
+        - {x: -5, y: 41}
+        - {x: -8, y: 38}
+        - {x: -8, y: 36}
+        - {x: -2, y: 30}
+        - {x: -11, y: 33}
+        - {x: -21, y: 24}
+        - {x: -21, y: -40}
+        - {x: -20, y: -41}
+        - {x: 21, y: -41}
+        - {x: 21, y: -10}
+        - {x: 14, y: 23}
+    - name: Brute_22
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 340
+        width: 45
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 44.5}
+        - {x: -22.5, y: -44.5}
+        - {x: 22.5, y: -44.5}
+        - {x: 22.5, y: 44.5}
+    - name: Brute_23
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 340
+        width: 52
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 46.5}
+        - {x: -26, y: -45.5}
+        - {x: -23, y: -46.5}
+        - {x: 26, y: -46.5}
+        - {x: 26, y: 28.5}
+        - {x: 3, y: 46.5}
+    - name: Brute_24
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 340
+        width: 54
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 32}
+        - {x: -27, y: -45}
+        - {x: 16, y: -45}
+        - {x: 27, y: -31}
+        - {x: 27, y: 45}
+        - {x: -13, y: 45}
+        - {x: -20, y: 42}
+    - name: Brute_25
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 340
+        width: 65
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 35.5}
+        - {x: -27.5, y: 32.5}
+        - {x: -32.5, y: -4.5}
+        - {x: -32.5, y: -35.5}
+        - {x: 20.5, y: -35.5}
+        - {x: 32.5, y: -29.5}
+        - {x: 32.5, y: 35.5}
+    - name: Brute_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 226
+        width: 58
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29, y: -36.5}
+        - {x: 29, y: 18.5}
+        - {x: 20, y: 26.5}
+        - {x: -14, y: 26.5}
+        - {x: -23, y: 17.5}
+        - {x: -23, y: -46.5}
+        - {x: 17, y: -46.5}
+        - {x: 20, y: -42.5}
+        - {x: 19, y: -39.5}
+        - {x: 28, y: -37.5}
+    - name: Brute_27
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 225
+        width: 87
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 15.5}
+        - {x: 19.5, y: 17.5}
+        - {x: 19.5, y: 31.5}
+        - {x: 16.5, y: 38.5}
+        - {x: -10.5, y: 38.5}
+        - {x: -25.5, y: 20.5}
+        - {x: -25.5, y: -38.5}
+        - {x: -22.5, y: -46.5}
+        - {x: 19.5, y: -46.5}
+        - {x: 19.5, y: -18.5}
+        - {x: 10.5, y: 18.5}
+    - name: Brute_28
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 226
+        width: 42
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 45.5}
+        - {x: -21, y: 40.5}
+        - {x: -21, y: -46.5}
+        - {x: 21, y: -46.5}
+        - {x: 21, y: 20.5}
+        - {x: 10, y: 45.5}
+    - name: Brute_29
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 226
+        width: 62
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 46.5}
+        - {x: -31, y: 37.5}
+        - {x: -31, y: -45.5}
+        - {x: -29, y: -46.5}
+        - {x: 24, y: -46.5}
+        - {x: 24, y: 25.5}
+        - {x: -1, y: 46.5}
+    - name: Brute_30
+      rect:
+        serializedVersion: 2
+        x: 760
+        y: 226
+        width: 69
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 46.5}
+        - {x: -17.5, y: 37.5}
+        - {x: -23.5, y: 4.5}
+        - {x: -23.5, y: -46.5}
+        - {x: 34.5, y: -46.5}
+        - {x: 34.5, y: 46.5}
+    - name: Brute_31
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 226
+        width: 79
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.5, y: 28.5}
+        - {x: -24.5, y: 28.5}
+        - {x: -24.5, y: -46.5}
+        - {x: 38.5, y: -46.5}
+        - {x: 39.5, y: -37.5}
+        - {x: 39.5, y: 15.5}
+    - name: Brute_32
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 224
+        width: 76
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 38, y: -28.5}
+        - {x: 38, y: 6.5}
+        - {x: 18, y: 28.5}
+        - {x: -13, y: 28.5}
+        - {x: -17, y: 25.5}
+        - {x: -25, y: -17.5}
+        - {x: -25, y: -46.5}
+        - {x: 33, y: -46.5}
+        - {x: 37, y: -41.5}
+        - {x: 34, y: -35.5}
+        - {x: 36, y: -33.5}
+    - name: Brute_33
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 122
+        width: 50
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 35.5}
+        - {x: -25, y: -35.5}
+        - {x: 19, y: -35.5}
+        - {x: 25, y: -27.5}
+        - {x: 25, y: 32.5}
+        - {x: 22, y: 35.5}
+    - name: Brute_34
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 121
+        width: 41
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 26}
+        - {x: 14.5, y: 23}
+        - {x: 15.5, y: 21}
+        - {x: 20.5, y: 22}
+        - {x: 20.5, y: 39}
+        - {x: 19.5, y: 41}
+        - {x: -14.5, y: 41}
+        - {x: -20.5, y: 34}
+        - {x: -20.5, y: -41}
+        - {x: 18.5, y: -41}
+        - {x: 20.5, y: -35}
+        - {x: 20.5, y: -9}
+        - {x: 13.5, y: 23}
+    - name: Brute_35
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 121
+        width: 44
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 42}
+        - {x: -22, y: 37}
+        - {x: -22, y: -42}
+        - {x: 22, y: -42}
+        - {x: 22, y: 3}
+        - {x: 20, y: 26}
+        - {x: -1, y: 42}
+    - name: Brute_36
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 121
+        width: 44
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 40.5}
+        - {x: -22, y: 33.5}
+        - {x: -22, y: -40.5}
+        - {x: 22, y: -40.5}
+        - {x: 22, y: 40.5}
+    - name: Brute_37
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 121
+        width: 51
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19.5, y: -26}
+        - {x: 25.5, y: -1}
+        - {x: 25.5, y: 28}
+        - {x: 24.5, y: 33}
+        - {x: -22.5, y: 33}
+        - {x: -24.5, y: 29}
+        - {x: -25.5, y: 22}
+        - {x: -25.5, y: -33}
+        - {x: 25.5, y: -33}
+        - {x: 25.5, y: -30}
+        - {x: 24.5, y: -27}
+    - name: Brute_38
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 116
+        width: 53
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26.5, y: -13}
+        - {x: 26.5, y: 22}
+        - {x: 20.5, y: 19}
+        - {x: 3.5, y: 35}
+        - {x: -21.5, y: 35}
+        - {x: -26.5, y: 19}
+        - {x: -26.5, y: -35}
+        - {x: 24.5, y: -35}
+        - {x: 26.5, y: -31}
+        - {x: 26.5, y: -27}
+        - {x: 13.5, y: -23}
+    - name: Brute_39
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 116
+        width: 47
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.5, y: 1}
+        - {x: -23.5, y: -31}
+        - {x: -15.5, y: -34}
+        - {x: 23.5, y: -34}
+        - {x: 23.5, y: 21}
+        - {x: 20.5, y: 34}
+        - {x: -13.5, y: 34}
+        - {x: -22.5, y: 21}
+    - name: Brute_40
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 116
+        width: 37
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 30.5}
+        - {x: -18.5, y: 26.5}
+        - {x: -18.5, y: -30.5}
+        - {x: 13.5, y: -30.5}
+        - {x: 18.5, y: -26.5}
+        - {x: 18.5, y: 29.5}
+        - {x: 17.5, y: 30.5}
+    - name: Brute_41
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 7
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 5.5, y: 25.5}
+        - {x: 5.5, y: 19.5}
+        - {x: 5.5, y: 28.5}
+        - {x: 1.5, y: 34.5}
+        - {x: -17.5, y: 34.5}
+        - {x: -20.5, y: 29.5}
+        - {x: -24.5, y: 15.5}
+        - {x: -24.5, y: -34.5}
+        - {x: 17.5, y: -34.5}
+        - {x: 24.5, y: -33.5}
+        - {x: 24.5, y: 26.5}
+        - {x: 6.5, y: 29.5}
+    - name: Brute_42
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 7
+        width: 50
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 34.5}
+        - {x: -25, y: -34.5}
+        - {x: 23, y: -34.5}
+        - {x: 25, y: -32.5}
+        - {x: 25, y: 33.5}
+        - {x: 22, y: 34.5}
+    - name: Brute_43
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 7
+        width: 49
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.5, y: -23.5}
+        - {x: 23.5, y: -24.5}
+        - {x: 24.5, y: -21.5}
+        - {x: 24.5, y: 33.5}
+        - {x: -9.5, y: 33.5}
+        - {x: -24.5, y: 27.5}
+        - {x: -24.5, y: -24.5}
+        - {x: -13.5, y: -34.5}
+        - {x: 17.5, y: -34.5}
+        - {x: 21.5, y: -29.5}
+        - {x: 20.5, y: -26.5}
+        - {x: 17.5, y: -22.5}
+    - name: Brute_44
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 9
+        width: 44
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 32.5}
+        - {x: -22, y: 28.5}
+        - {x: -22, y: -27.5}
+        - {x: -19, y: -34.5}
+        - {x: 22, y: -34.5}
+        - {x: 22, y: 32.5}
+    - name: Brute_45
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 11
+        width: 42
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 22.5}
+        - {x: -21, y: 21.5}
+        - {x: -21, y: -34.5}
+        - {x: 17, y: -34.5}
+        - {x: 21, y: -29.5}
+        - {x: 21, y: 19.5}
+        - {x: 19, y: 22.5}
+    - name: Brute_46
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 11
+        width: 39
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 11.5}
+        - {x: -19.5, y: -34.5}
+        - {x: 12.5, y: -34.5}
+        - {x: 19.5, y: -19.5}
+        - {x: 19.5, y: 8.5}
+        - {x: 6.5, y: 11.5}
+    - name: Brute_47
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 11
+        width: 41
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: -1.5}
+        - {x: -18.5, y: -8.5}
+        - {x: -20.5, y: -12.5}
+        - {x: -20.5, y: -29.5}
+        - {x: -18.5, y: -34.5}
+        - {x: 14.5, y: -34.5}
+        - {x: 20.5, y: -25.5}
+        - {x: 20.5, y: -7.5}
+        - {x: 13.5, y: -1.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

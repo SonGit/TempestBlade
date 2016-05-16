@@ -8,8 +8,10 @@ public class ObjectPool : MonoBehaviour {
 
 	public GameObject _attributeBuffPrefab;
 
-	List<GameObject> _buffs = new List<GameObject>();
+	public GameObject _bloodSplashPrefab;
 
+	List<GameObject> _buffs = new List<GameObject>();
+	List<GameObject> _bloods = new List<GameObject>();
 	void Awake()
 	{
 		instance = this;
@@ -19,6 +21,7 @@ public class ObjectPool : MonoBehaviour {
 	void Start () {
 	
 		int initialbuffs = 100;
+		int initialbloods = 25;
 
 		for (int i = 0; i < initialbuffs; i++) {
 			GameObject go = (GameObject)Instantiate (_attributeBuffPrefab);

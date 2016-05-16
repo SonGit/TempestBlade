@@ -1,0 +1,2207 @@
+fileFormatVersion: 2
+guid: c5a2436279a2c7c43afa32e509e40b39
+timeCreated: 1462295070
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Defender_0
+    21300002: Defender_1
+    21300004: Defender_2
+    21300006: Defender_3
+    21300008: Defender_4
+    21300010: Defender_5
+    21300012: Defender_6
+    21300014: Defender_7
+    21300016: Defender_8
+    21300018: Defender_9
+    21300020: Defender_10
+    21300022: Defender_11
+    21300024: Defender_12
+    21300026: Defender_13
+    21300028: Defender_14
+    21300030: Defender_15
+    21300032: Defender_16
+    21300034: Defender_17
+    21300036: Defender_18
+    21300038: Defender_19
+    21300040: Defender_20
+    21300042: Defender_21
+    21300044: Defender_22
+    21300046: Defender_23
+    21300048: Defender_24
+    21300050: Defender_25
+    21300052: Defender_26
+    21300054: Defender_27
+    21300056: Defender_28
+    21300058: Defender_29
+    21300060: Defender_30
+    21300062: Defender_31
+    21300064: Defender_32
+    21300066: Defender_33
+    21300068: Defender_34
+    21300070: Defender_35
+    21300072: Defender_36
+    21300074: Defender_37
+    21300076: Defender_38
+    21300078: Defender_39
+    21300080: Defender_40
+    21300082: Defender_41
+    21300084: Defender_42
+    21300086: Defender_43
+    21300088: Defender_44
+    21300090: Defender_45
+    21300092: Defender_46
+    21300094: Defender_47
+    21300096: Defender_48
+    21300098: Defender_49
+    21300100: Defender_50
+    21300102: Defender_51
+    21300104: Defender_52
+    21300106: Defender_53
+    21300108: Defender_54
+    21300110: Defender_55
+    21300112: Defender_56
+    21300114: Defender_57
+    21300116: Defender_58
+    21300118: Defender_59
+    21300120: Defender_60
+    21300122: Defender_61
+    21300124: Defender_62
+    21300126: Defender_63
+    21300128: Defender_64
+    21300130: Defender_65
+    21300132: Defender_66
+    21300134: Defender_67
+    21300136: Defender_68
+    21300138: Defender_69
+    21300140: Defender_70
+    21300142: Defender_71
+    21300144: Defender_72
+    21300146: Defender_73
+    21300148: Defender_74
+    21300150: Defender_75
+    21300152: Defender_76
+    21300154: Defender_77
+    21300156: Defender_78
+    21300158: Defender_79
+    21300160: Defender_80
+    21300162: Defender_81
+    21300164: Defender_82
+    21300166: Defender_83
+    21300168: Defender_84
+    21300170: Defender_85
+    21300172: Defender_86
+    21300174: Defender_87
+    21300176: Defender_88
+    21300178: A2
+    21300180: A3
+    21300182: Defender_91
+    21300184: A6
+    21300186: A5
+    21300188: A4
+    21300190: A1
+    21300192: Defender_96
+    21300194: Defender_97
+    21300196: Defender_98
+    21300198: Defender_99
+    21300200: Defender_100
+    21300202: Defender_101
+    21300204: Defender_102
+    21300206: Defender_103
+    21300208: Defender_104
+    21300210: Defender_105
+    21300212: Defender_106
+    21300214: Defender_107
+    21300216: Defender_108
+    21300218: Defender_109
+    21300220: Defender_110
+    21300222: Defender_111
+    21300224: Defender_112
+    21300226: Defender_113
+    21300228: Defender_114
+    21300230: Defender_115
+    21300232: Defender_116
+    21300234: Defender_117
+    21300236: Defender_118
+    21300238: Defender_119
+    21300240: Defender_120
+    21300242: Defender_121
+    21300244: Defender_122
+    21300246: Defender_123
+    21300248: Defender_124
+    21300250: Defender_125
+    21300252: Defender_126
+    21300254: Defender_127
+    21300256: Defender_128
+    21300258: Defender_129
+    21300260: Defender_130
+    21300262: Defender_131
+    21300264: Defender_132
+    21300266: Defender_133
+    21300268: Defender_134
+    21300270: Defender_135
+    21300272: Defender_136
+    21300274: Defender_137
+    21300276: Defender_138
+    21300278: Defender_139
+    21300280: Defender_140
+    21300282: Defender_141
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: Defender_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 526
+        width: 35
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 36}
+        - {x: -17.5, y: 34}
+        - {x: -17.5, y: -34}
+        - {x: -16.5, y: -36}
+        - {x: 12.5, y: -36}
+        - {x: 17.5, y: -29}
+        - {x: 17.5, y: 26}
+        - {x: 5.5, y: 36}
+    - name: Defender_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 526
+        width: 35
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 34.5}
+        - {x: -17.5, y: 31.5}
+        - {x: -17.5, y: -34.5}
+        - {x: 17.5, y: -34.5}
+        - {x: 17.5, y: 32.5}
+        - {x: 11.5, y: 34.5}
+    - name: Defender_2
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 526
+        width: 35
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 34.5}
+        - {x: -17.5, y: -33.5}
+        - {x: -16.5, y: -34.5}
+        - {x: 11.5, y: -34.5}
+        - {x: 17.5, y: -29.5}
+        - {x: 17.5, y: 27.5}
+        - {x: 9.5, y: 34.5}
+    - name: Defender_3
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 526
+        width: 35
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 36}
+        - {x: -17.5, y: 34}
+        - {x: -17.5, y: -36}
+        - {x: 11.5, y: -36}
+        - {x: 17.5, y: -30}
+        - {x: 17.5, y: 26}
+        - {x: 3.5, y: 36}
+    - name: Defender_4
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 526
+        width: 34
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 36}
+        - {x: -17, y: 26}
+        - {x: -17, y: -31}
+        - {x: -13, y: -36}
+        - {x: 14, y: -36}
+        - {x: 17, y: -33}
+        - {x: 17, y: 23}
+        - {x: 5, y: 36}
+    - name: Defender_5
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 526
+        width: 34
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 36}
+        - {x: -17, y: 26}
+        - {x: -17, y: -31}
+        - {x: -13, y: -36}
+        - {x: 14, y: -36}
+        - {x: 17, y: -33}
+        - {x: 17, y: 23}
+        - {x: 5, y: 36}
+    - name: Defender_6
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 526
+        width: 35
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 36}
+        - {x: -17.5, y: 34}
+        - {x: -17.5, y: -34}
+        - {x: -16.5, y: -36}
+        - {x: 12.5, y: -36}
+        - {x: 17.5, y: -29}
+        - {x: 17.5, y: 26}
+        - {x: 5.5, y: 36}
+    - name: Defender_7
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 579
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_8
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 579
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_9
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 579
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_10
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 579
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_11
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 579
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_12
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 579
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_13
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 579
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_14
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 579
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_15
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 579
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_16
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 579
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_17
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 579
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_18
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 579
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_19
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 579
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_20
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 579
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_21
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 579
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_22
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 560
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_23
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 560
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_24
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 560
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_25
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 560
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_26
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 560
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_27
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 560
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_28
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 560
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_29
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 560
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_30
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 560
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_31
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 557
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_32
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 560
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_33
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 560
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_34
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 560
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_35
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 560
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_36
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 560
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_37
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 560
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_38
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 560
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_39
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 557
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_40
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 560
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_41
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 544
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_42
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 544
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_43
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 542
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_44
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 544
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_45
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 544
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_46
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 544
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_47
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 541
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_48
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 544
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_49
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 544
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_50
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 544
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_51
+      rect:
+        serializedVersion: 2
+        x: 539
+        y: 544
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_52
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 544
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_53
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 544
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_54
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 544
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_55
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 544
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_56
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 443
+        width: 35
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 35.5}
+        - {x: -17.5, y: -35.5}
+        - {x: 17.5, y: -35.5}
+        - {x: 17.5, y: 34.5}
+        - {x: 16.5, y: 35.5}
+    - name: Defender_57
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 443
+        width: 38
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 36}
+        - {x: -19, y: 24}
+        - {x: -19, y: -36}
+        - {x: 19, y: -36}
+        - {x: 19, y: 24}
+        - {x: 7, y: 36}
+    - name: Defender_58
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 443
+        width: 43
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 35.5}
+        - {x: -20.5, y: 34.5}
+        - {x: -21.5, y: 32.5}
+        - {x: -21.5, y: -35.5}
+        - {x: 21.5, y: -35.5}
+        - {x: 21.5, y: 24.5}
+        - {x: 10.5, y: 35.5}
+    - name: Defender_59
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 443
+        width: 48
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24, y: 35.5}
+        - {x: -24, y: -35.5}
+        - {x: 17, y: -35.5}
+        - {x: 24, y: -32.5}
+        - {x: 24, y: 30.5}
+        - {x: 15, y: 35.5}
+    - name: Defender_60
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 443
+        width: 39
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 36}
+        - {x: -19.5, y: 31}
+        - {x: -19.5, y: -36}
+        - {x: 15.5, y: -36}
+        - {x: 19.5, y: -35}
+        - {x: 19.5, y: 32}
+        - {x: 8.5, y: 36}
+    - name: Defender_61
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 443
+        width: 37
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 36}
+        - {x: -18.5, y: 32}
+        - {x: -18.5, y: -36}
+        - {x: 8.5, y: -36}
+        - {x: 18.5, y: -31}
+        - {x: 18.5, y: 27}
+        - {x: 2.5, y: 36}
+    - name: Defender_62
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 443
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 35.5}
+        - {x: -22.5, y: -35.5}
+        - {x: 13.5, y: -35.5}
+        - {x: 22.5, y: -23.5}
+        - {x: 22.5, y: 30.5}
+        - {x: 12.5, y: 35.5}
+    - name: Defender_63
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 443
+        width: 41
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 36}
+        - {x: -20.5, y: -36}
+        - {x: 12.5, y: -36}
+        - {x: 20.5, y: -31}
+        - {x: 20.5, y: 26}
+        - {x: 5.5, y: 36}
+    - name: Defender_64
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 443
+        width: 36
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 36}
+        - {x: -17, y: 34}
+        - {x: -18, y: 27}
+        - {x: -18, y: -34}
+        - {x: -16, y: -36}
+        - {x: 8, y: -36}
+        - {x: 18, y: -31}
+        - {x: 18, y: 30}
+        - {x: 12, y: 36}
+    - name: Defender_65
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 443
+        width: 35
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 36}
+        - {x: -17.5, y: 36}
+        - {x: -17.5, y: -35}
+        - {x: -16.5, y: -36}
+        - {x: 11.5, y: -36}
+        - {x: 17.5, y: -29}
+        - {x: 17.5, y: 25}
+    - name: Defender_66
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 443
+        width: 34
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 35.5}
+        - {x: -17, y: -35.5}
+        - {x: 17, y: -35.5}
+        - {x: 17, y: 35.5}
+    - name: Defender_67
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 350
+        width: 38
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 17, y: -17}
+        - {x: 11, y: -18}
+        - {x: 13, y: -18}
+        - {x: 16, y: -16}
+        - {x: 19, y: -11}
+        - {x: 19, y: 28}
+        - {x: 18, y: 30}
+        - {x: 6, y: 34}
+        - {x: -19, y: 34}
+        - {x: -19, y: -34}
+        - {x: 17, y: -34}
+        - {x: 19, y: -31}
+        - {x: 19, y: -18}
+    - name: Defender_68
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 350
+        width: 43
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 34.5}
+        - {x: -21.5, y: -34.5}
+        - {x: 20.5, y: -34.5}
+        - {x: 21.5, y: -33.5}
+        - {x: 21.5, y: 29.5}
+        - {x: 20.5, y: 34.5}
+    - name: Defender_69
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 350
+        width: 38
+        height: 72
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: -20}
+        - {x: 12, y: -20}
+        - {x: 13, y: -20}
+        - {x: 16, y: -18}
+        - {x: 19, y: -12}
+        - {x: 19, y: 36}
+        - {x: -19, y: 36}
+        - {x: -19, y: -36}
+        - {x: 13, y: -36}
+        - {x: 19, y: -31}
+        - {x: 19, y: -21}
+        - {x: 17, y: -19}
+    - name: Defender_70
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 352
+        width: 45
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15.5, y: -18}
+        - {x: 11.5, y: -20}
+        - {x: 14.5, y: -18}
+        - {x: 16.5, y: -18}
+        - {x: 19.5, y: -16}
+        - {x: 22.5, y: -12}
+        - {x: 22.5, y: 28}
+        - {x: 10.5, y: 34}
+        - {x: -11.5, y: 34}
+        - {x: -22.5, y: 19}
+        - {x: -22.5, y: -27}
+        - {x: -11.5, y: -34}
+        - {x: 16.5, y: -34}
+        - {x: 22.5, y: -31}
+        - {x: 22.5, y: -20}
+        - {x: 20.5, y: -18}
+    - name: Defender_71
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 353
+        width: 49
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: -5.5}
+        - {x: 24.5, y: 30.5}
+        - {x: 22.5, y: 31.5}
+        - {x: -22.5, y: 31.5}
+        - {x: -24.5, y: 21.5}
+        - {x: -24.5, y: -31.5}
+        - {x: 17.5, y: -31.5}
+        - {x: 24.5, y: -24.5}
+        - {x: 24.5, y: -15.5}
+        - {x: 17.5, y: -15.5}
+    - name: Defender_72
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 354
+        width: 61
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 29.5}
+        - {x: -0.5, y: 27.5}
+        - {x: -26.5, y: 10.5}
+        - {x: -30.5, y: -11.5}
+        - {x: -30.5, y: -29.5}
+        - {x: 25.5, y: -29.5}
+        - {x: 30.5, y: -28.5}
+        - {x: 30.5, y: 29.5}
+    - name: Defender_73
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 355
+        width: 72
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36, y: 27}
+        - {x: -36, y: -27}
+        - {x: 36, y: -27}
+        - {x: 36, y: 26}
+        - {x: 30, y: 27}
+    - name: Defender_74
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 358
+        width: 60
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30, y: 28}
+        - {x: -30, y: -23}
+        - {x: -25, y: -28}
+        - {x: 30, y: -28}
+        - {x: 30, y: 12}
+        - {x: -12, y: 28}
+    - name: Defender_75
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 357
+        width: 58
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_76
+      rect:
+        serializedVersion: 2
+        x: 627
+        y: 357
+        width: 53
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_77
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 304
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 16}
+        - {x: -20.5, y: 2}
+        - {x: -20.5, y: -11}
+        - {x: -8.5, y: -16}
+        - {x: 19.5, y: -16}
+        - {x: 20.5, y: -8}
+        - {x: 20.5, y: 14}
+        - {x: 16.5, y: 16}
+    - name: Defender_78
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 304
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 16}
+        - {x: -20.5, y: 3}
+        - {x: -20.5, y: -10}
+        - {x: -6.5, y: -16}
+        - {x: 19.5, y: -16}
+        - {x: 20.5, y: -13}
+        - {x: 20.5, y: 13}
+        - {x: 17.5, y: 16}
+    - name: Defender_79
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 304
+        width: 41
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20.5, y: 15}
+        - {x: 17.5, y: 16}
+        - {x: -8.5, y: 16}
+        - {x: -20.5, y: 2}
+        - {x: -20.5, y: -10}
+        - {x: -6.5, y: -16}
+        - {x: 16.5, y: -16}
+        - {x: 17.5, y: -15}
+        - {x: 18.5, y: -12}
+        - {x: 20.5, y: -3}
+    - name: Defender_80
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 242
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 34.5}
+        - {x: -22.5, y: 31.5}
+        - {x: -22.5, y: -34.5}
+        - {x: 16.5, y: -34.5}
+        - {x: 22.5, y: -32.5}
+        - {x: 22.5, y: 26.5}
+        - {x: 13.5, y: 34.5}
+    - name: Defender_81
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 242
+        width: 71
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 24.5, y: -29}
+        - {x: 29.5, y: -23}
+        - {x: 35.5, y: -15}
+        - {x: 35.5, y: 30}
+        - {x: 12.5, y: 47}
+        - {x: -35.5, y: 47}
+        - {x: -35.5, y: -47}
+        - {x: 28.5, y: -47}
+        - {x: 35.5, y: -45}
+        - {x: 35.5, y: -30}
+        - {x: 32.5, y: -29}
+    - name: Defender_82
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 242
+        width: 39
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.5, y: 49.5}
+        - {x: -19.5, y: -49.5}
+        - {x: 19.5, y: -49.5}
+        - {x: 19.5, y: 17.5}
+        - {x: -9.5, y: 49.5}
+    - name: Defender_83
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 242
+        width: 47
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: -26}
+        - {x: 23.5, y: 10}
+        - {x: 23.5, y: 46}
+        - {x: 15.5, y: 46}
+        - {x: -20.5, y: 30}
+        - {x: -23.5, y: 17}
+        - {x: -23.5, y: -44}
+        - {x: -22.5, y: -46}
+        - {x: 17.5, y: -46}
+        - {x: 23.5, y: -34}
+        - {x: 23.5, y: -21}
+        - {x: 19.5, y: -21}
+    - name: Defender_84
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 263
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 16}
+        - {x: -21.5, y: 2}
+        - {x: -21.5, y: -12}
+        - {x: -7.5, y: -16}
+        - {x: 18.5, y: -16}
+        - {x: 21.5, y: -3}
+        - {x: 21.5, y: 11}
+        - {x: 14.5, y: 16}
+    - name: Defender_85
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 263
+        width: 43
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0.5, y: 16}
+        - {x: -4.5, y: 14}
+        - {x: -21.5, y: 1}
+        - {x: -21.5, y: -6}
+        - {x: -14.5, y: -16}
+        - {x: 21.5, y: -16}
+        - {x: 21.5, y: 7}
+        - {x: 13.5, y: 16}
+    - name: Defender_86
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 263
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: -8}
+        - {x: -14.5, y: -16}
+        - {x: 18.5, y: -16}
+        - {x: 22.5, y: -13}
+        - {x: 22.5, y: 6}
+        - {x: 13.5, y: 16}
+        - {x: 0.5, y: 16}
+        - {x: -5.5, y: 14}
+        - {x: -22.5, y: 1}
+    - name: Defender_87
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 214
+        width: 52
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: -6}
+        - {x: -20, y: -16}
+        - {x: 20, y: -16}
+        - {x: 26, y: -13}
+        - {x: 26, y: 8}
+        - {x: 11, y: 16}
+        - {x: -12, y: 16}
+        - {x: -26, y: 1}
+    - name: A2
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 129
+        width: 110
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55, y: 48.5}
+        - {x: -55, y: -40.5}
+        - {x: -48, y: -45.5}
+        - {x: -24, y: -48.5}
+        - {x: 18, y: -48.5}
+        - {x: 24, y: -46.5}
+        - {x: 24, y: 21.5}
+        - {x: -30, y: 48.5}
+    - name: A3
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 129
+        width: 54
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 48.5}
+        - {x: -27, y: -46.5}
+        - {x: -25, y: -48.5}
+        - {x: 20, y: -48.5}
+        - {x: 20, y: 21.5}
+        - {x: -7, y: 48.5}
+    - name: Defender_91
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 129
+        width: 42
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 35.5}
+        - {x: -21, y: 24.5}
+        - {x: -21, y: 23.5}
+        - {x: -17, y: 22.5}
+        - {x: -14, y: 22.5}
+        - {x: -16, y: 22.5}
+        - {x: -21, y: 20.5}
+        - {x: -21, y: -35.5}
+        - {x: 11, y: -35.5}
+        - {x: 21, y: -30.5}
+        - {x: 21, y: 19.5}
+        - {x: 8, y: 35.5}
+    - name: A6
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 129
+        width: 52
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 24.5}
+        - {x: -26, y: 4.5}
+        - {x: -26, y: -23.5}
+        - {x: -23, y: -24.5}
+        - {x: -20, y: -24.5}
+        - {x: -26, y: -32.5}
+        - {x: -26, y: -44.5}
+        - {x: -25, y: -46.5}
+        - {x: -21, y: -48.5}
+        - {x: 15, y: -48.5}
+        - {x: 24, y: -40.5}
+        - {x: 24, y: 15.5}
+        - {x: 4, y: 24.5}
+      - - {x: 1, y: 48.5}
+        - {x: 1, y: 45.5}
+        - {x: 4, y: 40.5}
+        - {x: 26, y: 40.5}
+        - {x: 26, y: 48.5}
+    - name: A5
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 129
+        width: 91
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: -30.5}
+        - {x: 7.5, y: -29.5}
+        - {x: 6.5, y: -25.5}
+        - {x: 5.5, y: -24.5}
+        - {x: 5.5, y: -22.5}
+        - {x: 5.5, y: -23.5}
+        - {x: 8.5, y: -28.5}
+        - {x: 18.5, y: -27.5}
+        - {x: 21.5, y: -15.5}
+        - {x: 21.5, y: 12.5}
+        - {x: 12.5, y: 20.5}
+        - {x: 0.5, y: 24.5}
+        - {x: -22.5, y: 24.5}
+        - {x: -45.5, y: -5.5}
+        - {x: -45.5, y: -41.5}
+        - {x: -44.5, y: -41.5}
+        - {x: -41.5, y: -39.5}
+        - {x: -22.5, y: -17.5}
+        - {x: -36.5, y: -36.5}
+        - {x: -45.5, y: -43.5}
+        - {x: -45.5, y: -48.5}
+        - {x: 12.5, y: -48.5}
+        - {x: 21.5, y: -40.5}
+        - {x: 21.5, y: -34.5}
+        - {x: 19.5, y: -31.5}
+    - name: A4
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 129
+        width: 103
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 51.5, y: -5.5}
+        - {x: 51.5, y: 19.5}
+        - {x: 42.5, y: 20.5}
+        - {x: -27.5, y: 20.5}
+        - {x: -27.5, y: -48.5}
+        - {x: 12.5, y: -48.5}
+        - {x: 51.5, y: -41.5}
+        - {x: 51.5, y: -32.5}
+        - {x: 37.5, y: -33.5}
+    - name: A1
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 129
+        width: 43
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 25.5}
+        - {x: -17.5, y: 21.5}
+        - {x: -20.5, y: 7.5}
+        - {x: -21.5, y: 4.5}
+        - {x: -21.5, y: -48.5}
+        - {x: 14.5, y: -48.5}
+        - {x: 21.5, y: -45.5}
+        - {x: 21.5, y: 12.5}
+        - {x: 4.5, y: 25.5}
+    - name: Defender_96
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 6
+        width: 49
+        height: 100
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 50}
+        - {x: -24.5, y: -50}
+        - {x: 24.5, y: -50}
+        - {x: 24.5, y: 50}
+    - name: Defender_97
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 61
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_98
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 58
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_99
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 58
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_100
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 61
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_101
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 61
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_102
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 61
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_103
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 58
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_104
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 17
+        width: 52
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 26, y: -16.5}
+        - {x: 26, y: 24.5}
+        - {x: 11, y: 35.5}
+        - {x: -6, y: 35.5}
+        - {x: -15, y: 30.5}
+        - {x: -26, y: 19.5}
+        - {x: -26, y: -35.5}
+        - {x: 25, y: -35.5}
+        - {x: 26, y: -31.5}
+        - {x: 26, y: -20.5}
+        - {x: 25, y: -20.5}
+    - name: Defender_105
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 17
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: -19}
+        - {x: 26, y: -9}
+        - {x: 27, y: -14}
+        - {x: 31, y: -18}
+        - {x: 34, y: -19}
+        - {x: 36, y: -17}
+        - {x: 36, y: 29}
+        - {x: 20, y: 35}
+        - {x: 1, y: 35}
+        - {x: -36, y: -11}
+        - {x: -36, y: -22}
+        - {x: -33, y: -24}
+        - {x: -9, y: -7}
+        - {x: -36, y: -28}
+        - {x: -36, y: -35}
+        - {x: 32, y: -35}
+        - {x: 36, y: -31}
+        - {x: 36, y: -20}
+        - {x: 34, y: -19}
+    - name: Defender_106
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 17
+        width: 64
+        height: 94
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18, y: -21}
+        - {x: 17, y: -20}
+        - {x: 17, y: -15}
+        - {x: 17, y: -19}
+        - {x: 18, y: -20}
+        - {x: 19, y: -24}
+        - {x: 21, y: -28}
+        - {x: 30, y: -27}
+        - {x: 32, y: -23}
+        - {x: 32, y: 31}
+        - {x: 0, y: 47}
+        - {x: -32, y: 47}
+        - {x: -32, y: -40}
+        - {x: -17, y: -47}
+        - {x: 25, y: -47}
+        - {x: 32, y: -40}
+        - {x: 32, y: -29}
+        - {x: 20, y: -28}
+    - name: Defender_107
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 17
+        width: 44
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: -30}
+        - {x: 18, y: -27}
+        - {x: 22, y: -19}
+        - {x: 22, y: 18}
+        - {x: -6, y: 46}
+        - {x: -14, y: 46}
+        - {x: -22, y: 32}
+        - {x: -22, y: -41}
+        - {x: -21, y: -46}
+        - {x: 14, y: -46}
+        - {x: 22, y: -41}
+        - {x: 22, y: -30}
+        - {x: 21, y: -28}
+    - name: Defender_108
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 9
+        width: 43
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 34}
+        - {x: -15.5, y: 34}
+        - {x: -21.5, y: 0}
+        - {x: -21.5, y: -30}
+        - {x: -7.5, y: -34}
+        - {x: 21.5, y: -34}
+        - {x: 21.5, y: 30}
+        - {x: 20.5, y: 30}
+    - name: Defender_109
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 45
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_110
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 42
+        width: 124
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_111
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 45
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_112
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 45
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_113
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 45
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_114
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 29
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_115
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 29
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_116
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 29
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_117
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 29
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_118
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 26
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_119
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 29
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_120
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 29
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_121
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 29
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_122
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 27
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_123
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 26
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_124
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 29
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_125
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 29
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_126
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 29
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_127
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 29
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_128
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 29
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_129
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 10
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_130
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 13
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_131
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 13
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_132
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 13
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_133
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 13
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_134
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 10
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_135
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 13
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_136
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 13
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_137
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 13
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_138
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 13
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_139
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 13
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_140
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 13
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Defender_141
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 13
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

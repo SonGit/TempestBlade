@@ -13,6 +13,7 @@ public class FrenzyCard : PowerUpCard {
 	public override void Init()
 	{
 		_type = CardType.FRENZY;
+		_effectBuff = Cache.instance.cardEffect [_type];
 	}
 
 	protected override void PlayEffect(SquadLeader target)
@@ -32,5 +33,8 @@ public class FrenzyCard : PowerUpCard {
 	{
 		SquadLeader ally = TacticalAnalyst.instance._allyLeader;
 		SquadLeader enemy = TacticalAnalyst.instance._enemyLeader;
+
+		ally.ReceiveBuff(_effectBuff);
+		enemy.ReceiveBuff(_effectBuff);
 	}
 }

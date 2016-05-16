@@ -48,7 +48,7 @@ public class Soldier : MonoBehaviour {
 		set 
 		{
 			DfMultiplier = value;
-			ActivateBuffFX(DfMultiplier,Color.yellow);
+			ActivateBuffFX(DfMultiplier,Color.magenta);
 		}
 	}
 
@@ -60,6 +60,8 @@ public class Soldier : MonoBehaviour {
 		set
 		{
 			AttackRate = value;
+			ActivateBuffFX(AttackRate,Color.yellow);
+
 			if (_animator != null) {
 				_animator.speed = AttackRate;
 			} else {
@@ -89,12 +91,20 @@ public class Soldier : MonoBehaviour {
 
 	public GameObject _debufFX;
 
+	public float _minDistanceFromEnemy = 7;
+
+	protected ParticleSystem _bloodSplash;
+
 	void Awake()
 	{
 		t = transform;
 		_isFree = true;
 		_hasArrivedAtFightLocation = false;
-	
+
+		GameObject bloodSpashObj = (GameObject)Instantiate ( Resources.Load("Prefabs/CFX2_Blood"));
+		bloodSpashObj.transform.SetParent (t);
+		bloodSpashObj.transform.localPosition = new Vector3(0,-1.7f,0);
+		_bloodSplash = bloodSpashObj.GetComponent<ParticleSystem> ();
 	}
 
 	void Start()
@@ -102,6 +112,8 @@ public class Soldier : MonoBehaviour {
 		_spriteRenderer = this.GetComponentInChildren<SpriteRenderer> ();
 		_outline = this.GetComponentInChildren<_2dxFX_Outline> ();
 		_outline.enabled = false;
+
+
 		Init ();
 	}
 
@@ -123,6 +135,8 @@ public class Soldier : MonoBehaviour {
 		if (_status == SoldierStatus.DEAD)
 			return;
 
+		_bloodSplash.Play ();
+
 		int calculatedDmg = damage - (int)(_BaseDefense * _DfMultiplier);
 
 		//Check if the blow killed this unit
@@ -143,7 +157,10 @@ public class Soldier : MonoBehaviour {
 			if (callback != null)
 				callback ();
 
-			gameObject.SetActive (false);
+			StopAllCoroutines ();
+			_animator.SetTrigger ("Die");
+			//Invoke("Disable",1);
+			StartCoroutine (KickBack(_enemySoldier.transform.position));
 		}
 	}
 
@@ -263,15 +280,20 @@ public class Soldier : MonoBehaviour {
 	{
 		Vector3 pursued_pos;
 		_hasArrivedAtFightLocation = false;
+
+		if (_minDistanceFromEnemy < _enemySoldier._minDistanceFromEnemy)
+			_minDistanceFromEnemy = _enemySoldier._minDistanceFromEnemy;
+		
 		while (true)
 		{
+			
 			pursued_pos = pursued.transform.position;
 
 			//Make sure that soldiers always face each other on a same z plane
 			if (pursued_pos.x < t.position.x) {
-				pursued_pos += (Vector3.right * 5);
+				pursued_pos += (Vector3.right * _minDistanceFromEnemy);
 			} else {
-				pursued_pos += (Vector3.left * 5);
+				pursued_pos += (Vector3.left * _minDistanceFromEnemy);
 			}
 			pursued_pos.z = _lane;
 			_enemySoldier._lane = _lane;
@@ -301,7 +323,7 @@ public class Soldier : MonoBehaviour {
 	IEnumerator StandBy_Async(Callback callback)
 	{
 		ChangeStatus (SoldierStatus.IDLE);
-		yield return new WaitForSeconds (Random.Range(1,3));
+		yield return new WaitForSeconds (Random.Range(3,5));
 		ChangeStatus (SoldierStatus.STAND_BY);
 
 		Vector3 someRandomPoint = _originPoint + Random.insideUnitSphere * 5f;
@@ -352,8 +374,12 @@ public class Soldier : MonoBehaviour {
 	void RotateAnimation(Vector3 vect)
 	{
 		Vector3 normalized = (vect - t.position).normalized;
-		_animator.SetFloat ("PosX",normalized.x);
-		_animator.SetFloat ("PosY",normalized.z);
+		//_animator.SetFloat ("PosX",normalized.x);
+		//_animator.SetFloat ("PosY",normalized.z);
+		if (normalized.x > 0)
+			_spriteRenderer.flipX = false;
+		else
+			_spriteRenderer.flipX = true;
 	}
 
 	void OnKilledEnemy()
@@ -382,6 +408,7 @@ public class Soldier : MonoBehaviour {
 
 		if (buff.type == BuffType.DEBUFF) {
 			_debufFX.SetActive (false);
+			_debufFX.GetComponent<Animator> ().enabled = false;
 		}
 	}
 		
@@ -389,13 +416,47 @@ public class Soldier : MonoBehaviour {
 	{
 		if (value > 1) {
 			_outline.enabled = true;
-			_outline._ColorX = Color.yellow;
+			_outline._OutLineSpread = 0;
+			_outline._ColorX = color;
 		} 
 
 		if ( value < 1 ) {
 			_debufFX.SetActive (true);
-			_debufFX.GetComponent<SpriteRenderer> ().color = Color.yellow;
+			_debufFX.GetComponent<SpriteRenderer> ().color = color;
+			_debufFX.GetComponent<Animator> ().enabled = true;
 		} 
-			
+	}
+
+	IEnumerator KickBack (Vector3 enemyPos) {
+
+		//Vector3 normalized = (enemyPos - t.position).normalized;
+
+		float magnitude = (float) ( Random.Range (13,40) / 10);
+
+		Vector3 startPosition = t.position;
+
+		Vector3 endPosition = (startPosition + ((t.position - enemyPos) * magnitude));
+
+		float timeStamp  = Time.time;
+
+		float timeToTravel = 1;
+
+		Vector3 bending  = Vector3.up; 
+
+		while (Time.time<timeStamp+timeToTravel) {
+			Vector3 currentPos  = Vector3.Lerp(startPosition, endPosition, (Time.time - timeStamp)/timeToTravel);
+
+			currentPos.x += bending.x*Mathf.Sin(Mathf.Clamp01((Time.time - timeStamp)/timeToTravel) * Mathf.PI);
+			currentPos.y += bending.y*Mathf.Sin(Mathf.Clamp01((Time.time - timeStamp)/timeToTravel) * Mathf.PI);
+			currentPos.z += bending.z*Mathf.Sin(Mathf.Clamp01((Time.time - timeStamp)/timeToTravel) * Mathf.PI);
+
+			transform.position = currentPos;
+
+			yield return new WaitForEndOfFrame();
+		}
+
+		yield return new WaitForSeconds (1);
+		_animator.enabled = false;
+		this.enabled = false;
 	}
 }

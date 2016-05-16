@@ -19,9 +19,15 @@ public enum Allegiance
 public enum SoldierType
 {
 	NULL,
-	FOOTMAN,
-	FOOTMAN_SKELETON,
-	KNIGHT_TIER_1
+	KNIGHT,
+	VINDICATOR,
+	BRUTE,
+	BERSERKER,
+	BONE_DRAGON,
+	IRON_GOLEM,
+	DEFENDER,
+	ROGUE,
+	MINOTAUR
 };
 
 public class SquadLeader : MonoBehaviour {
@@ -96,11 +102,11 @@ public class SquadLeader : MonoBehaviour {
 		_soldiers = new Soldier[100];
 
 		SoldierType[] test = new SoldierType[] {
-			SoldierType.FOOTMAN,
-			SoldierType.FOOTMAN,
-			SoldierType.FOOTMAN,
-			SoldierType.FOOTMAN,
-			SoldierType.FOOTMAN,
+			SoldierType.KNIGHT,
+			SoldierType.VINDICATOR,
+			SoldierType.BRUTE,
+			SoldierType.BERSERKER,
+			SoldierType.MINOTAUR,
 		};
 
 		if (_allegiance == Allegiance.ALLY) {
@@ -199,8 +205,9 @@ public class SquadLeader : MonoBehaviour {
 
 			for (int j = 0; j < maxRow; j++) {
 				Vector3 position = new Vector3 ( (offset * i) + x, 0 ,offset * j);
+				print (type);
 				GameObject go = SoldierMaker(position,type);
-
+			
 				_soldiers [index] = go.GetComponent<Soldier> ();
 				_soldiers [index]._leader = this;
 
@@ -232,23 +239,7 @@ public class SquadLeader : MonoBehaviour {
 
 	GameObject SoldierMaker(Vector3 pos,SoldierType type)
 	{
-		string appendedString;
-
-		if (_allegiance == Allegiance.ALLY)
-			appendedString = string.Empty;
-		else
-			appendedString = "_Skeleton";
-			
-		switch(type)
-		{
-		case SoldierType.FOOTMAN:
-			return (GameObject)Instantiate (Resources.Load("Prefabs/Soldiers/Footman" + appendedString),pos,transform.rotation);
-		case SoldierType.KNIGHT_TIER_1:
-			return (GameObject)Instantiate (Resources.Load("Prefabs/Soldiers/Knight_Tier1"+ appendedString),pos,transform.rotation);
-		default:
-			print (type);
-			return (GameObject)Instantiate (Resources.Load("Prefabs/Soldiers/Footman"+ appendedString),pos,transform.rotation);
-		}
+		return (GameObject)Instantiate (Resources.Load( Cache.instance.soldierPrefabPaths[type] ),pos,transform.rotation);
 	}
 
 	public void Engage(SquadLeader enemySquad)

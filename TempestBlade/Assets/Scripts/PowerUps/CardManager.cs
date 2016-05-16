@@ -50,9 +50,9 @@ public class CardManager : MonoBehaviour {
 	void Start () {
 
 		CardType[] cards = new CardType[] {
-			CardType.ATTACK_BUFF,
-			CardType.ATTACK_RATE_BUFF,
-			CardType.WIND_OF_RUST,
+			CardType.SCORCHED_EARTH,
+			CardType.FLAMING_ARROW,
+			CardType.ELECTRIC_GROUND,
 			CardType.FRENZY
 		};
 
@@ -164,7 +164,7 @@ public class CardManager : MonoBehaviour {
 		if (!slot.isAvailable)
 			return;
 
-		ActivateCard(CardType.FRENZY,TacticalAnalyst.instance._enemyLeader);
+		ActivateCard(CardType.ELECTRIC_GROUND,TacticalAnalyst.instance._enemyLeader);
 		StartCooldown (10,slot);
 	}
 

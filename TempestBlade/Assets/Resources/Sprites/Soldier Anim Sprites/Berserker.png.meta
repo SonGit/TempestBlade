@@ -1,0 +1,1191 @@
+fileFormatVersion: 2
+guid: 709a9bad4cc6981498b6a40a6bddd2a8
+timeCreated: 1462335140
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Vanguard_0
+    21300002: Vanguard_1
+    21300004: Vanguard_2
+    21300006: Vanguard_3
+    21300008: Vanguard_4
+    21300010: Vanguard_5
+    21300012: Vanguard_6
+    21300014: Vanguard_7
+    21300016: Vanguard_8
+    21300018: Vanguard_9
+    21300020: Vanguard_10
+    21300022: Vanguard_11
+    21300024: Vanguard_12
+    21300026: Vanguard_13
+    21300028: Vanguard_14
+    21300030: Vanguard_15
+    21300032: Vanguard_16
+    21300034: Vanguard_17
+    21300036: Vanguard_18
+    21300038: Vanguard_19
+    21300040: Vanguard_20
+    21300042: Vanguard_21
+    21300044: Vanguard_22
+    21300046: Vanguard_23
+    21300048: Vanguard_24
+    21300050: Vanguard_25
+    21300052: Vanguard_26
+    21300054: Vanguard_27
+    21300056: Vanguard_28
+    21300058: Vanguard_29
+    21300060: Vanguard_30
+    21300062: Vanguard_31
+    21300064: Vanguard_32
+    21300066: Vanguard_33
+    21300068: Vanguard_34
+    21300070: Vanguard_35
+    21300072: Vanguard_36
+    21300074: Vanguard_37
+    21300076: Vanguard_38
+    21300078: Vanguard_39
+    21300080: Vanguard_40
+    21300082: Vanguard_41
+    21300084: Vanguard_42
+    21300086: Vanguard_43
+    21300088: Vanguard_44
+    21300090: Vanguard_45
+    21300092: Vanguard_46
+    21300094: Vanguard_47
+    21300096: Vanguard_48
+    21300098: Vanguard_49
+    21300100: Vanguard_50
+    21300102: Vanguard_51
+    21300104: Vanguard_52
+    21300106: Vanguard_53
+    21300108: Vanguard_54
+    21300110: Vanguard_55
+    21300112: Vanguard_56
+    21300114: Vanguard_57
+    21300116: Vanguard_58
+    21300118: Vanguard_59
+    21300120: Vanguard_60
+    21300122: Vanguard_61
+    21300124: Vanguard_62
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: Vanguard_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 537
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 13}
+        - {x: 4, y: 31}
+        - {x: -19, y: 31}
+        - {x: -19, y: -31}
+        - {x: 10, y: -31}
+        - {x: 19, y: -25}
+    - name: Vanguard_1
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 537
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 31}
+        - {x: -20, y: 21}
+        - {x: -20, y: -31}
+        - {x: 11, y: -31}
+        - {x: 20, y: -28}
+        - {x: 20, y: 10}
+        - {x: 6, y: 31}
+    - name: Vanguard_2
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 537
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 31}
+        - {x: -18.5, y: 22}
+        - {x: -18.5, y: -31}
+        - {x: 18.5, y: -31}
+        - {x: 18.5, y: 25}
+        - {x: 10.5, y: 31}
+    - name: Vanguard_3
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 537
+        width: 37
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 30.5}
+        - {x: -18.5, y: 24.5}
+        - {x: -18.5, y: -30.5}
+        - {x: 18.5, y: -30.5}
+        - {x: 18.5, y: 30.5}
+    - name: Vanguard_4
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 537
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 10}
+        - {x: 11, y: 12}
+        - {x: 4, y: 25}
+        - {x: -3, y: 31}
+        - {x: -10, y: 31}
+        - {x: -19, y: 15}
+        - {x: -19, y: -31}
+        - {x: 7, y: -31}
+        - {x: 19, y: -24}
+    - name: Vanguard_5
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 537
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 31}
+        - {x: -19, y: -31}
+        - {x: 9, y: -31}
+        - {x: 19, y: -25}
+        - {x: 19, y: 21}
+        - {x: 6, y: 31}
+    - name: Vanguard_6
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 455
+        width: 37
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 31.5}
+        - {x: -18.5, y: 17.5}
+        - {x: -18.5, y: -31.5}
+        - {x: 9.5, y: -31.5}
+        - {x: 18.5, y: -26.5}
+        - {x: 18.5, y: 16.5}
+        - {x: 1.5, y: 31.5}
+    - name: Vanguard_7
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 457
+        width: 40
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 31}
+        - {x: -20, y: -31}
+        - {x: 19, y: -31}
+        - {x: 20, y: -29}
+        - {x: 20, y: 14}
+        - {x: 9, y: 31}
+    - name: Vanguard_8
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 457
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 31}
+        - {x: -11, y: 31}
+        - {x: -18, y: 15}
+        - {x: -18, y: -31}
+        - {x: 18, y: -31}
+        - {x: 18, y: 8}
+        - {x: 7, y: 30}
+    - name: Vanguard_9
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 455
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 31}
+        - {x: -18.5, y: 26}
+        - {x: -18.5, y: -31}
+        - {x: 17.5, y: -31}
+        - {x: 18.5, y: -29}
+        - {x: 18.5, y: 9}
+        - {x: 12.5, y: 31}
+    - name: Vanguard_10
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 455
+        width: 38
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 31}
+        - {x: -19, y: 19}
+        - {x: -19, y: -31}
+        - {x: 14, y: -31}
+        - {x: 19, y: -28}
+        - {x: 19, y: 25}
+        - {x: 17, y: 31}
+    - name: Vanguard_11
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 455
+        width: 37
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 31.5}
+        - {x: -18.5, y: 16.5}
+        - {x: -18.5, y: -31.5}
+        - {x: 8.5, y: -31.5}
+        - {x: 18.5, y: -24.5}
+        - {x: 18.5, y: 23.5}
+        - {x: 15.5, y: 31.5}
+    - name: Vanguard_12
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 455
+        width: 40
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 20, y: -25.5}
+        - {x: 20, y: 12.5}
+        - {x: 9, y: 31.5}
+        - {x: -15, y: 31.5}
+        - {x: -20, y: 12.5}
+        - {x: -20, y: -31.5}
+        - {x: 16, y: -31.5}
+        - {x: 16, y: -29.5}
+        - {x: 15, y: -26.5}
+        - {x: 18, y: -26.5}
+    - name: Vanguard_13
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 455
+        width: 43
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 31}
+        - {x: -12.5, y: 31}
+        - {x: -21.5, y: 6}
+        - {x: -21.5, y: -31}
+        - {x: 10.5, y: -31}
+        - {x: 21.5, y: -27}
+        - {x: 21.5, y: 12}
+    - name: Vanguard_14
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 370
+        width: 41
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 28.5}
+        - {x: -7.5, y: 28.5}
+        - {x: -13.5, y: 20.5}
+        - {x: -15.5, y: -4.5}
+        - {x: -15.5, y: -36.5}
+        - {x: 20.5, y: -36.5}
+        - {x: 20.5, y: 20.5}
+        - {x: 19.5, y: 24.5}
+    - name: Vanguard_15
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 372
+        width: 37
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.5, y: 27.5}
+        - {x: -14.5, y: 24.5}
+        - {x: -14.5, y: -36.5}
+        - {x: 15.5, y: -36.5}
+        - {x: 18.5, y: -34.5}
+        - {x: 18.5, y: 22.5}
+        - {x: 16.5, y: 27.5}
+    - name: Vanguard_16
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 373
+        width: 35
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 31.5}
+        - {x: -14.5, y: 31.5}
+        - {x: -17.5, y: 28.5}
+        - {x: -17.5, y: -36.5}
+        - {x: 17.5, y: -36.5}
+        - {x: 17.5, y: 16.5}
+        - {x: 5.5, y: 28.5}
+    - name: Vanguard_17
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 370
+        width: 63
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 28.5}
+        - {x: -31.5, y: 20.5}
+        - {x: -31.5, y: -36.5}
+        - {x: 19.5, y: -36.5}
+        - {x: 19.5, y: 11.5}
+        - {x: 10.5, y: 28.5}
+    - name: Vanguard_18
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 370
+        width: 35
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 36.5}
+        - {x: -15.5, y: 31.5}
+        - {x: -17.5, y: 17.5}
+        - {x: -17.5, y: -36.5}
+        - {x: 17.5, y: -36.5}
+        - {x: 17.5, y: 10.5}
+        - {x: 7.5, y: 36.5}
+    - name: Vanguard_19
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 370
+        width: 77
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7.5, y: 28.5}
+        - {x: -10.5, y: 20.5}
+        - {x: -14.5, y: 5.5}
+        - {x: -20.5, y: -19.5}
+        - {x: -20.5, y: -32.5}
+        - {x: -18.5, y: -36.5}
+        - {x: 24.5, y: -36.5}
+        - {x: 38.5, y: -28.5}
+        - {x: 38.5, y: 23.5}
+        - {x: 13.5, y: 28.5}
+    - name: Vanguard_20
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 370
+        width: 35
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 28.5}
+        - {x: -11.5, y: 28.5}
+        - {x: -17.5, y: 11.5}
+        - {x: -17.5, y: -36.5}
+        - {x: 17.5, y: -36.5}
+        - {x: 17.5, y: -9.5}
+        - {x: 9.5, y: 26.5}
+    - name: Vanguard_21
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 370
+        width: 60
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 28.5}
+        - {x: -17, y: 7.5}
+        - {x: -19, y: -4.5}
+        - {x: -19, y: -36.5}
+        - {x: 22, y: -36.5}
+        - {x: 30, y: -34.5}
+        - {x: 30, y: -9.5}
+        - {x: 6, y: 28.5}
+    - name: Vanguard_22
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 280
+        width: 40
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 31.5}
+        - {x: -12, y: 30.5}
+        - {x: -17, y: 11.5}
+        - {x: -17, y: -31.5}
+        - {x: 10, y: -31.5}
+        - {x: 20, y: -22.5}
+        - {x: 20, y: 31.5}
+    - name: Vanguard_23
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 282
+        width: 31
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vanguard_24
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 283
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 33}
+        - {x: -13.5, y: 33}
+        - {x: -17.5, y: 31}
+        - {x: -17.5, y: -33}
+        - {x: 17.5, y: -33}
+        - {x: 17.5, y: 4}
+        - {x: 12.5, y: 29}
+    - name: Vanguard_25
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 280
+        width: 78
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 32}
+        - {x: -20, y: 10}
+        - {x: -20, y: -30}
+        - {x: -19, y: -33}
+        - {x: 25, y: -33}
+        - {x: 39, y: -27}
+        - {x: 39, y: 29}
+        - {x: 34, y: 32}
+    - name: Vanguard_26
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 279
+        width: 35
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 33}
+        - {x: -16.5, y: 33}
+        - {x: -17.5, y: 25}
+        - {x: -17.5, y: -33}
+        - {x: 17.5, y: -33}
+        - {x: 17.5, y: 10}
+        - {x: 9.5, y: 29}
+    - name: Vanguard_27
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 280
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 32}
+        - {x: -4.5, y: 32}
+        - {x: -17.5, y: 8}
+        - {x: -19.5, y: 0}
+        - {x: -19.5, y: -32}
+        - {x: -17.5, y: -33}
+        - {x: 28.5, y: -33}
+        - {x: 30.5, y: -28}
+        - {x: 30.5, y: 4}
+        - {x: 14.5, y: 31}
+    - name: Vanguard_28
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 280
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: -33}
+        - {x: 24, y: -33}
+        - {x: 24, y: 12}
+        - {x: 16, y: 32}
+        - {x: -9, y: 32}
+        - {x: -10, y: 30}
+        - {x: -20, y: -5}
+    - name: Vanguard_29
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 283
+        width: 38
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 30}
+        - {x: -10, y: 25}
+        - {x: -19, y: 8}
+        - {x: -19, y: -33}
+        - {x: 19, y: -33}
+        - {x: 19, y: 30}
+    - name: Vanguard_30
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 282
+        width: 58
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 31}
+        - {x: -6, y: 28}
+        - {x: -13, y: 14}
+        - {x: -13, y: -33}
+        - {x: 26, y: -33}
+        - {x: 29, y: -32}
+        - {x: 29, y: 10}
+        - {x: 9, y: 31}
+    - name: Vanguard_31
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 194
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 31}
+        - {x: -13.5, y: 31}
+        - {x: -16.5, y: 22}
+        - {x: -16.5, y: -31}
+        - {x: 8.5, y: -31}
+        - {x: 16.5, y: -29}
+        - {x: 16.5, y: 26}
+        - {x: 15.5, y: 28}
+    - name: Vanguard_32
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 194
+        width: 32
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 31.5}
+        - {x: -13, y: 31.5}
+        - {x: -16, y: 29.5}
+        - {x: -16, y: -31.5}
+        - {x: 14, y: -31.5}
+        - {x: 16, y: -29.5}
+    - name: Vanguard_33
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 193
+        width: 36
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 34.5}
+        - {x: -16, y: 29.5}
+        - {x: -17, y: 19.5}
+        - {x: -14, y: 18.5}
+        - {x: -17, y: 9.5}
+        - {x: -18, y: -7.5}
+        - {x: -18, y: -34.5}
+        - {x: 18, y: -34.5}
+        - {x: 18, y: 16.5}
+        - {x: 6, y: 34.5}
+    - name: Vanguard_34
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 192
+        width: 43
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 32}
+        - {x: -21.5, y: 15}
+        - {x: -21.5, y: -32}
+        - {x: 21.5, y: -32}
+        - {x: 21.5, y: 32}
+    - name: Vanguard_35
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 182
+        width: 39
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 36.5}
+        - {x: -12.5, y: 36.5}
+        - {x: -18.5, y: 34.5}
+        - {x: -19.5, y: 24.5}
+        - {x: -19.5, y: -34.5}
+        - {x: -7.5, y: -36.5}
+        - {x: 19.5, y: -36.5}
+        - {x: 19.5, y: -5.5}
+        - {x: 7.5, y: 35.5}
+    - name: Vanguard_36
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 177
+        width: 33
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 38.5}
+        - {x: -16.5, y: 20.5}
+        - {x: -16.5, y: -38.5}
+        - {x: 12.5, y: -38.5}
+        - {x: 16.5, y: -35.5}
+        - {x: 16.5, y: 14.5}
+        - {x: 12.5, y: 38.5}
+    - name: Vanguard_37
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 192
+        width: 45
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: -26}
+        - {x: 18.5, y: -23}
+        - {x: 12.5, y: -22}
+        - {x: 16.5, y: -20}
+        - {x: 19.5, y: -19}
+        - {x: 22.5, y: -15}
+        - {x: 22.5, y: 4}
+        - {x: 7.5, y: 32}
+        - {x: -15.5, y: 32}
+        - {x: -22.5, y: 21}
+        - {x: -22.5, y: -32}
+        - {x: -9.5, y: -32}
+        - {x: 21.5, y: -31}
+        - {x: 22.5, y: -28}
+    - name: Vanguard_38
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 192
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4, y: 32}
+        - {x: -11, y: 32}
+        - {x: -21, y: 16}
+        - {x: -21, y: -32}
+        - {x: 21, y: -32}
+        - {x: 21, y: 19}
+        - {x: 7, y: 31}
+    - name: Vanguard_39
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 194
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 31.5}
+        - {x: -7.5, y: 31.5}
+        - {x: -8.5, y: 28.5}
+        - {x: -19.5, y: 8.5}
+        - {x: -20.5, y: -8.5}
+        - {x: -20.5, y: -31.5}
+        - {x: 20.5, y: -31.5}
+        - {x: 20.5, y: 18.5}
+        - {x: 9.5, y: 30.5}
+    - name: Vanguard_40
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 194
+        width: 36
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 31.5}
+        - {x: -18, y: 14.5}
+        - {x: -18, y: -31.5}
+        - {x: 6, y: -31.5}
+        - {x: 18, y: -27.5}
+        - {x: 18, y: 14.5}
+        - {x: 14, y: 31.5}
+    - name: Vanguard_41
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 194
+        width: 39
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: 31}
+        - {x: -11.5, y: 31}
+        - {x: -19.5, y: 14}
+        - {x: -19.5, y: -31}
+        - {x: 9.5, y: -31}
+        - {x: 19.5, y: -26}
+        - {x: 19.5, y: 12}
+        - {x: 5.5, y: 30}
+    - name: Vanguard_42
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 97
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 31}
+        - {x: -18.5, y: 17}
+        - {x: -18.5, y: -31}
+        - {x: 18.5, y: -31}
+        - {x: 18.5, y: 23}
+        - {x: 15.5, y: 31}
+    - name: Vanguard_43
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 97
+        width: 41
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 31}
+        - {x: -20.5, y: -3}
+        - {x: -20.5, y: -31}
+        - {x: 14.5, y: -31}
+        - {x: 20.5, y: -26}
+        - {x: 20.5, y: 25}
+        - {x: 12.5, y: 31}
+    - name: Vanguard_44
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 97
+        width: 38
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: 31.5}
+        - {x: -16, y: 31.5}
+        - {x: -19, y: 24.5}
+        - {x: -19, y: -31.5}
+        - {x: 19, y: -31.5}
+        - {x: 19, y: 26.5}
+        - {x: 18, y: 29.5}
+    - name: Vanguard_45
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 96
+        width: 43
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 32}
+        - {x: -21.5, y: 14}
+        - {x: -21.5, y: -32}
+        - {x: 21.5, y: -32}
+        - {x: 21.5, y: 32}
+    - name: Vanguard_46
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 97
+        width: 43
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 31}
+        - {x: -19.5, y: 10}
+        - {x: -21.5, y: -2}
+        - {x: -21.5, y: -31}
+        - {x: 13.5, y: -31}
+        - {x: 21.5, y: -29}
+        - {x: 21.5, y: 20}
+        - {x: 5.5, y: 31}
+    - name: Vanguard_47
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 97
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 31}
+        - {x: -18.5, y: 30}
+        - {x: -18.5, y: -31}
+        - {x: 15.5, y: -31}
+        - {x: 18.5, y: -30}
+        - {x: 18.5, y: 14}
+        - {x: 6.5, y: 31}
+    - name: Vanguard_48
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 133
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vanguard_49
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 133
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vanguard_50
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 133
+        width: 41
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vanguard_51
+      rect:
+        serializedVersion: 2
+        x: 941
+        y: 133
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vanguard_52
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 73
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vanguard_53
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 73
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vanguard_54
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 73
+        width: 43
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vanguard_55
+      rect:
+        serializedVersion: 2
+        x: 939
+        y: 73
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vanguard_56
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 3
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 31}
+        - {x: -18, y: -31}
+        - {x: 18, y: -31}
+        - {x: 18, y: 19}
+        - {x: 2, y: 31}
+    - name: Vanguard_57
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 2
+        width: 41
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -0.5, y: 31.5}
+        - {x: -14.5, y: 31.5}
+        - {x: -20.5, y: 26.5}
+        - {x: -20.5, y: -28.5}
+        - {x: -15.5, y: -31.5}
+        - {x: 19.5, y: -31.5}
+        - {x: 20.5, y: -30.5}
+        - {x: 20.5, y: 19.5}
+    - name: Vanguard_58
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 2
+        width: 39
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 32}
+        - {x: -19.5, y: 26}
+        - {x: -19.5, y: -32}
+        - {x: 19.5, y: -32}
+        - {x: 19.5, y: 31}
+        - {x: 15.5, y: 32}
+    - name: Vanguard_59
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 6
+        width: 45
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: -23}
+        - {x: -21.5, y: -24}
+        - {x: 22.5, y: -24}
+        - {x: 22.5, y: 19}
+        - {x: 21.5, y: 24}
+        - {x: -0.5, y: 24}
+        - {x: -22.5, y: 10}
+    - name: Vanguard_60
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 5
+        width: 46
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vanguard_61
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 5
+        width: 43
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Vanguard_62
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 5
+        width: 43
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

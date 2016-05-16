@@ -1,0 +1,1840 @@
+fileFormatVersion: 2
+guid: 655c0815ff2f99a4dbc847a8b34fb14f
+timeCreated: 1463063410
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Minotaur_0
+    21300002: Minotaur_1
+    21300004: Minotaur_2
+    21300006: Minotaur_3
+    21300008: Minotaur_4
+    21300010: Minotaur_5
+    21300012: Minotaur_6
+    21300014: Minotaur_7
+    21300016: Minotaur_8
+    21300018: Minotaur_9
+    21300020: Minotaur_10
+    21300022: Minotaur_11
+    21300024: Minotaur_12
+    21300026: Minotaur_13
+    21300028: Minotaur_14
+    21300030: Minotaur_15
+    21300032: Minotaur_16
+    21300034: Minotaur_17
+    21300036: Minotaur_18
+    21300038: Minotaur_19
+    21300040: Minotaur_20
+    21300042: Minotaur_21
+    21300044: Minotaur_22
+    21300046: Minotaur_23
+    21300048: Minotaur_24
+    21300050: Minotaur_25
+    21300052: Minotaur_26
+    21300054: Minotaur_27
+    21300056: Minotaur_28
+    21300058: Minotaur_29
+    21300060: Minotaur_30
+    21300062: Minotaur_31
+    21300064: Minotaur_32
+    21300066: Minotaur_33
+    21300068: Minotaur_34
+    21300070: Minotaur_35
+    21300072: Minotaur_36
+    21300074: Minotaur_37
+    21300076: Minotaur_38
+    21300078: Minotaur_39
+    21300080: Minotaur_40
+    21300082: Minotaur_41
+    21300084: Minotaur_42
+    21300086: Minotaur_43
+    21300088: Minotaur_44
+    21300090: Minotaur_45
+    21300092: Minotaur_46
+    21300094: Minotaur_47
+    21300096: Minotaur_48
+    21300098: Minotaur_49
+    21300100: Minotaur_50
+    21300102: Minotaur_51
+    21300104: Minotaur_52
+    21300106: Minotaur_53
+    21300108: Minotaur_54
+    21300110: Minotaur_55
+    21300112: Minotaur_56
+    21300114: Minotaur_57
+    21300116: Minotaur_58
+    21300118: Minotaur_59
+    21300120: Minotaur_60
+    21300122: Minotaur_61
+    21300124: Minotaur_62
+    21300126: Minotaur_63
+    21300128: Minotaur_64
+    21300130: Minotaur_65
+    21300132: Minotaur_66
+    21300134: Minotaur_67
+    21300136: Minotaur_68
+    21300138: Minotaur_69
+    21300140: Minotaur_70
+    21300142: Minotaur_71
+    21300144: Minotaur_72
+    21300146: Minotaur_73
+    21300148: Minotaur_74
+    21300150: Minotaur_75
+    21300152: Minotaur_76
+    21300154: Minotaur_77
+    21300156: Minotaur_78
+    21300158: Minotaur_79
+    21300160: Minotaur_80
+    21300162: Minotaur_81
+    21300164: Minotaur_82
+    21300166: Minotaur_83
+    21300168: Minotaur_84
+    21300170: Minotaur_85
+    21300172: Minotaur_86
+    21300174: Minotaur_87
+    21300176: Minotaur_88
+    21300178: Minotaur_89
+    21300180: Minotaur_90
+    21300182: Minotaur_91
+    21300184: Minotaur_92
+    21300186: Minotaur_93
+    21300188: Minotaur_94
+    21300190: Minotaur_95
+    21300192: Minotaur_96
+    21300194: Minotaur_97
+    21300196: Minotaur_98
+    21300198: Minotaur_99
+    21300200: Minotaur_100
+    21300202: Minotaur_101
+    21300204: Minotaur_102
+    21300206: Minotaur_103
+    21300208: Minotaur_104
+    21300210: Minotaur_105
+    21300212: Minotaur_106
+    21300214: Minotaur_107
+    21300216: Minotaur_108
+    21300218: Minotaur_109
+    21300220: Minotaur_110
+    21300222: Minotaur_111
+    21300224: Minotaur_112
+    21300226: Minotaur_113
+    21300228: Minotaur_114
+    21300230: Minotaur_115
+    21300232: Minotaur_116
+    21300234: Minotaur_117
+    21300236: Minotaur_118
+    21300238: Minotaur_119
+    21300240: Minotaur_120
+    21300242: Minotaur_121
+    21300244: Minotaur_122
+    21300246: Minotaur_123
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Minotaur_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 483
+        width: 39
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 40}
+        - {x: -19.5, y: 37}
+        - {x: -19.5, y: -40}
+        - {x: 19.5, y: -40}
+        - {x: 19.5, y: 30}
+        - {x: 10.5, y: 40}
+    - name: Minotaur_1
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 483
+        width: 39
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 40}
+        - {x: -19.5, y: 21}
+        - {x: -19.5, y: -40}
+        - {x: 17.5, y: -40}
+        - {x: 19.5, y: -38}
+        - {x: 19.5, y: 34}
+        - {x: 7.5, y: 40}
+    - name: Minotaur_2
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 483
+        width: 39
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10.5, y: 39.5}
+        - {x: -19.5, y: 22.5}
+        - {x: -19.5, y: -39.5}
+        - {x: 19.5, y: -39.5}
+        - {x: 19.5, y: 30.5}
+        - {x: 9.5, y: 39.5}
+    - name: Minotaur_3
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 483
+        width: 40
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 40}
+        - {x: -20, y: 19}
+        - {x: -20, y: -40}
+        - {x: 18, y: -40}
+        - {x: 20, y: -37}
+        - {x: 20, y: 34}
+        - {x: 18, y: 40}
+    - name: Minotaur_4
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 483
+        width: 39
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 40}
+        - {x: -19.5, y: 37}
+        - {x: -19.5, y: -40}
+        - {x: 19.5, y: -40}
+        - {x: 19.5, y: 30}
+        - {x: 10.5, y: 40}
+    - name: Minotaur_5
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 530
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 17}
+        - {x: -22, y: 9}
+        - {x: -22, y: -15}
+        - {x: -16, y: -17}
+        - {x: 22, y: -17}
+        - {x: 22, y: 17}
+    - name: Minotaur_6
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 530
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: -5}
+        - {x: -5, y: -17}
+        - {x: 20, y: -17}
+        - {x: 22, y: -14}
+        - {x: 22, y: 17}
+        - {x: -17, y: 17}
+        - {x: -22, y: 15}
+    - name: Minotaur_7
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 530
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 17}
+        - {x: -22.5, y: -11}
+        - {x: -5.5, y: -17}
+        - {x: 22.5, y: -17}
+        - {x: 22.5, y: 17}
+    - name: Minotaur_8
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 487
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 17}
+        - {x: -22.5, y: 6}
+        - {x: -22.5, y: -13}
+        - {x: -12.5, y: -17}
+        - {x: 22.5, y: -17}
+        - {x: 22.5, y: 17}
+    - name: Minotaur_9
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 487
+        width: 45
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5, y: 17}
+        - {x: -22.5, y: 3}
+        - {x: -22.5, y: -4}
+        - {x: -17.5, y: -8}
+        - {x: 1.5, y: -17}
+        - {x: 21.5, y: -17}
+        - {x: 22.5, y: -9}
+        - {x: 22.5, y: 10}
+        - {x: 17.5, y: 17}
+    - name: Minotaur_10
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 487
+        width: 44
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: -14}
+        - {x: -21, y: -15}
+        - {x: -11, y: -17}
+        - {x: 22, y: -17}
+        - {x: 22, y: 17}
+        - {x: -13, y: 17}
+        - {x: -22, y: 15}
+    - name: Minotaur_11
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 388
+        width: 40
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 40.5}
+        - {x: -20, y: -40.5}
+        - {x: 20, y: -40.5}
+        - {x: 20, y: 40.5}
+    - name: Minotaur_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 389
+        width: 41
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5.5, y: 41}
+        - {x: -20.5, y: 23}
+        - {x: -20.5, y: -41}
+        - {x: 20.5, y: -41}
+        - {x: 20.5, y: 32}
+        - {x: 9.5, y: 41}
+    - name: Minotaur_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 388
+        width: 40
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 41}
+        - {x: -19, y: 16}
+        - {x: -20, y: 10}
+        - {x: -20, y: -41}
+        - {x: 20, y: -41}
+        - {x: 20, y: 31}
+        - {x: 12, y: 41}
+    - name: Minotaur_14
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 388
+        width: 38
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 40.5}
+        - {x: -19, y: 32.5}
+        - {x: -19, y: -40.5}
+        - {x: 6, y: -40.5}
+        - {x: 19, y: -36.5}
+        - {x: 19, y: 32.5}
+        - {x: 8, y: 40.5}
+    - name: Minotaur_15
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 388
+        width: 42
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 41.5}
+        - {x: -21, y: 22.5}
+        - {x: -21, y: -41.5}
+        - {x: 18, y: -41.5}
+        - {x: 21, y: -35.5}
+        - {x: 21, y: 21.5}
+        - {x: 11, y: 41.5}
+    - name: Minotaur_16
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 389
+        width: 42
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 41}
+        - {x: -21, y: 25}
+        - {x: -21, y: -41}
+        - {x: 21, y: -41}
+        - {x: 21, y: 20}
+        - {x: 9, y: 41}
+    - name: Minotaur_17
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 389
+        width: 39
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 40}
+        - {x: -19.5, y: 27}
+        - {x: -19.5, y: -40}
+        - {x: 19.5, y: -40}
+        - {x: 19.5, y: 30}
+        - {x: 17.5, y: 40}
+    - name: Minotaur_18
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 357
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_19
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 357
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_20
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 357
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_21
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 357
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_22
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 357
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_23
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 357
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_24
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 357
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_25
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 292
+        width: 63
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14.5, y: 40.5}
+        - {x: -31.5, y: 40.5}
+        - {x: -31.5, y: -40.5}
+        - {x: 31.5, y: -40.5}
+        - {x: 31.5, y: -13.5}
+        - {x: 26.5, y: 31.5}
+    - name: Minotaur_26
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 286
+        width: 46
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 42.5}
+        - {x: -23, y: 26.5}
+        - {x: -23, y: -42.5}
+        - {x: 12, y: -42.5}
+        - {x: 23, y: -38.5}
+        - {x: 23, y: 42.5}
+    - name: Minotaur_27
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 292
+        width: 74
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37, y: -21.5}
+        - {x: 33, y: -18.5}
+        - {x: 14, y: -16.5}
+        - {x: 35, y: 10.5}
+        - {x: 37, y: 17.5}
+        - {x: 37, y: 43.5}
+        - {x: -15, y: 43.5}
+        - {x: -35, y: 12.5}
+        - {x: -37, y: -12.5}
+        - {x: -37, y: -43.5}
+        - {x: 2, y: -43.5}
+        - {x: 32, y: -28.5}
+        - {x: 37, y: -25.5}
+    - name: Minotaur_28
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 293
+        width: 52
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 39}
+        - {x: -26, y: -6}
+        - {x: -26, y: -39}
+        - {x: 15, y: -39}
+        - {x: 26, y: -38}
+        - {x: 26, y: 39}
+    - name: Minotaur_29
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 324
+        width: 54
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 17}
+        - {x: -27, y: 3}
+        - {x: -27, y: -6}
+        - {x: -24, y: -13}
+        - {x: -8, y: -17}
+        - {x: 21, y: -17}
+        - {x: 27, y: -7}
+        - {x: 27, y: 17}
+    - name: Minotaur_30
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 324
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1, y: 17}
+        - {x: -4, y: 16}
+        - {x: -7, y: 7}
+        - {x: -7, y: 3}
+        - {x: -19, y: 4}
+        - {x: -25, y: 0}
+        - {x: -25, y: -10}
+        - {x: -3, y: -17}
+        - {x: 25, y: -17}
+        - {x: 25, y: 9}
+        - {x: 24, y: 17}
+    - name: Minotaur_31
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 341
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_32
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 341
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_33
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 341
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_34
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 341
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_35
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 341
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_36
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 341
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_37
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 341
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_38
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 341
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_39
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 341
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_40
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 338
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_41
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 341
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_42
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 341
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_43
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 341
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_44
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 341
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_45
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 341
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_46
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 341
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_47
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 341
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_48
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 338
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_49
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 341
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_50
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 325
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_51
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 325
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_52
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 323
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_53
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 325
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_54
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 325
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_55
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 325
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_56
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 322
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_57
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 325
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_58
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 325
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_59
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 325
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_60
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 325
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_61
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 325
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_62
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 325
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_63
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 325
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_64
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 325
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_65
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 197
+        width: 36
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 40.5}
+        - {x: -18, y: 35.5}
+        - {x: -18, y: -42.5}
+        - {x: 18, y: -42.5}
+        - {x: 18, y: 34.5}
+        - {x: 12, y: 40.5}
+    - name: Minotaur_66
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 197
+        width: 51
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25.5, y: 40.5}
+        - {x: -25.5, y: -40.5}
+        - {x: -24.5, y: -42.5}
+        - {x: 22.5, y: -42.5}
+        - {x: 22.5, y: 25.5}
+        - {x: 9.5, y: 40.5}
+    - name: Minotaur_67
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 197
+        width: 88
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -39, y: 39.5}
+        - {x: -44, y: 36.5}
+        - {x: -44, y: -42.5}
+        - {x: 21, y: -42.5}
+        - {x: 21, y: 27.5}
+        - {x: 7, y: 39.5}
+    - name: Minotaur_68
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 191
+        width: 53
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 42}
+        - {x: -15.5, y: 41}
+        - {x: -26.5, y: 31}
+        - {x: -26.5, y: -45}
+        - {x: 21.5, y: -45}
+        - {x: 21.5, y: 28}
+        - {x: 15.5, y: 42}
+    - name: Minotaur_69
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 196
+        width: 118
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 40.5}
+        - {x: -6, y: 26.5}
+        - {x: -23, y: -24.5}
+        - {x: -23, y: -42.5}
+        - {x: 59, y: -42.5}
+        - {x: 59, y: 37.5}
+        - {x: 57, y: 40.5}
+    - name: Minotaur_70
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 198
+        width: 105
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 41.5, y: 18.5}
+        - {x: 22.5, y: 36.5}
+        - {x: 20.5, y: 37.5}
+        - {x: 9.5, y: 37.5}
+        - {x: -2.5, y: 26.5}
+        - {x: -20.5, y: -26.5}
+        - {x: -20.5, y: -42.5}
+        - {x: 28.5, y: -42.5}
+        - {x: 52.5, y: -34.5}
+        - {x: 52.5, y: 14.5}
+        - {x: 51.5, y: 17.5}
+    - name: Minotaur_71
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 101
+        width: 49
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 50}
+        - {x: -24.5, y: -50}
+        - {x: 24.5, y: -50}
+        - {x: 24.5, y: 50}
+    - name: Minotaur_72
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 108
+        width: 46
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 39}
+        - {x: -23, y: 32}
+        - {x: -23, y: -39}
+        - {x: 23, y: -39}
+        - {x: 23, y: 39}
+    - name: Minotaur_73
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 96
+        width: 46
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 44}
+        - {x: -23, y: 10}
+        - {x: -23, y: -44}
+        - {x: 23, y: -44}
+        - {x: 23, y: 26}
+        - {x: 19, y: 44}
+    - name: Minotaur_74
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 91
+        width: 57
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8.5, y: 45}
+        - {x: -23.5, y: 14}
+        - {x: -28.5, y: -7}
+        - {x: -28.5, y: -38}
+        - {x: -11.5, y: -45}
+        - {x: 28.5, y: -45}
+        - {x: 28.5, y: 37}
+        - {x: 12.5, y: 45}
+    - name: Minotaur_75
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 108
+        width: 59
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 38}
+        - {x: -20.5, y: 27}
+        - {x: -29.5, y: -13}
+        - {x: -29.5, y: -38}
+        - {x: 29.5, y: -38}
+        - {x: 29.5, y: 25}
+        - {x: 9.5, y: 38}
+    - name: Minotaur_76
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 157
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_77
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 154
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_78
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 154
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_79
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 157
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_80
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 157
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_81
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 157
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_82
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 154
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_83
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 139
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_84
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 136
+        width: 124
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_85
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 139
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_86
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 139
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_87
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 139
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_88
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 123
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_89
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 123
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_90
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 123
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_91
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 123
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_92
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 120
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_93
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 123
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_94
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 123
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_95
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 123
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_96
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 121
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_97
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 120
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_98
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 123
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_99
+      rect:
+        serializedVersion: 2
+        x: 766
+        y: 123
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_100
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 123
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_101
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 123
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_102
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 123
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_103
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 104
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_104
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 107
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_105
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 107
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_106
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 107
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_107
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 107
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_108
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 104
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_109
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 107
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_110
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 107
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_111
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 107
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_112
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 107
+        width: 4
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_113
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 107
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_114
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 107
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_115
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 107
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Minotaur_116
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 3
+        width: 43
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15.5, y: 40.5}
+        - {x: -21.5, y: 27.5}
+        - {x: -21.5, y: -40.5}
+        - {x: 21.5, y: -40.5}
+        - {x: 21.5, y: 24.5}
+        - {x: 5.5, y: 40.5}
+    - name: Minotaur_117
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 3
+        width: 67
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -33.5, y: 40.5}
+        - {x: -33.5, y: -40.5}
+        - {x: 18.5, y: -40.5}
+        - {x: 33.5, y: -33.5}
+        - {x: 33.5, y: 24.5}
+        - {x: 11.5, y: 40.5}
+    - name: Minotaur_118
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 3
+        width: 39
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11.5, y: 40.5}
+        - {x: -19.5, y: 30.5}
+        - {x: -19.5, y: -40.5}
+        - {x: 19.5, y: -40.5}
+        - {x: 19.5, y: 19.5}
+        - {x: 18.5, y: 26.5}
+        - {x: 5.5, y: 40.5}
+    - name: Minotaur_119
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 5
+        width: 43
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 24.5}
+        - {x: -21.5, y: -40.5}
+        - {x: 21.5, y: -40.5}
+        - {x: 21.5, y: 24.5}
+    - name: Minotaur_120
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 9
+        width: 44
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22, y: 3.5}
+        - {x: -22, y: -27.5}
+        - {x: -20, y: -28.5}
+        - {x: -17, y: -28.5}
+        - {x: -18, y: -28.5}
+        - {x: -22, y: -31.5}
+        - {x: -22, y: -38.5}
+        - {x: -18, y: -40.5}
+        - {x: 22, y: -40.5}
+        - {x: 22, y: 0.5}
+        - {x: 21, y: 3.5}
+    - name: Minotaur_121
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 9
+        width: 41
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: -2.5}
+        - {x: 10.5, y: -3.5}
+        - {x: -12.5, y: -11.5}
+        - {x: -19.5, y: -19.5}
+        - {x: -20.5, y: -24.5}
+        - {x: -20.5, y: -40.5}
+        - {x: 17.5, y: -40.5}
+        - {x: 20.5, y: -39.5}
+        - {x: 20.5, y: -2.5}
+    - name: Minotaur_122
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 9
+        width: 42
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -14.5}
+        - {x: -21, y: -17.5}
+        - {x: -21, y: -40.5}
+        - {x: 21, y: -40.5}
+        - {x: 21, y: -14.5}
+    - name: Minotaur_123
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 9
+        width: 44
+        height: 81
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: -18.5}
+        - {x: -4, y: -17.5}
+        - {x: -16, y: -17.5}
+        - {x: -22, y: -25.5}
+        - {x: -22, y: -39.5}
+        - {x: -21, y: -40.5}
+        - {x: 22, y: -40.5}
+        - {x: 22, y: -26.5}
+        - {x: 19, y: -23.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
