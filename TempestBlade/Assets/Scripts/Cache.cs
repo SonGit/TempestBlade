@@ -22,6 +22,8 @@ public sealed class Cache {
 		get { return _instance; }
 	}
 
+	public static readonly float buffMultiplier = 0.1f;
+
 	public Dictionary<StackType,string> stackableSkillIconPaths = new Dictionary<StackType,string>
 	{
 		{StackType.NULL,""},
@@ -63,7 +65,15 @@ public sealed class Cache {
 	public Dictionary<SoldierType,string> soldierIconPaths = new Dictionary<SoldierType,string>
 	{
 		{SoldierType.NULL,""},
-		{SoldierType.KNIGHT,"Sprites/Soldiers/Footman_Icon"},
+		{SoldierType.KNIGHT,"Sprites/Soldier icons/Knight"},
+		{SoldierType.VINDICATOR,"Sprites/Soldier icons/Sentinel"},
+		{SoldierType.BRUTE,"Sprites/Soldier icons/Brute"},
+		{SoldierType.BERSERKER,"Sprites/Soldier icons/Berserker"},
+		{SoldierType.BONE_DRAGON,"Sprites/Soldier icons/BoneDragon"},
+		{SoldierType.IRON_GOLEM,"Sprites/Soldier icons/Golem"},
+		{SoldierType.DEFENDER, "Sprites/Soldier icons/Defender"},
+		{SoldierType.ROGUE,"Sprites/Soldier icons/Rogue"},
+		{SoldierType.MINOTAUR,"Sprites/Soldier icons/Minotaur"},
 	};
 
 	public Dictionary<SoldierType,string> soldierPrefabPaths = new Dictionary<SoldierType,string>
@@ -107,6 +117,20 @@ public sealed class Cache {
 	public Dictionary<SceneryType,SceneryData> backgroundData = new Dictionary<SceneryType,SceneryData>
 	{
 		{SceneryType.DESERT,new SceneryData("Sprites/Sceneries/Desert/BG","Sprites/Sceneries/Desert/TR")},
+	};
+
+	public Dictionary<SoldierType,string> UnitDescription = new Dictionary<SoldierType,string>
+	{
+		{SoldierType.NULL,"???"},
+		{SoldierType.KNIGHT," + Powerful Attack \n + Strong Attack \n - Weak Defense \n - Slow Speed"},
+		{SoldierType.VINDICATOR," + Powerful Attack \n + Strong Attack \n - Weak Defense \n - Slow Speed"},
+		{SoldierType.BRUTE," + Powerful Attack \n + Strong Attack \n - Weak Defense \n - Slow Speed"},
+		{SoldierType.BERSERKER," + Powerful Attack \n + Strong Attack \n - Weak Defense \n - Slow Speed"},
+		{SoldierType.BONE_DRAGON," + Powerful Attack \n + Strong Attack \n - Weak Defense \n - Slow Speed"},
+		{SoldierType.IRON_GOLEM," + Powerful Attack \n + Strong Attack \n - Weak Defense \n - Slow Speed"},
+		{SoldierType.DEFENDER," + Powerful Attack \n + Strong Attack \n - Weak Defense \n - Slow Speed"},
+		{SoldierType.ROGUE," + Powerful Attack \n + Strong Attack \n - Weak Defense \n - Slow Speed"},
+		{SoldierType.MINOTAUR," + Powerful Attack \n + Strong Attack \n - Weak Defense \n - Slow Speed"},
 	};
 
 	public Dictionary<int,MapProperties> levelData = new Dictionary<int,MapProperties>

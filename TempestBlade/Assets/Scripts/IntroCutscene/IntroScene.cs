@@ -22,15 +22,31 @@ public class IntroScene : MonoBehaviour {
 
 	public Text[] _credits;
 
+	public IntroUI _introUI;
+
 	Transform t;
+
+	bool _started = false;
 
 	void Awake()
 	{
 		t = transform;
+		Application.targetFrameRate = 60;
+		MusicPlayer.instance.Init ();
+	}
+
+	public void StartGame()
+	{
+		if (_started)
+			return;
+		
+		_started = true;
+		_introUI.EffectOn ();
+		StartCoroutine (Start2());
 	}
 
 	// Use this for initialization
-	IEnumerator Start () {
+	IEnumerator Start2 () {
 		StartCoroutine (Scene1());
 		yield return new WaitForSeconds (17);
 		StartCoroutine (Scene2());
@@ -50,7 +66,7 @@ public class IntroScene : MonoBehaviour {
 	{
 		MusicPlayer.instance.Play (Music.Clock_Maker);
 
-		StartCoroutine (FadeIn());
+		//StartCoroutine (FadeIn());
 		StartCoroutine (RollText());
 
 		Vector3 destination = Vector3.zero;

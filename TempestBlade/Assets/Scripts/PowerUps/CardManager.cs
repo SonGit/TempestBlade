@@ -50,8 +50,8 @@ public class CardManager : MonoBehaviour {
 	void Start () {
 
 		CardType[] cards = new CardType[] {
-			CardType.SCORCHED_EARTH,
-			CardType.FLAMING_ARROW,
+			CardType.ATTACK_BUFF,
+			CardType.DEFENSE_BUFF,
 			CardType.ELECTRIC_GROUND,
 			CardType.FRENZY
 		};

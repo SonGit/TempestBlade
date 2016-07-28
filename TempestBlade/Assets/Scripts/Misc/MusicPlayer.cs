@@ -39,6 +39,11 @@ public class MusicPlayer : MonoBehaviour {
 		Load ();
 	}
 
+	public void Init()
+	{
+
+	}
+
 	void Load()
 	{
 		Dictionary<Music,string> musicPaths = Cache.instance.musicPaths;
@@ -52,11 +57,13 @@ public class MusicPlayer : MonoBehaviour {
 
 	void Start()
 	{
-
+		MusicSource.Play ();
+		MusicSource.Stop ();
 	}
 
 	public void Play(Music music)
 	{
+		
 		StartCoroutine (Play_Async(music));	
 	}
 

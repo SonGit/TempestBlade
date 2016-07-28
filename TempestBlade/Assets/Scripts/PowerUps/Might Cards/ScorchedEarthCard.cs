@@ -17,7 +17,7 @@ public class ScorchedEarthCard : PowerUpCard {
 	public override void Init()
 	{
 		_type = CardType.SCORCHED_EARTH;
-		_stackSkill = new SoldierAttackUpStack ();
+		//_stackSkill = new SoldierAttackUpStack ();
 	}
 
 	protected override void PlayEffect(SquadLeader target)

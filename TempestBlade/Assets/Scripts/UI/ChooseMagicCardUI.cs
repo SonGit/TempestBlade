@@ -2,60 +2,56 @@
 using System.Collections;
 using UnityEngine.UI;
 using System;
+using System.Collections.Generic;
 
 public class ChooseMagicCardUI : ChooseUI {
-	
-	void Start()
+	public GameObject _lastUI;
+
+	public int _currentPage = 0;
+
+	Dictionary<int,CardType[]> _Library = new Dictionary<int, CardType[]>
 	{
-		_deck = _deckGrid.GetComponentsInChildren<CardUI> ();
+		{0, new CardType[]{CardType.ATTACK_BUFF,CardType.ATTACK_RATE_BUFF,CardType.ATTACK_RATE_DEBUFF,CardType.DEFENSE_BUFF}},
+		{1, new CardType[]{CardType.ATTACK_BUFF,CardType.ATTACK_RATE_BUFF,CardType.ATTACK_RATE_DEBUFF,CardType.DEFENSE_BUFF}},
+	};
+
+	protected override void Init()
+	{
 		Enum[] cards = new Enum[] {
-			CardType.SCORCHED_EARTH,
-			CardType.DEFENSE_BUFF,
-			CardType.ATTACK_BUFF,
-			CardType.MORALE_DEBUFF,
-			CardType.ATTACK_BUFF,
-			CardType.ATTACK_BUFF,
-			CardType.ATTACK_BUFF,
-			CardType.ATTACK_BUFF,
-			CardType.ATTACK_BUFF,
-			CardType.ATTACK_BUFF,
-			CardType.ATTACK_BUFF,
-			CardType.ATTACK_BUFF,
-			CardType.ATTACK_BUFF,
+			SoldierType.KNIGHT,
+			SoldierType.KNIGHT,
 		};
 
 		SpawnCards(cards);
 
 		//Allow swaps
-		Button[] deckBtns = _deckGrid.GetComponentsInChildren<Button> ();
-		foreach (Button button in deckBtns) {
-			DeckButtonSetter(button);
+		foreach (CardUI card in _deck) {
+
+			Button btn = card._swapBtn;
+
+			if (btn != null) {
+				DeckButtonSetter(btn);
+			}
 		}
+
+		CreatePage (_Library[0]);
 	}
 
 	void DeckButtonSetter(Button btn)
 	{
 		btn.onClick.AddListener(() =>
 			{
-				SwapAction(btn.GetComponent<CardUI>());
+				SwapAction(btn.GetComponentInParent<CardUI>());
 			});
 	}
 
-	protected override void ButtonSetter(Button btn,Enum type)
+	protected override void ButtonSetter(CardUI card)
 	{
-		base.ButtonSetter (btn,type);
-
-		MagicCardUI cardUI = btn.GetComponent<CardUI> () as MagicCardUI;
-		cardUI._cardType = (CardType) type;
+		base.ButtonSetter (card);
 	}
 
 	protected override void ButtonAction(CardUI card)
 	{
-		if (IsDuplicate (card)) {
-			print ("This card is already in your deck");
-			return;
-		}
-
 		if (!card._isInDeck) {
 			PutToDeck(card);
 		}
@@ -94,6 +90,7 @@ public class ChooseMagicCardUI : ChooseUI {
 	{
 		MagicCardUI magicCard1 = (MagicCardUI)card1; 
 		MagicCardUI magicCard2 = (MagicCardUI)card2; 
+
 		CardType tmp = magicCard1._cardType;
 
 		magicCard1._cardType = magicCard2._cardType;
@@ -109,11 +106,60 @@ public class ChooseMagicCardUI : ChooseUI {
 			MagicCardUI card = (MagicCardUI)_deck [i];
 
 			if(card != null)
-			cards [i] = card._cardType;
-			
+				cards [i] = card._cardType;
+
 		}
 
 		PlayerInfoCache.instance.AddToDeck (cards);
 	}
 
+	//Call by a button when player have done choosing
+	public void OnLastUI()
+	{
+		_lastUI.SetActive (true);
+		gameObject.SetActive (false);
+	}
+
+	public void GoToBattle()
+	{
+		AddToDeck ();
+		Application.LoadLevel ("TestScene");
+	}
+
+	private void CreatePage(CardType[] types)
+	{
+
+		for (int i = 0; i < types.Length; i++) {
+			MagicCardUI soldierCard = (MagicCardUI)_listOfCards[i]; 
+
+			if (soldierCard != null) {
+				soldierCard.Setup (types[i]);
+			}
+		}
+
+	}
+
+	public void OnClickNextPage()
+	{
+		//If reach mex page
+		if (_currentPage + 1 >= _Library.Count) {
+			return;
+		}
+
+		_currentPage++;
+
+		CreatePage (_Library[_currentPage]);
+	}
+
+	public void OnClickPrevPage()
+	{
+		//If reach mex page
+		if (_currentPage - 1 < 0) {
+			return;
+		}
+
+		_currentPage--;
+
+		CreatePage (_Library[_currentPage]);
+	}
 }

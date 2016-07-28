@@ -1,28 +1,19 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\SoldierScripts\Knight.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\UI\MagicCardUI.cs">
     <Files>
-      <File FileName="Assets\Scripts\PowerUps\CardManager.cs" Line="167" Column="80" />
-      <File FileName="Assets\Scripts\PowerUps\Might Cards\AttackRateBuffCard.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Misc\Gore.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\SoldierScripts\Soldier.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Cache.cs" Line="80" Column="51" />
-      <File FileName="Assets\Scripts\PowerUps\Might Cards\FrenzyCard.cs" Line="24" Column="4" />
-      <File FileName="Assets\Scripts\PowerUps\Magic Cards\WindOfRustCard.cs" Line="17" Column="3" />
-      <File FileName="Assets\Scripts\PowerUps\Magic Cards\ElectricGroundCard.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\SoldierScripts\Minotaur.cs" Line="3" Column="1" />
-      <File FileName="Assets\Scripts\SoldierScripts\Knight.cs" Line="11" Column="1" />
-      <File FileName="Assets\Scripts\SquadLeader.cs" Line="109" Column="24" />
+      <File FileName="Assets\Scripts\UI\ChooseMagicCardUI.cs" Line="136" Column="19" />
+      <File FileName="Assets\Scripts\UI\ChooseSoldierCardUI.cs" Line="57" Column="20" />
+      <File FileName="Assets\Scripts\UI\ChooseUI.cs" Line="36" Column="17" />
+      <File FileName="Assets\Scripts\UI\MagicCardUI.cs" Line="20" Column="1" />
+      <File FileName="Assets\Scripts\UI\SoldierCardUI.cs" Line="20" Column="74" />
+      <File FileName="Assets\Scripts\Cache.cs" Line="34" Column="50" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="E:\Tempest Blade\TempestBlade\Assets\Scripts\SquadLeader.cs" line="415" column="1" />
-      <Breakpoint file="E:\Tempest Blade\TempestBlade\Assets\Scripts\SquadLeader.cs" line="423" column="1" />
-      <Breakpoint file="E:\Tempest Blade\TempestBlade\Assets\Scripts\SquadLeader.cs" line="430" column="1" />
-      <Breakpoint file="E:\Tempest Blade\TempestBlade\Assets\Scripts\Effect\AttackRateDebuffEffect.cs" line="8" column="1" />
-      <Breakpoint file="E:\Tempest Blade\TempestBlade\Assets\Scripts\Effect\AttributeBuff.cs" line="38" column="1" />
-      <Breakpoint file="E:\Tempest Blade\TempestBlade\Assets\Scripts\PowerUps\Magic Cards\WindOfRustCard.cs" line="38" column="1" />
+      <Breakpoint file="E:\Tempest Blade\TempestBlade\Assets\Scripts\UI\ChooseUI.cs" line="77" column="1" />
+      <Breakpoint file="E:\Tempest Blade\TempestBlade\Assets\Scripts\UI\ChooseSoldierCardUI.cs" line="94" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

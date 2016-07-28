@@ -13,7 +13,7 @@ public abstract class CardUI : MonoBehaviour {
 		get { return isClicked; }
 		set 
 		{
-			clickedEffect.enabled = value;
+			//clickedEffect.enabled = value;
 			isClicked = value;
 		}
 	}
@@ -22,9 +22,11 @@ public abstract class CardUI : MonoBehaviour {
 
 	public Button RemoveCardButton;
 
+	public Button _swapBtn;
+
 	public void EnableRemoveCardButton()
 	{
-		RemoveCardButton.gameObject.SetActive (true);
+		//RemoveCardButton.gameObject.SetActive (true);
 	}
 
 	//Called when remove button card is clicked
@@ -32,6 +34,6 @@ public abstract class CardUI : MonoBehaviour {
 	{
 		_isInDeck = false;
 		_isClicked = false;
-		RemoveCardButton.gameObject.SetActive (false);
+		//RemoveCardButton.gameObject.SetActive (false);
 	}
 }

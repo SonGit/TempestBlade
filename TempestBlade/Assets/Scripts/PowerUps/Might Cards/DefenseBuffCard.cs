@@ -15,8 +15,8 @@ public class DefenseBuffCard : PowerUpCard {
 	public override void Init()
 	{
 		_type = CardType.DEFENSE_BUFF;
-		_stackSkill = new MagicAttackUpStack ();
-		_consumedStack = new SoldierAttackUpStack ();
+		_stackSkill = new WrathStack ();
+		//_consumedStack = new SoldierAttackUpStack ();
 		_effectBuff = Cache.instance.cardEffect [_type];
 	}
 

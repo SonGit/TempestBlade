@@ -143,9 +143,11 @@
      <Compile Include="Assets\Scripts\Effect\DefenseDebuffEffect.cs" />
      <Compile Include="Assets\Scripts\Effect\MoraleBuffEffect.cs" />
      <Compile Include="Assets\Scripts\Effect\MoraleDebuffEffect.cs" />
+     <Compile Include="Assets\Scripts\IntroCutscene\IntelTab.cs" />
      <Compile Include="Assets\Scripts\IntroCutscene\IntroCredits.cs" />
      <Compile Include="Assets\Scripts\IntroCutscene\IntroKnight.cs" />
      <Compile Include="Assets\Scripts\IntroCutscene\IntroScene.cs" />
+     <Compile Include="Assets\Scripts\IntroCutscene\IntroUI.cs" />
      <Compile Include="Assets\Scripts\Misc\AttributeBuffUIEffect.cs" />
      <Compile Include="Assets\Scripts\Misc\Fireball.cs" />
      <Compile Include="Assets\Scripts\Misc\FlamingArrow.cs" />
@@ -173,10 +175,12 @@
      <Compile Include="Assets\Scripts\PowerUps\Might Cards\ScorchedEarthCard.cs" />
      <Compile Include="Assets\Scripts\PowerUps\PowerUpCard.cs" />
      <Compile Include="Assets\Scripts\PowerUps\StackManager.cs" />
-     <Compile Include="Assets\Scripts\PowerUps\Stackable Skills\MagicAttackUpStack.cs" />
-     <Compile Include="Assets\Scripts\PowerUps\Stackable Skills\SoldierAttackUpStack.cs" />
+     <Compile Include="Assets\Scripts\PowerUps\Stackable Skills\AvariceStack.cs" />
+     <Compile Include="Assets\Scripts\PowerUps\Stackable Skills\EmpowerStack.cs" />
+     <Compile Include="Assets\Scripts\PowerUps\Stackable Skills\ProlongStack.cs" />
      <Compile Include="Assets\Scripts\PowerUps\Stackable Skills\StackableSkill.cs" />
      <Compile Include="Assets\Scripts\PowerUps\Stackable Skills\StackableSkillSlot.cs" />
+     <Compile Include="Assets\Scripts\PowerUps\Stackable Skills\WrathStack.cs" />
      <Compile Include="Assets\Scripts\SoldierScripts\Berserker.cs" />
      <Compile Include="Assets\Scripts\SoldierScripts\BoneDragon.cs" />
      <Compile Include="Assets\Scripts\SoldierScripts\Brute.cs" />
@@ -196,6 +200,7 @@
      <Compile Include="Assets\Scripts\UI\ChooseSoldierCardUI.cs" />
      <Compile Include="Assets\Scripts\UI\ChooseUI.cs" />
      <Compile Include="Assets\Scripts\UI\HMBarManager.cs" />
+     <Compile Include="Assets\Scripts\UI\IntelObject.cs" />
      <Compile Include="Assets\Scripts\UI\MagicCardUI.cs" />
      <Compile Include="Assets\Scripts\UI\MapUI.cs" />
      <Compile Include="Assets\Scripts\UI\SoldierCardUI.cs" />

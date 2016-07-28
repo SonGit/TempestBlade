@@ -9,7 +9,7 @@ public class StackableSkillSlot : MonoBehaviour {
 
 	public float _duration = 30.0f;
 
-	public StackableSkill _stackSkill;
+	public StackableSkill stackSkill;
 
 	public Text _text;
 
@@ -38,6 +38,9 @@ public class StackableSkillSlot : MonoBehaviour {
 		set
 		{
 			currentStacks = value;
+
+			if(stackSkill != null)
+			stackSkill.numStack = value;
 
 			if (value != 0) 
 				_text.enabled = true;
@@ -68,83 +71,42 @@ public class StackableSkillSlot : MonoBehaviour {
 		}
 	}
 
-	void Reset()
+	public void Reset()
 	{
-		_stackSkill = null;
+		stackSkill = null;
 		_coolingDown = false;
 		_currentStacks = 0;
 	}
 
-	void ResetCooldown()
+	void StartCooldown()
 	{
 		_coolingDown = true;
 		_duration = 15;
 	}
-		
-	public bool CanAddStack(StackableSkill stack)
+
+	void MakeNewStack(StackableSkill skill)
 	{
-		if (_stackSkill == null) {
-			MakeNewStack(stack);
-			return true;
-		}
-			
-		if (IsSameStack (stack)) {
-			IncrementStack ();
-			return true;
-		} else
-			return false;
+		stackSkill = skill;
+		_currentStacks = 1;
+		StartCooldown ();
 	}
 
-	public bool CanConsume(StackableSkill stack)
+	public void IncrementStack(StackableSkill skill)
 	{
-		if (_stackSkill == null)
-			return false;
-
-		if (_stackSkill._type != stack._type)
+		if (stackSkill == null) {
+			MakeNewStack (skill);
+			return;
+		}
+		
+		if (stackSkill.Equals (skill)) 
 		{
-			return false;
+			_currentStacks++;
+			StartCooldown ();
 		}
 		else 
 		{
-			return true;
+			MakeNewStack(skill);
 		}
 	}
 
-	public void ConsumeStack()
-	{
-		Reset ();
-		transform.GetComponent<Image> ().enabled = false;
-	}
-
-	void MakeNewStack(StackableSkill stack)
-	{
-		Reset ();
-
-		transform.GetComponent<Image> ().enabled = true;
-		transform.GetComponent<Image>().sprite =  Resources.Load<Sprite>( Cache.instance.stackableSkillIconPaths[ stack._type ]);
-
-		_stackSkill = stack;
-		_duration = stack._duration;
-		_coolingDown = true;
-		++_currentStacks;
-	}
-
-	void IncrementStack()
-	{
-		if (_currentStacks >= Cache.STACK_MAX) {
-			return;
-		}
-
-		ResetCooldown ();
-
-		++_currentStacks;
-	}
-
-	bool IsSameStack(StackableSkill stack)
-	{
-		if (_stackSkill._type == stack._type)
-			return true;
-		else
-			return false;
-	}
 }

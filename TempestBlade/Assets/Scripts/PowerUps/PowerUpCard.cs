@@ -15,17 +15,23 @@ public abstract class PowerUpCard : MonoBehaviour {
 
 	public void Activate(SquadLeader target)
 	{
+		ConsumeStack ();
 		PlayEffect (target);
 		BuildStack ();
 		ApplyEffect (target);
 	}
 
-	public virtual int GetNumStack()
+	public virtual void  ConsumeStack()
 	{
-		if (_consumedStack != null) {
-			return StackManager.instance.ConsumeStack (_consumedStack);
+		StackableSkill currentStack = StackManager.instance.GetStackSkill ();
+
+		if (currentStack == null) 
+			return;
+		
+		if (!currentStack.Equals(_stackSkill)) {
+			_effectBuff.ApplyStack (  currentStack );
+			StackManager.instance.ResetStack ();
 		}
-		return 0;
 	}
 
 	public virtual void BuildStack()
@@ -39,5 +45,8 @@ public abstract class PowerUpCard : MonoBehaviour {
 	{
 		if(_effectBuff != null)
 		target.ReceiveBuff(_effectBuff);
+
+		//Reset
+		_effectBuff = Cache.instance.cardEffect [_type];
 	}
 }

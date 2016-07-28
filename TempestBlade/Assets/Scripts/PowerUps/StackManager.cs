@@ -26,23 +26,19 @@ public class StackManager : MonoBehaviour {
 
 	public void AddStack(StackableSkill skill)
 	{
-		foreach (StackableSkillSlot slot in _stackSlots) {
-			if (slot.CanAddStack (skill)) {
-				return;
-			}
-		}
+		_stackSlots [0].IncrementStack (skill);
 	}
 
-	public int ConsumeStack(StackableSkill skill)
+	public StackableSkill GetStackSkill()
 	{
-		int numStack = 0;
-		foreach (StackableSkillSlot slot in _stackSlots) {
-			if (slot.CanConsume (skill)) {
-				numStack = slot._currentStacks;
-				slot.ConsumeStack ();
-				return numStack;
-			}
-		}
-		return numStack;
+		return _stackSlots [0].stackSkill;
 	}
+
+	public void ResetStack()
+	{
+		if (_stackSlots [0] != null)
+			_stackSlots [0].Reset ();
+	}
+
+
 }

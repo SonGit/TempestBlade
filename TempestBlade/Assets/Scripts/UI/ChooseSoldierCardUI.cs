@@ -2,14 +2,22 @@
 using System.Collections;
 using UnityEngine.UI;
 using System;
+using System.Collections.Generic;
 
 public class ChooseSoldierCardUI : ChooseUI {
 
 	public GameObject _lastUI;
 
-	void Start()
+	public int _currentPage = 0;
+
+	Dictionary<int,SoldierType[]> _Library = new Dictionary<int, SoldierType[]>
 	{
-		_deck = _deckGrid.GetComponentsInChildren<CardUI> ();
+		{0, new SoldierType[]{SoldierType.KNIGHT,SoldierType.VINDICATOR,SoldierType.BRUTE,SoldierType.BERSERKER}},
+		{1, new SoldierType[]{SoldierType.IRON_GOLEM,SoldierType.DEFENDER,SoldierType.ROGUE,SoldierType.MINOTAUR}}
+	};
+
+	protected override void Init()
+	{
 		Enum[] cards = new Enum[] {
 			SoldierType.KNIGHT,
 			SoldierType.KNIGHT,
@@ -18,26 +26,29 @@ public class ChooseSoldierCardUI : ChooseUI {
 		SpawnCards(cards);
 
 		//Allow swaps
-		Button[] deckBtns = _deckGrid.GetComponentsInChildren<Button> ();
-		foreach (Button button in deckBtns) {
-			DeckButtonSetter(button);
+		foreach (CardUI card in _deck) {
+
+			Button btn = card._swapBtn;
+
+			if (btn != null) {
+				DeckButtonSetter(btn);
+			}
 		}
+
+		CreatePage (_Library[0]);
 	}
 
 	void DeckButtonSetter(Button btn)
 	{
 		btn.onClick.AddListener(() =>
 			{
-				SwapAction(btn.GetComponent<CardUI>());
+				SwapAction(btn.GetComponentInParent<CardUI>());
 			});
 	}
 
-	protected override void ButtonSetter(Button btn,Enum type)
+	protected override void ButtonSetter(CardUI card)
 	{
-		base.ButtonSetter (btn,type);
-
-		SoldierCardUI cardUI = btn.GetComponent<CardUI> () as SoldierCardUI;
-		cardUI._soldierType = (SoldierType) type;
+		base.ButtonSetter (card);
 	}
 
 	protected override void ButtonAction(CardUI card)
@@ -59,6 +70,8 @@ public class ChooseSoldierCardUI : ChooseUI {
 		availableSlot.EnableRemoveCardButton ();
 
 		availableSlot._soldierType = magicCard._soldierType;
+
+		print (availableSlot._soldierType);
 	}
 
 
@@ -80,6 +93,9 @@ public class ChooseSoldierCardUI : ChooseUI {
 	{
 		SoldierCardUI magicCard1 = (SoldierCardUI)card1; 
 		SoldierCardUI magicCard2 = (SoldierCardUI)card2; 
+
+		print (magicCard1._soldierType);
+		print (magicCard2._soldierType);
 		SoldierType tmp = magicCard1._soldierType;
 
 		magicCard1._soldierType = magicCard2._soldierType;
@@ -114,4 +130,42 @@ public class ChooseSoldierCardUI : ChooseUI {
 		AddToDeck ();
 		Application.LoadLevel ("TestScene");
 	}
+
+	private void CreatePage(SoldierType[] types)
+	{
+
+		for (int i = 0; i < types.Length; i++) {
+			SoldierCardUI soldierCard = (SoldierCardUI)_listOfCards[i]; 
+
+			if (soldierCard != null) {
+				soldierCard.Setup (types[i]);
+			}
+		}
+
+	}
+
+	public void OnClickNextPage()
+	{
+		//If reach mex page
+		if (_currentPage + 1 >= _Library.Count) {
+			return;
+		}
+
+		_currentPage++;
+
+		CreatePage (_Library[_currentPage]);
+	}
+
+	public void OnClickPrevPage()
+	{
+		//If reach mex page
+		if (_currentPage - 1 < 0) {
+			return;
+		}
+
+		_currentPage--;
+
+		CreatePage (_Library[_currentPage]);
+	}
+		
 }

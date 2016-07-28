@@ -1,20 +1,12 @@
 ﻿
 using System.Collections;
 
-public class StackableSkill {
+public abstract class StackableSkill {
 
-	public StackType _type;
+	public float duration;
 
-	public float _duration;
+	public int numStack = 0;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+	public abstract void ModifyBuff (ref AttributeBuff buff);
 
 }
